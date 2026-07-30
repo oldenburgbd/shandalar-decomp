@@ -98,25 +98,70 @@ So "reproduce the shipped file byte-for-byte" ≠ "reproduce MicroProse's 1998 b
 The project targets the **1998 MicroProse build**; Mok's patch is modelled separately as a
 post-link transformation. Whenever you touch code near a `.mok` hook, say which target you mean.
 
+## `salvage/` is reference, not source
+
+`salvage/` holds the archived first attempt: 808 reconstructed functions, its MSVC 4.2 build,
+its reccmp config, and `ARCHIVED-CLAUDE.md`. **Read it constantly. Do not copy code out of it
+into `src/`.** The decision was to re-derive functions here, using the archive for names,
+translation-unit structure, compiler flags and its quirks register.
+
+`salvage/ARCHIVED-CLAUDE.md` is the most valuable document in the repo. Its findings about MSVC
+4.2 codegen are *measured*, and our toolchain reproduces its numbers exactly, so they apply
+directly. In particular:
+
+- **One header per module.** Any declaration visible to a translation unit perturbs register
+  allocation across all of it.
+- **Do not chase register permutations, operand order, or addend order.** ~20 measured variants
+  moved none. Record the residual and move on. Sole carve-out: `/Od` locals in swapped stack
+  slots, where the lever is the identifier *name* (Q-021) — try one rename, then stop.
+- **Breadth beats polish.** Matched bytes over total bytes is the metric. A new 500-byte function
+  at 80% is worth ~400 bytes; grinding a 608-byte function from 86% to 100% is worth ~85.
+
 ## Tool locations on this machine
 
 ```
+MSVC 4.2        C:\Tools\msvc42\MSDEV      BIN, INCLUDE, LIB, CRT
+                CL 10.20.6166 · LINK 4.20.6164 · C2.EXE MD5 DCD69F1D…299A (canonical)
+reccmp 0.1.6    %LOCALAPPDATA%\Programs\Python\Python312\Scripts\reccmp-*.exe
 Ghidra 12.1.2   C:\Users\bo1026\Desktop\ghidra_12.1.2_PUBLIC
 JDK 21          C:\Users\bo1026\Desktop\jdk-21.0.12+8        (set JAVA_HOME)
 Python 3.12     %LOCALAPPDATA%\Programs\Python\Python312\python.exe
-MSVC 14.51      C:\Program Files\Microsoft Visual Studio\18\Professional
-                (x86 target via VC\Auxiliary\Build\vcvarsamd64_x86.bat)
 LLVM            C:\Program Files\LLVM\bin
 binutils        MinGW (objdump, strings, nm) — on PATH
+MSVC 14.51      C:\Program Files\Microsoft Visual Studio\18\Professional
+                — modern, for tooling only. NEVER for building the decompilation.
 ```
 
 `python` on PATH is the Microsoft Store stub and does **not** work. Use the full path above.
 
-## Shell
+## Shell — and the one trap that will waste your time
 
-Both PowerShell and Git Bash are available and take different syntax. Bash is generally the
-better fit for this project's tooling. Do not chain `sleep` to wait on background work — use
-`run_in_background` and wait for the notification.
+Both PowerShell and Git Bash are available and take different syntax.
+
+**Git Bash mangles `/flags` into Windows paths.** `CL.EXE /nologo` arrives as
+`CL.EXE C:/Program Files/Git/nologo`. Either drive MSVC from `cmd`/PowerShell, or set:
+
+```bash
+export MSYS_NO_PATHCONV=1 MSYS2_ARG_CONV_EXCL='*'
+export MSVC42='/c/Tools/msvc42/MSDEV'
+export INCLUDE='C:\Tools\msvc42\MSDEV\INCLUDE'
+export LIB='C:\Tools\msvc42\MSDEV\LIB'
+```
+
+**NMAKE 1.x does not relink the object it just compiled** — it snapshots timestamps at start, so
+the run that recompiles a `.c` skips the link and reccmp silently scores the *previous* build.
+Keep the loop-until-convergence wrapper. Do not "simplify" it away.
+
+Do not chain `sleep` to wait on background work — use `run_in_background` and wait for the
+notification.
+
+## Publishing posture
+
+The project is intended for **eventual public release**, like `isle`. Reconstructed C is allowed
+and is the point of the repo. Everything else game-derived is not: no art, sound, card text, or
+extracted data — only *facts* (addresses, format docs, hashes, counts, short excerpts inside
+assertions). Test fixtures must be synthetic. `.gitignore` enforces the binary side; the rest is
+on you.
 
 ## Before you end a session
 

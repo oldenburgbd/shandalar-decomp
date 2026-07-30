@@ -19,14 +19,16 @@ salvaged from an earlier attempt and awaiting re-verification.**
 | Reconstruction salvaged | **808 functions / 321,052 bytes**, of which **193 were previously measured byte-exact** |
 | Original compiler | Microsoft Visual C++ **4.2** (linker 4.20); MSVC 5.0 for `Gcconn.dll` |
 
-> **Blocked on one thing:** MSVC 4.2's `INCLUDE` headers are missing from this machine. The
-> compiler and linker binaries are present and verified working (`LINK.EXE` 4.20.6164 — the exact
-> linker that built the originals), but without the period headers nothing can be compiled, so
-> nothing can be verified. See [docs/04-plan.md](docs/04-plan.md) Phase 1.
+> **Toolchain: solved and validated.** Genuine Visual C++ 4.2 Enterprise is installed at
+> `C:\Tools\msvc42\MSDEV` and runs natively on Windows 11 x64. `C2.EXE` MD5 matches the canonical
+> known-good build. Rebuilding the archived tree with it reproduces that tree's reccmp scores
+> **exactly** — 194 byte-exact functions, per-function percentages equal to two decimal places.
+> See [docs/02-toolchain.md](docs/02-toolchain.md).
 
-The 0.000% is deliberate. The salvaged scores were measured against a build we cannot currently
-reproduce, so they are recorded as `decompiled` with the prior measurement in notes, and get
-promoted to `matching` only when reccmp confirms them here.
+The 0.000% is deliberate and honest. `salvage/` is kept as **reference**, not promoted to the
+live source tree, so the project's own reconstruction starts empty. The salvaged work supplies
+names, translation units, subsystem structure and a proven set of compiler flags — the metric
+will move as functions are re-derived and reccmp confirms them here.
 
 ## Start here
 
@@ -120,3 +122,13 @@ This repository contains **no** original game code, assets, or binaries, and non
 committed — `.gitignore` enforces that and should not be weakened. `orig/` holds local
 hash-verified copies for verification only; they are not redistributed. All game content remains
 the property of its rights holders (MicroProse / Wizards of the Coast / Hasbro).
+
+**Posture: eventual public release**, in the manner of the LEGO Island (`isle`) decompilation.
+Two things follow, and both are constraints on day-to-day work rather than end-of-project
+cleanup:
+
+- Reconstructed C is a derivative work of the original binaries. That is inherent to a matching
+  decompilation and is accepted deliberately, in exchange for verifiability.
+- Nothing game-derived beyond *facts* may enter the repo — addresses, format documentation,
+  hashes, record counts, and short excerpts inside assertions. No art, sound, card text, or
+  extracted data, ever. Test fixtures must be synthetic.
