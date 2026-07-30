@@ -1,0 +1,33 @@
+{
+ "binary": "Deck.exe",
+ "matches": [
+  {
+   "addr": "004010b0",
+   "va": 4198576,
+   "ghidra_size": 378,
+   "cand_len": 418,
+   "unmasked": 274,
+   "nrelocs": 36,
+   "sym": "_WinMainCRTStartup",
+   "sources": [
+    "MSVCRT.LIB:build\\intel\\dll_obj\\crtexew.obj!_WinMainCRTStartup"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "00401290",
+   "va": 4199056,
+   "ghidra_size": 19,
+   "cand_len": 19,
+   "unmasked": 15,
+   "nrelocs": 1,
+   "sym": "__setdefaultprecision",
+   "sources": [
+    "LIBC.LIB:build\\intel\\st_obj\\fp8.obj!__setdefaultprecision",
+    "LIBCMT.LIB:build\\intel\\mt_obj\\fp8.obj!__setdefaultprecision",
+    "MSVCRT.LIB:build\\intel\\dll_obj\\fp8.obj!__setdefaultprecision"
+   ],
+   "covers": []
+  }
+ ]
+}

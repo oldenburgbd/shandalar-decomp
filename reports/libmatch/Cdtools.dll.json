@@ -1,0 +1,2340 @@
+{
+ "binary": "Cdtools.dll",
+ "matches": [
+  {
+   "addr": "10002450",
+   "va": 268444752,
+   "ghidra_size": 3177,
+   "cand_len": 3459,
+   "unmasked": 3135,
+   "nrelocs": 81,
+   "sym": "__output",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\output.obj!__output",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\output.obj!__output"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000a460",
+   "va": 268477536,
+   "ghidra_size": 1502,
+   "cand_len": 1586,
+   "unmasked": 1414,
+   "nrelocs": 43,
+   "sym": "__sopen",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\open.obj!__sopen"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10009290",
+   "va": 268472976,
+   "ghidra_size": 1208,
+   "cand_len": 1223,
+   "unmasked": 1171,
+   "nrelocs": 13,
+   "sym": "___sbh_alloc_block",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\sbheap.obj!___sbh_alloc_block"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000b970",
+   "va": 268482928,
+   "ghidra_size": 1199,
+   "cand_len": 1199,
+   "unmasked": 1019,
+   "nrelocs": 45,
+   "sym": "__get_lc_time",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\inittime.obj!__get_lc_time",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\inittime.obj!__get_lc_time"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000b3b0",
+   "va": 268481456,
+   "ghidra_size": 1194,
+   "cand_len": 1209,
+   "unmasked": 1109,
+   "nrelocs": 25,
+   "sym": "__read_lk",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\read.obj!__read_lk"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10004380",
+   "va": 268452736,
+   "ghidra_size": 1059,
+   "cand_len": 1059,
+   "unmasked": 847,
+   "nrelocs": 53,
+   "sym": "__free_dbg_lk",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\dbgheap.obj!__free_dbg_lk"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000ca80",
+   "va": 268487296,
+   "ghidra_size": 1012,
+   "cand_len": 1017,
+   "unmasked": 833,
+   "nrelocs": 46,
+   "sym": "___init_ctype",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\initctyp.obj!___init_ctype",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\initctyp.obj!___init_ctype"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100033a0",
+   "va": 268448672,
+   "ghidra_size": 998,
+   "cand_len": 998,
+   "unmasked": 794,
+   "nrelocs": 51,
+   "sym": "__CrtDbgReport",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\dbgrpt.obj!__CrtDbgReport",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\dbgrpt.obj!__CrtDbgReport"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100068d0",
+   "va": 268462288,
+   "ghidra_size": 958,
+   "cand_len": 958,
+   "unmasked": 942,
+   "nrelocs": 4,
+   "sym": "_parse_cmdline",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\stdargv.obj!_parse_cmdline",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\stdargv.obj!_parse_cmdline"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10004840",
+   "va": 268453952,
+   "ghidra_size": 903,
+   "cand_len": 924,
+   "unmasked": 748,
+   "nrelocs": 44,
+   "sym": "__CrtCheckMemory",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\dbgheap.obj!__CrtCheckMemory"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10006c90",
+   "va": 268463248,
+   "ghidra_size": 885,
+   "cand_len": 885,
+   "unmasked": 737,
+   "nrelocs": 37,
+   "sym": "__setmbcp",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\mbctype.obj!__setmbcp"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100062b0",
+   "va": 268460720,
+   "ghidra_size": 836,
+   "cand_len": 836,
+   "unmasked": 752,
+   "nrelocs": 21,
+   "sym": "__ioinit",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\ioinit.obj!__ioinit"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100057b0",
+   "va": 268457904,
+   "ghidra_size": 831,
+   "cand_len": 960,
+   "unmasked": 864,
+   "nrelocs": 24,
+   "sym": "__openfile",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\_open.obj!__openfile",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\_open.obj!__openfile"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10003fa0",
+   "va": 268451744,
+   "ghidra_size": 819,
+   "cand_len": 819,
+   "unmasked": 667,
+   "nrelocs": 38,
+   "sym": "__heap_alloc_dbg",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\dbgheap.obj!__heap_alloc_dbg"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10003790",
+   "va": 268449680,
+   "ghidra_size": 810,
+   "cand_len": 813,
+   "unmasked": 649,
+   "nrelocs": 41,
+   "sym": "_CrtMessageWindow",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\dbgrpt.obj!_CrtMessageWindow",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\dbgrpt.obj!_CrtMessageWindow"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000da80",
+   "va": 268491392,
+   "ghidra_size": 791,
+   "cand_len": 791,
+   "unmasked": 683,
+   "nrelocs": 27,
+   "sym": "___crtLCMapStringA",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\aw_map.obj!___crtLCMapStringA"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000be20",
+   "va": 268484128,
+   "ghidra_size": 789,
+   "cand_len": 789,
+   "unmasked": 617,
+   "nrelocs": 43,
+   "sym": "__free_lc_time",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\inittime.obj!__free_lc_time",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\inittime.obj!__free_lc_time"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10009760",
+   "va": 268474208,
+   "ghidra_size": 763,
+   "cand_len": 763,
+   "unmasked": 763,
+   "nrelocs": 0,
+   "sym": "___sbh_alloc_block_from_page",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\sbheap.obj!___sbh_alloc_block_from_page",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\sbheap.obj!___sbh_alloc_block_from_page"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10007790",
+   "va": 268466064,
+   "ghidra_size": 749,
+   "cand_len": 764,
+   "unmasked": 704,
+   "nrelocs": 15,
+   "sym": "__write_lk",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\write.obj!__write_lk"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10004e90",
+   "va": 268455568,
+   "ghidra_size": 724,
+   "cand_len": 724,
+   "unmasked": 612,
+   "nrelocs": 28,
+   "sym": "__CrtMemDumpAllObjectsSince",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\dbgheap.obj!__CrtMemDumpAllObjectsSince"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000d1d0",
+   "va": 268489168,
+   "ghidra_size": 711,
+   "cand_len": 716,
+   "unmasked": 644,
+   "nrelocs": 18,
+   "sym": "___getlocaleinfo",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\inithelp.obj!___getlocaleinfo",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\inithelp.obj!___getlocaleinfo"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000c2d0",
+   "va": 268485328,
+   "ghidra_size": 692,
+   "cand_len": 697,
+   "unmasked": 437,
+   "nrelocs": 65,
+   "sym": "___init_numeric",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\initnum.obj!___init_numeric",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\initnum.obj!___init_numeric"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100021b0",
+   "va": 268444080,
+   "ghidra_size": 665,
+   "cand_len": 665,
+   "unmasked": 605,
+   "nrelocs": 15,
+   "sym": "__flsbuf",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\_flsbuf.obj!__flsbuf"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000b120",
+   "va": 268480800,
+   "ghidra_size": 648,
+   "cand_len": 648,
+   "unmasked": 572,
+   "nrelocs": 19,
+   "sym": "__chsize_lk",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\chsize.obj!__chsize_lk"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10009a60",
+   "va": 268474976,
+   "ghidra_size": 617,
+   "cand_len": 622,
+   "unmasked": 610,
+   "nrelocs": 3,
+   "sym": "___sbh_heap_check",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\sbheap.obj!___sbh_heap_check"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000ad20",
+   "va": 268479776,
+   "ghidra_size": 607,
+   "cand_len": 607,
+   "unmasked": 519,
+   "nrelocs": 22,
+   "sym": "___crtGetStringTypeW",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\aw_str.obj!___crtGetStringTypeW",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\aw_str.obj!___crtGetStringTypeW"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100071e0",
+   "va": 268464608,
+   "ghidra_size": 602,
+   "cand_len": 602,
+   "unmasked": 518,
+   "nrelocs": 21,
+   "sym": "___crtGetEnvironmentStringsA",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\aw_env.obj!___crtGetEnvironmentStringsA",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\aw_env.obj!___crtGetEnvironmentStringsA"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100085c0",
+   "va": 268469696,
+   "ghidra_size": 594,
+   "cand_len": 655,
+   "unmasked": 559,
+   "nrelocs": 24,
+   "sym": "_raise",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\winsig.obj!_raise"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100074c0",
+   "va": 268465344,
+   "ghidra_size": 537,
+   "cand_len": 537,
+   "unmasked": 413,
+   "nrelocs": 31,
+   "sym": "__NMSG_WRITE",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\crt0msg.obj!__NMSG_WRITE"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10008d30",
+   "va": 268471600,
+   "ghidra_size": 508,
+   "cand_len": 513,
+   "unmasked": 429,
+   "nrelocs": 21,
+   "sym": "___sbh_new_region",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\sbheap.obj!___sbh_new_region",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\sbheap.obj!___sbh_new_region"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10001e20",
+   "va": 268443168,
+   "ghidra_size": 493,
+   "cand_len": 493,
+   "unmasked": 305,
+   "nrelocs": 47,
+   "sym": "__CRT_INIT@12",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\dllcrt0.obj!__CRT_INIT@12"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10009d90",
+   "va": 268475792,
+   "ghidra_size": 491,
+   "cand_len": 491,
+   "unmasked": 423,
+   "nrelocs": 17,
+   "sym": "__alloc_osfhnd",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\osfinfo.obj!__alloc_osfhnd"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000c760",
+   "va": 268486496,
+   "ghidra_size": 465,
+   "cand_len": 465,
+   "unmasked": 397,
+   "nrelocs": 17,
+   "sym": "__get_lc_lconv",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\initmon.obj!__get_lc_lconv",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\initmon.obj!__get_lc_lconv"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000d660",
+   "va": 268490336,
+   "ghidra_size": 461,
+   "cand_len": 461,
+   "unmasked": 393,
+   "nrelocs": 17,
+   "sym": "___crtGetLocaleInfoA",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\aw_loc.obj!___crtGetLocaleInfoA",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\aw_loc.obj!___crtGetLocaleInfoA"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000d4a0",
+   "va": 268489888,
+   "ghidra_size": 442,
+   "cand_len": 442,
+   "unmasked": 374,
+   "nrelocs": 17,
+   "sym": "___crtGetLocaleInfoW",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\aw_loc.obj!___crtGetLocaleInfoW",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\aw_loc.obj!___crtGetLocaleInfoW"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10005b70",
+   "va": 268458864,
+   "ghidra_size": 414,
+   "cand_len": 414,
+   "unmasked": 334,
+   "nrelocs": 20,
+   "sym": "__getstream",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\stream.obj!__getstream"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000af80",
+   "va": 268480384,
+   "ghidra_size": 406,
+   "cand_len": 406,
+   "unmasked": 334,
+   "nrelocs": 18,
+   "sym": "___crtGetStringTypeA",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\aw_str.obj!___crtGetStringTypeA",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\aw_str.obj!___crtGetStringTypeA"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000c140",
+   "va": 268484928,
+   "ghidra_size": 398,
+   "cand_len": 398,
+   "unmasked": 374,
+   "nrelocs": 6,
+   "sym": "_storeTimeFmt",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\inittime.obj!_storeTimeFmt",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\inittime.obj!_storeTimeFmt"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10008fd0",
+   "va": 268472272,
+   "ghidra_size": 374,
+   "cand_len": 374,
+   "unmasked": 354,
+   "nrelocs": 5,
+   "sym": "___sbh_decommit_pages",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\sbheap.obj!___sbh_decommit_pages"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10007d40",
+   "va": 268467520,
+   "ghidra_size": 350,
+   "cand_len": 350,
+   "unmasked": 266,
+   "nrelocs": 21,
+   "sym": "___initstdio",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\_file.obj!___initstdio"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10005650",
+   "va": 268457552,
+   "ghidra_size": 339,
+   "cand_len": 344,
+   "unmasked": 284,
+   "nrelocs": 15,
+   "sym": "_flsall",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\fflush.obj!_flsall"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10004d40",
+   "va": 268455232,
+   "ghidra_size": 336,
+   "cand_len": 336,
+   "unmasked": 292,
+   "nrelocs": 11,
+   "sym": "__CrtMemCheckpoint",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\dbgheap.obj!__CrtMemCheckpoint"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100066c0",
+   "va": 268461760,
+   "ghidra_size": 318,
+   "cand_len": 318,
+   "unmasked": 254,
+   "nrelocs": 16,
+   "sym": "__setenvp",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\stdenvp.obj!__setenvp",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\stdenvp.obj!__setenvp"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000c620",
+   "va": 268486176,
+   "ghidra_size": 315,
+   "cand_len": 320,
+   "unmasked": 208,
+   "nrelocs": 28,
+   "sym": "___init_monetary",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\initmon.obj!___init_monetary",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\initmon.obj!___init_monetary"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10002010",
+   "va": 268443664,
+   "ghidra_size": 313,
+   "cand_len": 313,
+   "unmasked": 277,
+   "nrelocs": 9,
+   "sym": "__DllMainCRTStartup@12",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\dllcrt0.obj!__DllMainCRTStartup@12",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\dllcrt0.obj!__DllMainCRTStartup@12",
+    "MSVCRTD.LIB:build\\intel\\xdll_obj\\crtdll.obj!__DllMainCRTStartup@12"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000d940",
+   "va": 268491072,
+   "ghidra_size": 313,
+   "cand_len": 318,
+   "unmasked": 290,
+   "nrelocs": 7,
+   "sym": "_tolower",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\tolower.obj!_tolower",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\tolower.obj!__tolower_lk"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000a090",
+   "va": 268476560,
+   "ghidra_size": 294,
+   "cand_len": 304,
+   "unmasked": 264,
+   "nrelocs": 10,
+   "sym": "__free_osfhnd",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\osfinfo.obj!__free_osfhnd"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000aaa0",
+   "va": 268479136,
+   "ghidra_size": 285,
+   "cand_len": 334,
+   "unmasked": 286,
+   "nrelocs": 12,
+   "sym": "_memcpy",
+   "sources": [
+    "LIBC.LIB:build\\intel\\st_obj\\memcpy.obj!_memcpy",
+    "LIBC.LIB:build\\intel\\st_obj\\memmove.obj!_memmove",
+    "LIBCD.LIB:build\\intel\\xst_obj\\memcpy.obj!_memcpy",
+    "LIBCD.LIB:build\\intel\\xst_obj\\memmove.obj!_memmove",
+    "LIBCMT.LIB:build\\intel\\mt_obj\\memcpy.obj!_memcpy",
+    "LIBCMT.LIB:build\\intel\\mt_obj\\memmove.obj!_memmove",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\memcpy.obj!_memcpy",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\memmove.obj!_memmove"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000cf60",
+   "va": 268488544,
+   "ghidra_size": 285,
+   "cand_len": 334,
+   "unmasked": 286,
+   "nrelocs": 12,
+   "sym": "_memcpy",
+   "sources": [
+    "LIBC.LIB:build\\intel\\st_obj\\memcpy.obj!_memcpy",
+    "LIBC.LIB:build\\intel\\st_obj\\memmove.obj!_memmove",
+    "LIBCD.LIB:build\\intel\\xst_obj\\memcpy.obj!_memcpy",
+    "LIBCD.LIB:build\\intel\\xst_obj\\memmove.obj!_memmove",
+    "LIBCMT.LIB:build\\intel\\mt_obj\\memcpy.obj!_memcpy",
+    "LIBCMT.LIB:build\\intel\\mt_obj\\memmove.obj!_memmove",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\memcpy.obj!_memcpy",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\memmove.obj!_memmove"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000d0b0",
+   "va": 268488880,
+   "ghidra_size": 277,
+   "cand_len": 277,
+   "unmasked": 253,
+   "nrelocs": 6,
+   "sym": "__setmode_lk",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\setmode.obj!__setmode_lk"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000a340",
+   "va": 268477248,
+   "ghidra_size": 276,
+   "cand_len": 281,
+   "unmasked": 237,
+   "nrelocs": 11,
+   "sym": "__commit",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\commit.obj!__commit"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10001ce0",
+   "va": 268442848,
+   "ghidra_size": 270,
+   "cand_len": 270,
+   "unmasked": 210,
+   "nrelocs": 15,
+   "sym": "__fsopen",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\fopen.obj!__fsopen"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100060e0",
+   "va": 268460256,
+   "ghidra_size": 267,
+   "cand_len": 267,
+   "unmasked": 219,
+   "nrelocs": 12,
+   "sym": "__freeptd",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\tidtable.obj!__freeptd"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10005da0",
+   "va": 268459424,
+   "ghidra_size": 260,
+   "cand_len": 260,
+   "unmasked": 172,
+   "nrelocs": 22,
+   "sym": "_doexit",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\crt0dat.obj!_doexit"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10009f80",
+   "va": 268476288,
+   "ghidra_size": 260,
+   "cand_len": 270,
+   "unmasked": 234,
+   "nrelocs": 9,
+   "sym": "__set_osfhnd",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\osfinfo.obj!__set_osfhnd"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100089a0",
+   "va": 268470688,
+   "ghidra_size": 254,
+   "cand_len": 254,
+   "unmasked": 254,
+   "nrelocs": 0,
+   "sym": "_strncpy",
+   "sources": [
+    "LIBC.LIB:build\\intel\\st_obj\\strncpy.obj!_strncpy",
+    "LIBCD.LIB:build\\intel\\xst_obj\\strncpy.obj!_strncpy",
+    "LIBCMT.LIB:build\\intel\\mt_obj\\strncpy.obj!_strncpy",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\strncpy.obj!_strncpy"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10005170",
+   "va": 268456304,
+   "ghidra_size": 252,
+   "cand_len": 252,
+   "unmasked": 224,
+   "nrelocs": 7,
+   "sym": "__printMemBlockData",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\dbgheap.obj!__printMemBlockData",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\dbgheap.obj!__printMemBlockData"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000b870",
+   "va": 268482672,
+   "ghidra_size": 240,
+   "cand_len": 245,
+   "unmasked": 169,
+   "nrelocs": 19,
+   "sym": "___init_time",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\inittime.obj!___init_time",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\inittime.obj!___init_time"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10001980",
+   "va": 268441984,
+   "ghidra_size": 236,
+   "cand_len": 236,
+   "unmasked": 204,
+   "nrelocs": 8,
+   "sym": "_sprintf",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\sprintf.obj!_sprintf",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\sprintf.obj!_sprintf"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100083b0",
+   "va": 268469168,
+   "ghidra_size": 235,
+   "cand_len": 235,
+   "unmasked": 203,
+   "nrelocs": 8,
+   "sym": "__snprintf",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\snprintf.obj!__snprintf",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\snprintf.obj!__snprintf"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100084a0",
+   "va": 268469408,
+   "ghidra_size": 229,
+   "cand_len": 229,
+   "unmasked": 197,
+   "nrelocs": 8,
+   "sym": "__vsnprintf",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\vsnprint.obj!__vsnprintf",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\vsnprint.obj!__vsnprintf"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000abf0",
+   "va": 268479472,
+   "ghidra_size": 228,
+   "cand_len": 228,
+   "unmasked": 180,
+   "nrelocs": 12,
+   "sym": "__fcloseall",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\closeall.obj!__fcloseall"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10007b40",
+   "va": 268467008,
+   "ghidra_size": 225,
+   "cand_len": 225,
+   "unmasked": 197,
+   "nrelocs": 7,
+   "sym": "__lseek_lk",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\lseek.obj!__lseek_lk"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100082d0",
+   "va": 268468944,
+   "ghidra_size": 224,
+   "cand_len": 224,
+   "unmasked": 224,
+   "nrelocs": 0,
+   "sym": "__mbscat",
+   "sources": [
+    "LIBC.LIB:build\\intel\\st_obj\\mbscat.obj!__mbscat",
+    "LIBC.LIB:build\\intel\\st_obj\\strcat.obj!_strcat",
+    "LIBCD.LIB:build\\intel\\xst_obj\\mbscat.obj!__mbscat",
+    "LIBCD.LIB:build\\intel\\xst_obj\\strcat.obj!_strcat",
+    "LIBCMT.LIB:build\\intel\\mt_obj\\mbscat.obj!__mbscat",
+    "LIBCMT.LIB:build\\intel\\mt_obj\\strcat.obj!_strcat",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\mbscat.obj!__mbscat",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\strcat.obj!_strcat"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100088c0",
+   "va": 268470464,
+   "ghidra_size": 223,
+   "cand_len": 223,
+   "unmasked": 151,
+   "nrelocs": 18,
+   "sym": "___crtMessageBoxA",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\crtmbox.obj!___crtMessageBoxA",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\crtmbox.obj!___crtMessageBoxA"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10003ac0",
+   "va": 268450496,
+   "ghidra_size": 214,
+   "cand_len": 214,
+   "unmasked": 186,
+   "nrelocs": 7,
+   "sym": "__dosmaperr",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\dosmap.obj!__dosmaperr"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10007f50",
+   "va": 268468048,
+   "ghidra_size": 212,
+   "cand_len": 217,
+   "unmasked": 193,
+   "nrelocs": 6,
+   "sym": "__wctomb_lk",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\wctomb.obj!__wctomb_lk"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10001c10",
+   "va": 268442640,
+   "ghidra_size": 204,
+   "cand_len": 204,
+   "unmasked": 176,
+   "nrelocs": 7,
+   "sym": "__fclose_lk",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\fclose.obj!__fclose_lk"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10006800",
+   "va": 268462080,
+   "ghidra_size": 204,
+   "cand_len": 204,
+   "unmasked": 148,
+   "nrelocs": 14,
+   "sym": "__setargv",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\stdargv.obj!__setargv",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\stdargv.obj!__setargv"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000d830",
+   "va": 268490800,
+   "ghidra_size": 199,
+   "cand_len": 199,
+   "unmasked": 167,
+   "nrelocs": 8,
+   "sym": "__strcmpi",
+   "sources": [
+    "LIBCMT.LIB:build\\intel\\mt_obj\\stricmp.obj!__strcmpi",
+    "LIBCMT.LIB:build\\intel\\mt_obj\\stricmp.obj!__stricmp",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\stricmp.obj!__strcmpi",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\stricmp.obj!__stricmp"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100053a0",
+   "va": 268456864,
+   "ghidra_size": 195,
+   "cand_len": 195,
+   "unmasked": 163,
+   "nrelocs": 8,
+   "sym": "__close_lk",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\close.obj!__close_lk"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10007c30",
+   "va": 268467248,
+   "ghidra_size": 188,
+   "cand_len": 188,
+   "unmasked": 164,
+   "nrelocs": 6,
+   "sym": "__getbuf",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\_getbuf.obj!__getbuf",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\_getbuf.obj!__getbuf"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10003c20",
+   "va": 268450848,
+   "ghidra_size": 187,
+   "cand_len": 187,
+   "unmasked": 135,
+   "nrelocs": 13,
+   "sym": "__mtdeletelocks",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\mlock.obj!__mtdeletelocks"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10005570",
+   "va": 268457328,
+   "ghidra_size": 186,
+   "cand_len": 186,
+   "unmasked": 182,
+   "nrelocs": 1,
+   "sym": "__flush",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\fflush.obj!__flush",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\fflush.obj!__flush"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10004c70",
+   "va": 268455024,
+   "ghidra_size": 182,
+   "cand_len": 197,
+   "unmasked": 177,
+   "nrelocs": 5,
+   "sym": "__CrtIsValidHeapPointer",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\dbgheap.obj!__CrtIsValidHeapPointer",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\dbgheap.obj!__CrtIsValidHeapPointer"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10009cd0",
+   "va": 268475600,
+   "ghidra_size": 182,
+   "cand_len": 182,
+   "unmasked": 170,
+   "nrelocs": 3,
+   "sym": "__isctype",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\isctype.obj!__isctype",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\isctype.obj!__isctype"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10006600",
+   "va": 268461568,
+   "ghidra_size": 181,
+   "cand_len": 181,
+   "unmasked": 153,
+   "nrelocs": 7,
+   "sym": "__ioterm",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\ioinit.obj!__ioterm"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10008200",
+   "va": 268468736,
+   "ghidra_size": 181,
+   "cand_len": 181,
+   "unmasked": 181,
+   "nrelocs": 0,
+   "sym": "_xtoa",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\xtoa.obj!_xtoa",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\xtoa.obj!_xtoa"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10006030",
+   "va": 268460080,
+   "ghidra_size": 175,
+   "cand_len": 175,
+   "unmasked": 131,
+   "nrelocs": 11,
+   "sym": "__getptd",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\tidtable.obj!__getptd"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10003ce0",
+   "va": 268451040,
+   "ghidra_size": 172,
+   "cand_len": 172,
+   "unmasked": 124,
+   "nrelocs": 12,
+   "sym": "__lock",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\mlock.obj!__lock"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100076e0",
+   "va": 268465888,
+   "ghidra_size": 168,
+   "cand_len": 168,
+   "unmasked": 140,
+   "nrelocs": 7,
+   "sym": "__lseek",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\lseek.obj!__lseek",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\read.obj!__read",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\write.obj!__write"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10007a90",
+   "va": 268466832,
+   "ghidra_size": 168,
+   "cand_len": 168,
+   "unmasked": 140,
+   "nrelocs": 7,
+   "sym": "__lseek",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\lseek.obj!__lseek",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\read.obj!__read",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\write.obj!__write"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10009150",
+   "va": 268472656,
+   "ghidra_size": 162,
+   "cand_len": 162,
+   "unmasked": 154,
+   "nrelocs": 2,
+   "sym": "___sbh_find_block",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\sbheap.obj!___sbh_find_block",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\sbheap.obj!___sbh_find_block"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000c9d0",
+   "va": 268487120,
+   "ghidra_size": 161,
+   "cand_len": 161,
+   "unmasked": 129,
+   "nrelocs": 8,
+   "sym": "__free_lc_lconv",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\initmon.obj!__free_lc_lconv",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\initmon.obj!__free_lc_lconv"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10005300",
+   "va": 268456704,
+   "ghidra_size": 160,
+   "cand_len": 160,
+   "unmasked": 132,
+   "nrelocs": 7,
+   "sym": "__close",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\close.obj!__close"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10005f30",
+   "va": 268459824,
+   "ghidra_size": 158,
+   "cand_len": 158,
+   "unmasked": 118,
+   "nrelocs": 10,
+   "sym": "__mtinit",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\tidtable.obj!__mtinit"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10008c90",
+   "va": 268471440,
+   "ghidra_size": 154,
+   "cand_len": 154,
+   "unmasked": 122,
+   "nrelocs": 8,
+   "sym": "__heapchk",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\heapchk.obj!__heapchk"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000a260",
+   "va": 268477024,
+   "ghidra_size": 150,
+   "cand_len": 150,
+   "unmasked": 126,
+   "nrelocs": 6,
+   "sym": "__lock_fhandle",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\osfinfo.obj!__lock_fhandle"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000a1c0",
+   "va": 268476864,
+   "ghidra_size": 148,
+   "cand_len": 153,
+   "unmasked": 133,
+   "nrelocs": 5,
+   "sym": "__get_osfhandle",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\osfinfo.obj!__get_osfhandle"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000c590",
+   "va": 268486032,
+   "ghidra_size": 142,
+   "cand_len": 142,
+   "unmasked": 142,
+   "nrelocs": 0,
+   "sym": "_fix_grouping",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\initmon.obj!_fix_grouping",
+    "LIBCD.LIB:build\\intel\\xst_obj\\initnum.obj!_fix_grouping",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\initmon.obj!_fix_grouping",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\initnum.obj!_fix_grouping"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000c940",
+   "va": 268486976,
+   "ghidra_size": 142,
+   "cand_len": 142,
+   "unmasked": 142,
+   "nrelocs": 0,
+   "sym": "_fix_grouping",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\initmon.obj!_fix_grouping",
+    "LIBCD.LIB:build\\intel\\xst_obj\\initnum.obj!_fix_grouping",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\initmon.obj!_fix_grouping",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\initnum.obj!_fix_grouping"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10001b80",
+   "va": 268442496,
+   "ghidra_size": 140,
+   "cand_len": 140,
+   "unmasked": 116,
+   "nrelocs": 6,
+   "sym": "_fclose",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\fclose.obj!_fclose"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100047b0",
+   "va": 268453808,
+   "ghidra_size": 140,
+   "cand_len": 140,
+   "unmasked": 132,
+   "nrelocs": 2,
+   "sym": "_CheckBytes",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\dbgheap.obj!_CheckBytes",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\dbgheap.obj!_CheckBytes"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10005470",
+   "va": 268457072,
+   "ghidra_size": 138,
+   "cand_len": 138,
+   "unmasked": 122,
+   "nrelocs": 4,
+   "sym": "__freebuf",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\_freebuf.obj!__freebuf",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\_freebuf.obj!__freebuf"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10009200",
+   "va": 268472832,
+   "ghidra_size": 136,
+   "cand_len": 136,
+   "unmasked": 124,
+   "nrelocs": 3,
+   "sym": "___sbh_free_block",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\sbheap.obj!___sbh_free_block",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\sbheap.obj!___sbh_free_block"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10008c00",
+   "va": 268471296,
+   "ghidra_size": 135,
+   "cand_len": 135,
+   "unmasked": 107,
+   "nrelocs": 7,
+   "sym": "__free_base",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\free.obj!__free_base"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10008f40",
+   "va": 268472128,
+   "ghidra_size": 133,
+   "cand_len": 133,
+   "unmasked": 105,
+   "nrelocs": 7,
+   "sym": "___sbh_release_region",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\sbheap.obj!___sbh_release_region"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10005270",
+   "va": 268456560,
+   "ghidra_size": 132,
+   "cand_len": 132,
+   "unmasked": 108,
+   "nrelocs": 6,
+   "sym": "__CrtDumpMemoryLeaks",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\dbgheap.obj!__CrtDumpMemoryLeaks",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\dbgheap.obj!__CrtDumpMemoryLeaks"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10001a70",
+   "va": 268442224,
+   "ghidra_size": 129,
+   "cand_len": 132,
+   "unmasked": 132,
+   "nrelocs": 0,
+   "sym": "_strcmp",
+   "sources": [
+    "LIBC.LIB:build\\intel\\st_obj\\strcmp.obj!_strcmp",
+    "LIBCD.LIB:build\\intel\\xst_obj\\strcmp.obj!_strcmp",
+    "LIBCMT.LIB:build\\intel\\mt_obj\\strcmp.obj!_strcmp",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\strcmp.obj!_strcmp"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10008120",
+   "va": 268468512,
+   "ghidra_size": 123,
+   "cand_len": 123,
+   "unmasked": 123,
+   "nrelocs": 0,
+   "sym": "_strlen",
+   "sources": [
+    "LIBC.LIB:build\\intel\\st_obj\\strlen.obj!_strlen",
+    "LIBCD.LIB:build\\intel\\xst_obj\\strlen.obj!_strlen",
+    "LIBCMT.LIB:build\\intel\\mt_obj\\strlen.obj!_strlen",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\strlen.obj!_strlen"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10003f20",
+   "va": 268451616,
+   "ghidra_size": 121,
+   "cand_len": 121,
+   "unmasked": 105,
+   "nrelocs": 4,
+   "sym": "__nh_malloc_dbg",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\dbgheap.obj!__nh_malloc_dbg"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10007010",
+   "va": 268464144,
+   "ghidra_size": 121,
+   "cand_len": 131,
+   "unmasked": 103,
+   "nrelocs": 7,
+   "sym": "_getSystemCP",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\mbctype.obj!_getSystemCP",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\mbctype.obj!_getSystemCP"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10007140",
+   "va": 268464448,
+   "ghidra_size": 120,
+   "cand_len": 120,
+   "unmasked": 104,
+   "nrelocs": 4,
+   "sym": "_setSBCS",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\mbctype.obj!_setSBCS",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\mbctype.obj!_setSBCS"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10007ed0",
+   "va": 268467920,
+   "ghidra_size": 120,
+   "cand_len": 120,
+   "unmasked": 96,
+   "nrelocs": 6,
+   "sym": "_wctomb",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\wctomb.obj!_wctomb"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10008b60",
+   "va": 268471136,
+   "ghidra_size": 119,
+   "cand_len": 119,
+   "unmasked": 95,
+   "nrelocs": 6,
+   "sym": "__heap_alloc_base",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\malloc.obj!__heap_alloc_base"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100031e0",
+   "va": 268448224,
+   "ghidra_size": 117,
+   "cand_len": 117,
+   "unmasked": 113,
+   "nrelocs": 1,
+   "sym": "_write_char",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\output.obj!_write_char",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\output.obj!_write_char"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100080a0",
+   "va": 268468384,
+   "ghidra_size": 117,
+   "cand_len": 117,
+   "unmasked": 117,
+   "nrelocs": 0,
+   "sym": "__aullrem",
+   "sources": [
+    "LIBC.LIB:build\\intel\\st_obj\\ullrem.obj!__aullrem",
+    "LIBCD.LIB:build\\intel\\xst_obj\\ullrem.obj!__aullrem",
+    "LIBCMT.LIB:build\\intel\\mt_obj\\ullrem.obj!__aullrem",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\ullrem.obj!__aullrem",
+    "MSVCRT.LIB:build\\intel\\dll_obj\\ullrem.obj!__aullrem",
+    "MSVCRTD.LIB:build\\intel\\xdll_obj\\ullrem.obj!__aullrem"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100042e0",
+   "va": 268452576,
+   "ghidra_size": 110,
+   "cand_len": 110,
+   "unmasked": 106,
+   "nrelocs": 1,
+   "sym": "__calloc_dbg",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\dbgheap.obj!__calloc_dbg",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\dbgheap.obj!__calloc_dbg"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100070a0",
+   "va": 268464288,
+   "ghidra_size": 107,
+   "cand_len": 151,
+   "unmasked": 123,
+   "nrelocs": 7,
+   "sym": "_CPtoLCID",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\mbctype.obj!_CPtoLCID",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\mbctype.obj!_CPtoLCID"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10008030",
+   "va": 268468272,
+   "ghidra_size": 104,
+   "cand_len": 104,
+   "unmasked": 104,
+   "nrelocs": 0,
+   "sym": "__aulldiv",
+   "sources": [
+    "LIBC.LIB:build\\intel\\st_obj\\ulldiv.obj!__aulldiv",
+    "LIBCD.LIB:build\\intel\\xst_obj\\ulldiv.obj!__aulldiv",
+    "LIBCMT.LIB:build\\intel\\mt_obj\\ulldiv.obj!__aulldiv",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\ulldiv.obj!__aulldiv",
+    "MSVCRT.LIB:build\\intel\\dll_obj\\ulldiv.obj!__aulldiv",
+    "MSVCRTD.LIB:build\\intel\\xdll_obj\\ulldiv.obj!__aulldiv"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10005500",
+   "va": 268457216,
+   "ghidra_size": 101,
+   "cand_len": 101,
+   "unmasked": 93,
+   "nrelocs": 2,
+   "sym": "__fflush_lk",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\fflush.obj!__fflush_lk"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000dda0",
+   "va": 268492192,
+   "ghidra_size": 100,
+   "cand_len": 100,
+   "unmasked": 100,
+   "nrelocs": 0,
+   "sym": "_strncnt",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\aw_cmp.obj!_strncnt",
+    "LIBCD.LIB:build\\intel\\xst_obj\\aw_map.obj!_strncnt",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\aw_cmp.obj!_strncnt",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\aw_map.obj!_strncnt"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10008850",
+   "va": 268470352,
+   "ghidra_size": 97,
+   "cand_len": 102,
+   "unmasked": 98,
+   "nrelocs": 1,
+   "sym": "_siglookup",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\winsig.obj!_siglookup"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10007460",
+   "va": 268465248,
+   "ghidra_size": 95,
+   "cand_len": 95,
+   "unmasked": 67,
+   "nrelocs": 7,
+   "sym": "__FF_MSGBANNER",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\crt0msg.obj!__FF_MSGBANNER",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\crt0msg.obj!__FF_MSGBANNER"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100061f0",
+   "va": 268460528,
+   "ghidra_size": 93,
+   "cand_len": 93,
+   "unmasked": 69,
+   "nrelocs": 6,
+   "sym": "__heap_init",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\heapinit.obj!__heap_init"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10006250",
+   "va": 268460624,
+   "ghidra_size": 93,
+   "cand_len": 93,
+   "unmasked": 73,
+   "nrelocs": 5,
+   "sym": "__heap_term",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\heapinit.obj!__heap_term",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\heapinit.obj!__heap_term"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10001b00",
+   "va": 268442368,
+   "ghidra_size": 92,
+   "cand_len": 92,
+   "unmasked": 80,
+   "nrelocs": 3,
+   "sym": "__rmdir",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\rmdir.obj!__rmdir",
+    "LIBCD.LIB:build\\intel\\xst_obj\\unlink.obj!_remove",
+    "LIBCD.LIB:build\\intel\\xst_obj\\wrmdir.obj!__wrmdir",
+    "LIBCD.LIB:build\\intel\\xst_obj\\wunlink.obj!__wremove",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\rmdir.obj!__rmdir",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\unlink.obj!_remove",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\wrmdir.obj!__wrmdir",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\wunlink.obj!__wremove"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10004c10",
+   "va": 268454928,
+   "ghidra_size": 92,
+   "cand_len": 92,
+   "unmasked": 84,
+   "nrelocs": 2,
+   "sym": "__CrtIsValidPointer",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\dbgheap.obj!__CrtIsValidPointer",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\dbgheap.obj!__CrtIsValidPointer"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10008aa0",
+   "va": 268470944,
+   "ghidra_size": 92,
+   "cand_len": 92,
+   "unmasked": 72,
+   "nrelocs": 5,
+   "sym": "__callnewh",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\handler.obj!__callnewh"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100081a0",
+   "va": 268468640,
+   "ghidra_size": 88,
+   "cand_len": 88,
+   "unmasked": 80,
+   "nrelocs": 2,
+   "sym": "__itoa",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\xtoa.obj!__itoa",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\xtoa.obj!__itoa"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10008b00",
+   "va": 268471040,
+   "ghidra_size": 88,
+   "cand_len": 88,
+   "unmasked": 88,
+   "nrelocs": 0,
+   "sym": "_memset",
+   "sources": [
+    "LIBC.LIB:build\\intel\\st_obj\\memset.obj!_memset",
+    "LIBCD.LIB:build\\intel\\xst_obj\\memset.obj!_memset",
+    "LIBCMT.LIB:build\\intel\\mt_obj\\memset.obj!_memset",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\memset.obj!_memset"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100032b0",
+   "va": 268448432,
+   "ghidra_size": 87,
+   "cand_len": 87,
+   "unmasked": 83,
+   "nrelocs": 1,
+   "sym": "_write_string",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\output.obj!_write_string",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\output.obj!_write_string"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10003db0",
+   "va": 268451248,
+   "ghidra_size": 84,
+   "cand_len": 84,
+   "unmasked": 64,
+   "nrelocs": 5,
+   "sym": "__lock_file",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\mlock.obj!__lock_file",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\mlock.obj!__unlock_file"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10003e50",
+   "va": 268451408,
+   "ghidra_size": 84,
+   "cand_len": 84,
+   "unmasked": 64,
+   "nrelocs": 5,
+   "sym": "__lock_file",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\mlock.obj!__lock_file",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\mlock.obj!__unlock_file"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10003260",
+   "va": 268448352,
+   "ghidra_size": 75,
+   "cand_len": 75,
+   "unmasked": 71,
+   "nrelocs": 1,
+   "sym": "_write_multi_char",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\output.obj!_write_multi_char",
+    "LIBCD.LIB:build\\intel\\xst_obj\\woutput.obj!_write_multi_char",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\output.obj!_write_multi_char",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\woutput.obj!_write_multi_char"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10002150",
+   "va": 268443984,
+   "ghidra_size": 73,
+   "cand_len": 81,
+   "unmasked": 57,
+   "nrelocs": 6,
+   "sym": "__amsg_exit",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\dllcrt0.obj!__amsg_exit",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\dllcrt0.obj!__amsg_exit"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10007cf0",
+   "va": 268467440,
+   "ghidra_size": 72,
+   "cand_len": 72,
+   "unmasked": 64,
+   "nrelocs": 2,
+   "sym": "__isatty",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\isatty.obj!__isatty"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10005d10",
+   "va": 268459280,
+   "ghidra_size": 66,
+   "cand_len": 66,
+   "unmasked": 34,
+   "nrelocs": 8,
+   "sym": "__cinit",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\crt0dat.obj!__cinit",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\crt0dat.obj!__cinit"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000cea0",
+   "va": 268488352,
+   "ghidra_size": 62,
+   "cand_len": 62,
+   "unmasked": 62,
+   "nrelocs": 0,
+   "sym": "_strcspn",
+   "sources": [
+    "LIBC.LIB:build\\intel\\st_obj\\strcspn.obj!_strcspn",
+    "LIBCD.LIB:build\\intel\\xst_obj\\strcspn.obj!_strcspn",
+    "LIBCMT.LIB:build\\intel\\mt_obj\\strcspn.obj!_strcspn",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\strcspn.obj!_strcspn"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10003be0",
+   "va": 268450784,
+   "ghidra_size": 59,
+   "cand_len": 59,
+   "unmasked": 27,
+   "nrelocs": 8,
+   "sym": "__mtinitlocks",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\mlock.obj!__mtinitlocks"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000cf20",
+   "va": 268488480,
+   "ghidra_size": 58,
+   "cand_len": 58,
+   "unmasked": 58,
+   "nrelocs": 0,
+   "sym": "_strpbrk",
+   "sources": [
+    "LIBC.LIB:build\\intel\\st_obj\\strpbrk.obj!_strpbrk",
+    "LIBCD.LIB:build\\intel\\xst_obj\\strpbrk.obj!_strpbrk",
+    "LIBCMT.LIB:build\\intel\\mt_obj\\strpbrk.obj!_strpbrk",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\strpbrk.obj!_strpbrk"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000cee0",
+   "va": 268488416,
+   "ghidra_size": 56,
+   "cand_len": 56,
+   "unmasked": 56,
+   "nrelocs": 0,
+   "sym": "_strncmp",
+   "sources": [
+    "LIBC.LIB:build\\intel\\st_obj\\strncmp.obj!_strncmp",
+    "LIBCD.LIB:build\\intel\\xst_obj\\strncmp.obj!_strncmp",
+    "LIBCMT.LIB:build\\intel\\mt_obj\\strncmp.obj!_strncmp",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\strncmp.obj!_strncmp"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10003e10",
+   "va": 268451344,
+   "ghidra_size": 54,
+   "cand_len": 54,
+   "unmasked": 46,
+   "nrelocs": 2,
+   "sym": "__lock_file2",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\mlock.obj!__lock_file2",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\mlock.obj!__unlock_file2"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10003eb0",
+   "va": 268451504,
+   "ghidra_size": 54,
+   "cand_len": 54,
+   "unmasked": 46,
+   "nrelocs": 2,
+   "sym": "__lock_file2",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\mlock.obj!__lock_file2",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\mlock.obj!__unlock_file2"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10005fd0",
+   "va": 268459984,
+   "ghidra_size": 51,
+   "cand_len": 51,
+   "unmasked": 31,
+   "nrelocs": 5,
+   "sym": "__mtterm",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\tidtable.obj!__mtterm"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000a300",
+   "va": 268477184,
+   "ghidra_size": 50,
+   "cand_len": 50,
+   "unmasked": 42,
+   "nrelocs": 2,
+   "sym": "__unlock_fhandle",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\osfinfo.obj!__unlock_fhandle"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10005ef0",
+   "va": 268459760,
+   "ghidra_size": 49,
+   "cand_len": 49,
+   "unmasked": 49,
+   "nrelocs": 0,
+   "sym": "__initterm",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\crt0dat.obj!__initterm",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\crt0dat.obj!__initterm"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10004be0",
+   "va": 268454880,
+   "ghidra_size": 48,
+   "cand_len": 48,
+   "unmasked": 40,
+   "nrelocs": 2,
+   "sym": "__CrtSetDbgFlag",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\dbgheap.obj!__CrtSetDbgFlag",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\dbgheap.obj!__CrtSetDbgFlag"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10004350",
+   "va": 268452688,
+   "ghidra_size": 47,
+   "cand_len": 47,
+   "unmasked": 35,
+   "nrelocs": 3,
+   "sym": "__free_dbg",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\dbgheap.obj!__free_dbg"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10008590",
+   "va": 268469648,
+   "ghidra_size": 47,
+   "cand_len": 47,
+   "unmasked": 47,
+   "nrelocs": 0,
+   "sym": "_$$$00001",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\chkstk.obj!_$$$00001",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\chkstk.obj!_$$$00001",
+    "MSVCRTD.LIB:build\\intel\\xdll_obj\\chkstk.obj!_$$$00001"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10003ef0",
+   "va": 268451568,
+   "ghidra_size": 46,
+   "cand_len": 46,
+   "unmasked": 38,
+   "nrelocs": 2,
+   "sym": "__malloc_dbg",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\dbgheap.obj!__malloc_dbg",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\dbgheap.obj!__malloc_dbg"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10007ea0",
+   "va": 268467872,
+   "ghidra_size": 36,
+   "cand_len": 36,
+   "unmasked": 24,
+   "nrelocs": 3,
+   "sym": "___endstdio",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\_file.obj!___endstdio",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\_file.obj!___endstdio"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10003330",
+   "va": 268448560,
+   "ghidra_size": 35,
+   "cand_len": 35,
+   "unmasked": 35,
+   "nrelocs": 0,
+   "sym": "_get_int64_arg",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\cprintf.obj!_get_int64_arg",
+    "LIBCD.LIB:build\\intel\\xst_obj\\output.obj!_get_int64_arg",
+    "LIBCD.LIB:build\\intel\\xst_obj\\woutput.obj!_get_int64_arg",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\cprintf.obj!_get_int64_arg",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\output.obj!_get_int64_arg",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\woutput.obj!_get_int64_arg"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10001df0",
+   "va": 268443120,
+   "ghidra_size": 34,
+   "cand_len": 34,
+   "unmasked": 30,
+   "nrelocs": 1,
+   "sym": "_fopen",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\fopen.obj!_fopen",
+    "LIBCD.LIB:build\\intel\\xst_obj\\wfopen.obj!__wfopen",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\fopen.obj!_fopen",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\wfopen.obj!__wfopen"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10003360",
+   "va": 268448608,
+   "ghidra_size": 31,
+   "cand_len": 31,
+   "unmasked": 31,
+   "nrelocs": 0,
+   "sym": "_get_short_arg",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\cprintf.obj!_get_short_arg",
+    "LIBCD.LIB:build\\intel\\xst_obj\\output.obj!_get_short_arg",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\cprintf.obj!_get_short_arg",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\output.obj!_get_short_arg"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10006010",
+   "va": 268460048,
+   "ghidra_size": 31,
+   "cand_len": 31,
+   "unmasked": 27,
+   "nrelocs": 1,
+   "sym": "__initptd",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\tidtable.obj!__initptd"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10003310",
+   "va": 268448528,
+   "ghidra_size": 30,
+   "cand_len": 30,
+   "unmasked": 30,
+   "nrelocs": 0,
+   "sym": "_get_int_arg",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\cprintf.obj!_get_int_arg",
+    "LIBCD.LIB:build\\intel\\xst_obj\\output.obj!_get_int_arg",
+    "LIBCD.LIB:build\\intel\\xst_obj\\woutput.obj!_get_int_arg",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\cprintf.obj!_get_int_arg",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\output.obj!_get_int_arg",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\woutput.obj!_get_int_arg"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10001b60",
+   "va": 268442464,
+   "ghidra_size": 28,
+   "cand_len": 28,
+   "unmasked": 24,
+   "nrelocs": 1,
+   "sym": "_atoi",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\atox.obj!_atoi",
+    "LIBCD.LIB:build\\intel\\xst_obj\\unlink.obj!__unlink",
+    "LIBCD.LIB:build\\intel\\xst_obj\\wunlink.obj!__wunlink",
+    "LIBCD.LIB:build\\intel\\xst_obj\\fgetc.obj!_getc",
+    "LIBCD.LIB:build\\intel\\xst_obj\\fgetwc.obj!_getwc",
+    "LIBCD.LIB:build\\intel\\xst_obj\\fputchar.obj!_putchar",
+    "LIBCD.LIB:build\\intel\\xst_obj\\fputwchr.obj!_putwchar",
+    "LIBCD.LIB:build\\intel\\xst_obj\\winput.obj!__inc",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\atox.obj!_atoi",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\unlink.obj!__unlink",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\wunlink.obj!__wunlink",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\fgetc.obj!_getc",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\fgetwc.obj!_getwc",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\fputchar.obj!_putchar",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\fputwchr.obj!_putwchar",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\winput.obj!__inc"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10003d90",
+   "va": 268451216,
+   "ghidra_size": 28,
+   "cand_len": 28,
+   "unmasked": 20,
+   "nrelocs": 2,
+   "sym": "__unlock",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\mlock.obj!__unlock"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10005d60",
+   "va": 268459360,
+   "ghidra_size": 27,
+   "cand_len": 27,
+   "unmasked": 23,
+   "nrelocs": 1,
+   "sym": "__exit",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\crt0dat.obj!__exit",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\crt0dat.obj!__exit"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10005630",
+   "va": 268457520,
+   "ghidra_size": 26,
+   "cand_len": 26,
+   "unmasked": 22,
+   "nrelocs": 1,
+   "sym": "__flushall",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\fflush.obj!__flushall",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\fflush.obj!__flushall"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10005d80",
+   "va": 268459392,
+   "ghidra_size": 25,
+   "cand_len": 25,
+   "unmasked": 21,
+   "nrelocs": 1,
+   "sym": "__cexit",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\crt0dat.obj!__cexit",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\crt0dat.obj!__cexit"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10003ba0",
+   "va": 268450720,
+   "ghidra_size": 24,
+   "cand_len": 24,
+   "unmasked": 20,
+   "nrelocs": 1,
+   "sym": "__errno",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\dosmap.obj!__errno"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10003bc0",
+   "va": 268450752,
+   "ghidra_size": 24,
+   "cand_len": 24,
+   "unmasked": 20,
+   "nrelocs": 1,
+   "sym": "___doserrno",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\dosmap.obj!___doserrno"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10005eb0",
+   "va": 268459696,
+   "ghidra_size": 21,
+   "cand_len": 21,
+   "unmasked": 17,
+   "nrelocs": 1,
+   "sym": "__lockexit",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\crt0dat.obj!__lockexit",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\crt0dat.obj!__unlockexit"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10005ed0",
+   "va": 268459728,
+   "ghidra_size": 21,
+   "cand_len": 21,
+   "unmasked": 17,
+   "nrelocs": 1,
+   "sym": "__lockexit",
+   "sources": [
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\crt0dat.obj!__lockexit",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\crt0dat.obj!__unlockexit"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100071c0",
+   "va": 268464576,
+   "ghidra_size": 21,
+   "cand_len": 21,
+   "unmasked": 17,
+   "nrelocs": 1,
+   "sym": "___initmbctable",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\mbctype.obj!___initmbctable",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\mbctype.obj!___initmbctable"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10008be0",
+   "va": 268471264,
+   "ghidra_size": 21,
+   "cand_len": 21,
+   "unmasked": 17,
+   "nrelocs": 1,
+   "sym": "__errno",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\mterrno.obj!__errno",
+    "LIBCD.LIB:build\\intel\\xst_obj\\mterrno.obj!___doserrno"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000ad00",
+   "va": 268479744,
+   "ghidra_size": 21,
+   "cand_len": 21,
+   "unmasked": 17,
+   "nrelocs": 1,
+   "sym": "__fptrap",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\crt0fp.obj!__fptrap",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\crt0fp.obj!__fptrap"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10007440",
+   "va": 268465216,
+   "ghidra_size": 19,
+   "cand_len": 19,
+   "unmasked": 15,
+   "nrelocs": 1,
+   "sym": "___set_app_type",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\errmode.obj!___set_app_type",
+    "LIBCD.LIB:build\\intel\\xst_obj\\rand.obj!_srand",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\errmode.obj!___set_app_type"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000ace0",
+   "va": 268479712,
+   "ghidra_size": 18,
+   "cand_len": 18,
+   "unmasked": 18,
+   "nrelocs": 0,
+   "sym": "___init_collate",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\initcoll.obj!___init_collate",
+    "LIBCD.LIB:build\\intel\\xst_obj\\setlocal.obj!___init_dummy",
+    "LIBCD.LIB:..\\build\\intel\\xst_obj\\matherr.obj!__matherr",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\initcoll.obj!___init_collate",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\setlocal.obj!___init_dummy",
+    "LIBCMTD.LIB:..\\build\\intel\\xmt_obj\\matherr.obj!__matherr",
+    "MSVCRTD.LIB:build\\intel\\xdll_obj\\merr.obj!__matherr"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000ce80",
+   "va": 268488320,
+   "ghidra_size": 18,
+   "cand_len": 18,
+   "unmasked": 18,
+   "nrelocs": 0,
+   "sym": "___init_collate",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\initcoll.obj!___init_collate",
+    "LIBCD.LIB:build\\intel\\xst_obj\\setlocal.obj!___init_dummy",
+    "LIBCD.LIB:..\\build\\intel\\xst_obj\\matherr.obj!__matherr",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\initcoll.obj!___init_collate",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\setlocal.obj!___init_dummy",
+    "LIBCMTD.LIB:..\\build\\intel\\xmt_obj\\matherr.obj!__matherr",
+    "MSVCRTD.LIB:build\\intel\\xdll_obj\\merr.obj!__matherr"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10003380",
+   "va": 268448640,
+   "ghidra_size": 17,
+   "cand_len": 17,
+   "unmasked": 13,
+   "nrelocs": 1,
+   "sym": "__CrtDbgBreak",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\dbgrpt.obj!__CrtDbgBreak",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\dbgrpt.obj!__CrtDbgBreak"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100082c0",
+   "va": 268468928,
+   "ghidra_size": 7,
+   "cand_len": 16,
+   "unmasked": 16,
+   "nrelocs": 0,
+   "sym": "__mbscpy",
+   "sources": [
+    "LIBC.LIB:build\\intel\\st_obj\\mbscat.obj!__mbscpy",
+    "LIBC.LIB:build\\intel\\st_obj\\strcat.obj!_strcpy",
+    "LIBCD.LIB:build\\intel\\xst_obj\\mbscat.obj!__mbscpy",
+    "LIBCD.LIB:build\\intel\\xst_obj\\strcat.obj!_strcpy",
+    "LIBCMT.LIB:build\\intel\\mt_obj\\mbscat.obj!__mbscpy",
+    "LIBCMT.LIB:build\\intel\\mt_obj\\strcat.obj!_strcpy",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\mbscat.obj!__mbscpy",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\strcat.obj!_strcpy"
+   ],
+   "covers": []
+  }
+ ]
+}

@@ -1,0 +1,185 @@
+{
+ "binary": "Magsnd.dll",
+ "matches": [
+  {
+   "addr": "10005940",
+   "va": 268458304,
+   "ghidra_size": 364,
+   "cand_len": 364,
+   "unmasked": 228,
+   "nrelocs": 34,
+   "sym": "__CRT_INIT@12",
+   "sources": [
+    "MSVCRT.LIB:build\\intel\\dll_obj\\crtdll.obj!__CRT_INIT@12"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10005ab0",
+   "va": 268458672,
+   "ghidra_size": 191,
+   "cand_len": 191,
+   "unmasked": 163,
+   "nrelocs": 7,
+   "sym": "__DllMainCRTStartup@12",
+   "sources": [
+    "LIBC.LIB:build\\intel\\st_obj\\dllcrt0.obj!__DllMainCRTStartup@12",
+    "LIBCMT.LIB:build\\intel\\mt_obj\\dllcrt0.obj!__DllMainCRTStartup@12",
+    "MSVCRT.LIB:build\\intel\\dll_obj\\crtdll.obj!__DllMainCRTStartup@12"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10005b80",
+   "va": 268458880,
+   "ghidra_size": 35,
+   "cand_len": 35,
+   "unmasked": 27,
+   "nrelocs": 2,
+   "sym": "_DllMain@12",
+   "sources": [
+    "LIBC.LIB:build\\intel\\st_obj\\dllmain.obj!_DllMain@12",
+    "MSVCRT.LIB:build\\intel\\dll_obj\\dllmain.obj!_DllMain@12"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "100011e8",
+   "va": 268440040,
+   "ghidra_size": 21,
+   "cand_len": 21,
+   "unmasked": 17,
+   "nrelocs": 1,
+   "sym": "__get_sbh_threshold",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\sbheap.obj!__get_sbh_threshold",
+    "LIBCD.LIB:build\\intel\\xst_obj\\handler.obj!?_query_new_handler@@YAP6AHI@ZXZ",
+    "LIBCD.LIB:build\\intel\\xst_obj\\new_mode.obj!?_query_new_mode@@YAHXZ",
+    "LIBCD.LIB:build\\intel\\xst_obj\\mbctype.obj!__getmbcp",
+    "LIBCD.LIB:build\\intel\\xst_obj\\lconv.obj!_localeconv",
+    "LIBCD.LIB:build\\intel\\xst_obj\\setmaxf.obj!__getmaxstdio",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\sbheap.obj!__get_sbh_threshold",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\handler.obj!?_query_new_handler@@YAP6AHI@ZXZ",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\new_mode.obj!?_query_new_mode@@YAHXZ",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\mbctype.obj!__getmbcp",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\lconv.obj!_localeconv",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\setmaxf.obj!__getmaxstdio"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000290c",
+   "va": 268445964,
+   "ghidra_size": 18,
+   "cand_len": 18,
+   "unmasked": 18,
+   "nrelocs": 0,
+   "sym": "___init_collate",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\initcoll.obj!___init_collate",
+    "LIBCD.LIB:build\\intel\\xst_obj\\setlocal.obj!___init_dummy",
+    "LIBCD.LIB:..\\build\\intel\\xst_obj\\matherr.obj!__matherr",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\initcoll.obj!___init_collate",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\setlocal.obj!___init_dummy",
+    "LIBCMTD.LIB:..\\build\\intel\\xmt_obj\\matherr.obj!__matherr",
+    "MSVCRTD.LIB:build\\intel\\xdll_obj\\merr.obj!__matherr"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10002a24",
+   "va": 268446244,
+   "ghidra_size": 18,
+   "cand_len": 18,
+   "unmasked": 18,
+   "nrelocs": 0,
+   "sym": "___init_collate",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\initcoll.obj!___init_collate",
+    "LIBCD.LIB:build\\intel\\xst_obj\\setlocal.obj!___init_dummy",
+    "LIBCD.LIB:..\\build\\intel\\xst_obj\\matherr.obj!__matherr",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\initcoll.obj!___init_collate",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\setlocal.obj!___init_dummy",
+    "LIBCMTD.LIB:..\\build\\intel\\xmt_obj\\matherr.obj!__matherr",
+    "MSVCRTD.LIB:build\\intel\\xdll_obj\\merr.obj!__matherr"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10002c32",
+   "va": 268446770,
+   "ghidra_size": 18,
+   "cand_len": 18,
+   "unmasked": 18,
+   "nrelocs": 0,
+   "sym": "___init_collate",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\initcoll.obj!___init_collate",
+    "LIBCD.LIB:build\\intel\\xst_obj\\setlocal.obj!___init_dummy",
+    "LIBCD.LIB:..\\build\\intel\\xst_obj\\matherr.obj!__matherr",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\initcoll.obj!___init_collate",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\setlocal.obj!___init_dummy",
+    "LIBCMTD.LIB:..\\build\\intel\\xmt_obj\\matherr.obj!__matherr",
+    "MSVCRTD.LIB:build\\intel\\xdll_obj\\merr.obj!__matherr"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "10002d55",
+   "va": 268447061,
+   "ghidra_size": 18,
+   "cand_len": 18,
+   "unmasked": 18,
+   "nrelocs": 0,
+   "sym": "___init_collate",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\initcoll.obj!___init_collate",
+    "LIBCD.LIB:build\\intel\\xst_obj\\setlocal.obj!___init_dummy",
+    "LIBCD.LIB:..\\build\\intel\\xst_obj\\matherr.obj!__matherr",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\initcoll.obj!___init_collate",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\setlocal.obj!___init_dummy",
+    "LIBCMTD.LIB:..\\build\\intel\\xmt_obj\\matherr.obj!__matherr",
+    "MSVCRTD.LIB:build\\intel\\xdll_obj\\merr.obj!__matherr"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000320d",
+   "va": 268448269,
+   "ghidra_size": 18,
+   "cand_len": 18,
+   "unmasked": 18,
+   "nrelocs": 0,
+   "sym": "___init_collate",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\initcoll.obj!___init_collate",
+    "LIBCD.LIB:build\\intel\\xst_obj\\setlocal.obj!___init_dummy",
+    "LIBCD.LIB:..\\build\\intel\\xst_obj\\matherr.obj!__matherr",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\initcoll.obj!___init_collate",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\setlocal.obj!___init_dummy",
+    "LIBCMTD.LIB:..\\build\\intel\\xmt_obj\\matherr.obj!__matherr",
+    "MSVCRTD.LIB:build\\intel\\xdll_obj\\merr.obj!__matherr"
+   ],
+   "covers": []
+  },
+  {
+   "addr": "1000575e",
+   "va": 268457822,
+   "ghidra_size": 18,
+   "cand_len": 18,
+   "unmasked": 18,
+   "nrelocs": 0,
+   "sym": "___init_collate",
+   "sources": [
+    "LIBCD.LIB:build\\intel\\xst_obj\\initcoll.obj!___init_collate",
+    "LIBCD.LIB:build\\intel\\xst_obj\\setlocal.obj!___init_dummy",
+    "LIBCD.LIB:..\\build\\intel\\xst_obj\\matherr.obj!__matherr",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\initcoll.obj!___init_collate",
+    "LIBCMTD.LIB:build\\intel\\xmt_obj\\setlocal.obj!___init_dummy",
+    "LIBCMTD.LIB:..\\build\\intel\\xmt_obj\\matherr.obj!__matherr",
+    "MSVCRTD.LIB:build\\intel\\xdll_obj\\merr.obj!__matherr"
+   ],
+   "covers": []
+  }
+ ]
+}

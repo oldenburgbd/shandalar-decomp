@@ -1,18 +1,22 @@
 {
- "generated": "2026-07-30T18:27:00+00:00",
+ "generated": "2026-07-30T19:13:32+00:00",
  "binaries": {
   "Cardartlib.dll": {
    "sha256": "74a36dcd1c79b3009d19c79df169eacc31f91723dbc44f78fae5fa30cf15b5ed",
    "functions": 325,
    "bytes": 103283,
-   "done_functions": 0,
-   "done_bytes": 0,
-   "pct_functions": 0.0,
-   "pct_bytes": 0.0,
+   "done_functions": 207,
+   "done_bytes": 71369,
+   "pct_functions": 63.692,
+   "pct_bytes": 69.1,
    "status": {
+    "library": {
+     "functions": 207,
+     "bytes": 71369
+    },
     "unstarted": {
-     "functions": 325,
-     "bytes": 103283
+     "functions": 118,
+     "bytes": 31914
     }
    }
   },
@@ -20,14 +24,18 @@
    "sha256": "be50229b83567fcbb12d8659bad0ccba62a2f16682c6d25348ce48bb8b0291c2",
    "functions": 171,
    "bytes": 49816,
-   "done_functions": 0,
-   "done_bytes": 0,
-   "pct_functions": 0.0,
-   "pct_bytes": 0.0,
+   "done_functions": 146,
+   "done_bytes": 47713,
+   "pct_functions": 85.38,
+   "pct_bytes": 95.778,
    "status": {
+    "library": {
+     "functions": 146,
+     "bytes": 47713
+    },
     "unstarted": {
-     "functions": 171,
-     "bytes": 49816
+     "functions": 25,
+     "bytes": 2103
     }
    }
   },
@@ -35,18 +43,22 @@
    "sha256": "4c33775a7f6c091616bdb8ddf7a0bebfb972c0a9bfc2faddd8f2c9c82ec804b0",
    "functions": 4,
    "bytes": 512,
-   "done_functions": 0,
-   "done_bytes": 0,
-   "pct_functions": 0.0,
-   "pct_bytes": 0.0,
+   "done_functions": 1,
+   "done_bytes": 378,
+   "pct_functions": 25.0,
+   "pct_bytes": 73.828,
    "status": {
     "identified": {
      "functions": 1,
      "bytes": 114
     },
+    "library": {
+     "functions": 1,
+     "bytes": 378
+    },
     "unstarted": {
-     "functions": 3,
-     "bytes": 398
+     "functions": 2,
+     "bytes": 20
     }
    }
   },
@@ -54,14 +66,18 @@
    "sha256": "c1369cee44da2e6dcbc53a7ba10d628ea4881dabaac866df9332d77b493b960d",
    "functions": 384,
    "bytes": 188478,
-   "done_functions": 0,
-   "done_bytes": 0,
-   "pct_functions": 0.0,
-   "pct_bytes": 0.0,
+   "done_functions": 5,
+   "done_bytes": 685,
+   "pct_functions": 1.302,
+   "pct_bytes": 0.363,
    "status": {
+    "library": {
+     "functions": 5,
+     "bytes": 685
+    },
     "unstarted": {
-     "functions": 384,
-     "bytes": 188478
+     "functions": 379,
+     "bytes": 187793
     }
    }
   },
@@ -69,14 +85,18 @@
    "sha256": "389993d787c3f8e09cd8042ac961cbd99d50ab6ea265a23bd88969ef0e992fe0",
    "functions": 359,
    "bytes": 119803,
-   "done_functions": 0,
-   "done_bytes": 0,
-   "pct_functions": 0.0,
-   "pct_bytes": 0.0,
+   "done_functions": 212,
+   "done_bytes": 72439,
+   "pct_functions": 59.053,
+   "pct_bytes": 60.465,
    "status": {
+    "library": {
+     "functions": 212,
+     "bytes": 72439
+    },
     "unstarted": {
-     "functions": 359,
-     "bytes": 119803
+     "functions": 147,
+     "bytes": 47364
     }
    }
   },
@@ -84,14 +104,18 @@
    "sha256": "b4f3d19614dcd825da846d097baa3cd9badc0c9852492bc27a8ba62c1741a493",
    "functions": 146,
    "bytes": 40312,
-   "done_functions": 0,
-   "done_bytes": 0,
-   "pct_functions": 0.0,
-   "pct_bytes": 0.0,
+   "done_functions": 2,
+   "done_bytes": 534,
+   "pct_functions": 1.37,
+   "pct_bytes": 1.325,
    "status": {
+    "library": {
+     "functions": 2,
+     "bytes": 534
+    },
     "unstarted": {
-     "functions": 146,
-     "bytes": 40312
+     "functions": 144,
+     "bytes": 39778
     }
    }
   },
@@ -99,18 +123,22 @@
    "sha256": "c8d15f006bb9bffe4dedf543dcc7fefe82f2eb651e1a1c165186a5c133bc3841",
    "functions": 159,
    "bytes": 42234,
-   "done_functions": 0,
-   "done_bytes": 0,
-   "pct_functions": 0.0,
-   "pct_bytes": 0.0,
+   "done_functions": 3,
+   "done_bytes": 581,
+   "pct_functions": 1.887,
+   "pct_bytes": 1.376,
    "status": {
     "identified": {
      "functions": 24,
      "bytes": 5649
     },
+    "library": {
+     "functions": 3,
+     "bytes": 581
+    },
     "unstarted": {
-     "functions": 135,
-     "bytes": 36585
+     "functions": 132,
+     "bytes": 36004
     }
    }
   },
@@ -118,14 +146,18 @@
    "sha256": "da1ba49826424c6139b7830754a2a59905cbcd9fd3fc116155d7b53f1608ee6f",
    "functions": 909,
    "bytes": 135296,
-   "done_functions": 0,
-   "done_bytes": 0,
-   "pct_functions": 0.0,
-   "pct_bytes": 0.0,
+   "done_functions": 15,
+   "done_bytes": 1464,
+   "pct_functions": 1.65,
+   "pct_bytes": 1.082,
    "status": {
+    "library": {
+     "functions": 15,
+     "bytes": 1464
+    },
     "unstarted": {
-     "functions": 909,
-     "bytes": 135296
+     "functions": 894,
+     "bytes": 133832
     }
    }
   },
@@ -133,14 +165,18 @@
    "sha256": "71ef20ea3f96f793a5f6981ea5d78a21a35cb5c6a6d797016bfdbec26ced61c6",
    "functions": 1953,
    "bytes": 1416359,
-   "done_functions": 0,
-   "done_bytes": 0,
-   "pct_functions": 0.0,
-   "pct_bytes": 0.0,
+   "done_functions": 2,
+   "done_bytes": 78,
+   "pct_functions": 0.102,
+   "pct_bytes": 0.006,
    "status": {
+    "library": {
+     "functions": 2,
+     "bytes": 78
+    },
     "unstarted": {
-     "functions": 1953,
-     "bytes": 1416359
+     "functions": 1951,
+     "bytes": 1416281
     }
    }
   },
@@ -148,14 +184,18 @@
    "sha256": "213b7dc2e1d0eed131d38485cba8004c1d7760f8ff0a94486b86bba5f3aeba9e",
    "functions": 60,
    "bytes": 19225,
-   "done_functions": 0,
-   "done_bytes": 0,
-   "pct_functions": 0.0,
-   "pct_bytes": 0.0,
+   "done_functions": 3,
+   "done_bytes": 590,
+   "pct_functions": 5.0,
+   "pct_bytes": 3.069,
    "status": {
+    "library": {
+     "functions": 3,
+     "bytes": 590
+    },
     "unstarted": {
-     "functions": 60,
-     "bytes": 19225
+     "functions": 57,
+     "bytes": 18635
     }
    }
   },
@@ -163,14 +203,18 @@
    "sha256": "b686bd43bb7f9ba040fc7416d8d74e59e27c3b5b1bbccd76bfc16c5505bcf90a",
    "functions": 203,
    "bytes": 36260,
-   "done_functions": 0,
-   "done_bytes": 0,
-   "pct_functions": 0.0,
-   "pct_bytes": 0.0,
+   "done_functions": 3,
+   "done_bytes": 711,
+   "pct_functions": 1.478,
+   "pct_bytes": 1.961,
    "status": {
+    "library": {
+     "functions": 3,
+     "bytes": 711
+    },
     "unstarted": {
-     "functions": 203,
-     "bytes": 36260
+     "functions": 200,
+     "bytes": 35549
     }
    }
   },
@@ -178,14 +222,18 @@
    "sha256": "953c54a3a713352c48b7a9d566ff4a1b1897b5748934a2a74293760044574cc4",
    "functions": 497,
    "bytes": 168064,
-   "done_functions": 0,
-   "done_bytes": 0,
-   "pct_functions": 0.0,
-   "pct_bytes": 0.0,
+   "done_functions": 224,
+   "done_bytes": 49275,
+   "pct_functions": 45.07,
+   "pct_bytes": 29.319,
    "status": {
+    "library": {
+     "functions": 224,
+     "bytes": 49275
+    },
     "unstarted": {
-     "functions": 497,
-     "bytes": 168064
+     "functions": 273,
+     "bytes": 118789
     }
    }
   },
@@ -193,14 +241,18 @@
    "sha256": "ce1ef29feb4dcae75eba964b8aca0e233aae1ab89ffec569345cc98c18002d09",
    "functions": 137,
    "bytes": 23075,
-   "done_functions": 0,
-   "done_bytes": 0,
-   "pct_functions": 0.0,
-   "pct_bytes": 0.0,
+   "done_functions": 97,
+   "done_bytes": 20245,
+   "pct_functions": 70.803,
+   "pct_bytes": 87.736,
    "status": {
+    "library": {
+     "functions": 97,
+     "bytes": 20245
+    },
     "unstarted": {
-     "functions": 137,
-     "bytes": 23075
+     "functions": 40,
+     "bytes": 2830
     }
    }
   },
@@ -208,10 +260,10 @@
    "sha256": "b5bb107fe3ad15e2e49db8938685bd823b5d5107e12089cf6e7a847595fed743",
    "functions": 2216,
    "bytes": 1545520,
-   "done_functions": 0,
-   "done_bytes": 0,
-   "pct_functions": 0.0,
-   "pct_bytes": 0.0,
+   "done_functions": 4,
+   "done_bytes": 612,
+   "pct_functions": 0.181,
+   "pct_bytes": 0.04,
    "status": {
     "decompiled": {
      "functions": 782,
@@ -221,9 +273,13 @@
      "functions": 1,
      "bytes": 253
     },
+    "library": {
+     "functions": 4,
+     "bytes": 612
+    },
     "unstarted": {
-     "functions": 1433,
-     "bytes": 1224215
+     "functions": 1429,
+     "bytes": 1223603
     }
    }
   },
@@ -231,14 +287,18 @@
    "sha256": "c1ca59496afa786f22fcd97b94052b937910a613f9321399b4ef4dd5dec76940",
    "functions": 145,
    "bytes": 32783,
-   "done_functions": 0,
-   "done_bytes": 0,
-   "pct_functions": 0.0,
-   "pct_bytes": 0.0,
+   "done_functions": 3,
+   "done_bytes": 589,
+   "pct_functions": 2.069,
+   "pct_bytes": 1.797,
    "status": {
+    "library": {
+     "functions": 3,
+     "bytes": 589
+    },
     "unstarted": {
-     "functions": 145,
-     "bytes": 32783
+     "functions": 142,
+     "bytes": 32194
     }
    }
   }
@@ -246,19 +306,23 @@
  "totals": {
   "functions": 7668,
   "bytes": 3921020,
-  "done_functions": 0,
-  "done_bytes": 0,
-  "pct_functions": 0.0,
-  "pct_bytes": 0.0
+  "done_functions": 927,
+  "done_bytes": 267263,
+  "pct_functions": 12.089,
+  "pct_bytes": 6.816
  },
  "by_status": {
   "unstarted": {
-   "functions": 6860,
-   "bytes": 3593952
+   "functions": 5933,
+   "bytes": 3326689
   },
   "decompiled": {
    "functions": 782,
    "bytes": 321052
+  },
+  "library": {
+   "functions": 927,
+   "bytes": 267263
   },
   "identified": {
    "functions": 26,
@@ -267,8 +331,8 @@
  },
  "by_subsystem": {
   "(unassigned)": {
-   "functions": 6860,
-   "bytes": 3593952,
+   "functions": 5933,
+   "bytes": 3326689,
    "done_functions": 0,
    "done_bytes": 0,
    "pct_bytes": 0.0
@@ -279,6 +343,13 @@
    "done_functions": 0,
    "done_bytes": 0,
    "pct_bytes": 0.0
+  },
+  "crt": {
+   "functions": 927,
+   "bytes": 267263,
+   "done_functions": 927,
+   "done_bytes": 267263,
+   "pct_bytes": 100.0
   },
   "sidlib": {
    "functions": 88,
@@ -304,8 +375,8 @@
  },
  "by_tu": {
   "(unassigned)": {
-   "functions": 6860,
-   "bytes": 3593952,
+   "functions": 5933,
+   "bytes": 3326689,
    "done_functions": 0,
    "done_bytes": 0,
    "pct_bytes": 0.0
@@ -345,12 +416,26 @@
    "done_bytes": 0,
    "pct_bytes": 0.0
   },
+  "crt/dbgheap.obj": {
+   "functions": 51,
+   "bytes": 18083,
+   "done_functions": 51,
+   "done_bytes": 18083,
+   "pct_bytes": 100.0
+  },
   "game/cards51.c": {
    "functions": 39,
    "bytes": 17967,
    "done_functions": 0,
    "done_bytes": 0,
    "pct_bytes": 0.0
+  },
+  "crt/sbheap.obj": {
+   "functions": 41,
+   "bytes": 16465,
+   "done_functions": 41,
+   "done_bytes": 16465,
+   "pct_bytes": 100.0
   },
   "game/cards4b.c": {
    "functions": 28,
@@ -359,12 +444,33 @@
    "done_bytes": 0,
    "pct_bytes": 0.0
   },
+  "crt/output.obj": {
+   "functions": 20,
+   "bytes": 15104,
+   "done_functions": 20,
+   "done_bytes": 15104,
+   "pct_bytes": 100.0
+  },
   "game/cards4a.c": {
    "functions": 23,
    "bytes": 13795,
    "done_functions": 0,
    "done_bytes": 0,
    "pct_bytes": 0.0
+  },
+  "crt/input.obj": {
+   "functions": 11,
+   "bytes": 13093,
+   "done_functions": 11,
+   "done_bytes": 13093,
+   "pct_bytes": 100.0
+  },
+  "crt/inittime.obj": {
+   "functions": 18,
+   "bytes": 11258,
+   "done_functions": 18,
+   "done_bytes": 11258,
+   "pct_bytes": 100.0
   },
   "game/cards4f.c": {
    "functions": 11,
@@ -387,12 +493,103 @@
    "done_bytes": 0,
    "pct_bytes": 0.0
   },
+  "crt/tzset.obj": {
+   "functions": 15,
+   "bytes": 6647,
+   "done_functions": 15,
+   "done_bytes": 6647,
+   "pct_bytes": 100.0
+  },
+  "crt/open.obj": {
+   "functions": 5,
+   "bytes": 5614,
+   "done_functions": 5,
+   "done_bytes": 5614,
+   "pct_bytes": 100.0
+  },
+  "crt/dbgrpt.obj": {
+   "functions": 6,
+   "bytes": 5430,
+   "done_functions": 6,
+   "done_bytes": 5430,
+   "pct_bytes": 100.0
+  },
+  "crt/osfinfo.obj": {
+   "functions": 28,
+   "bytes": 5373,
+   "done_functions": 28,
+   "done_bytes": 5373,
+   "pct_bytes": 100.0
+  },
+  "crt/mbctype.obj": {
+   "functions": 20,
+   "bytes": 5147,
+   "done_functions": 20,
+   "done_bytes": 5147,
+   "pct_bytes": 100.0
+  },
+  "crt/stdargv.obj": {
+   "functions": 10,
+   "bytes": 4724,
+   "done_functions": 10,
+   "done_bytes": 4724,
+   "pct_bytes": 100.0
+  },
+  "crt/aw_str.obj": {
+   "functions": 10,
+   "bytes": 4493,
+   "done_functions": 10,
+   "done_bytes": 4493,
+   "pct_bytes": 100.0
+  },
+  "crt/initctyp.obj": {
+   "functions": 5,
+   "bytes": 4404,
+   "done_functions": 5,
+   "done_bytes": 4404,
+   "pct_bytes": 100.0
+  },
+  "crt/initmon.obj": {
+   "functions": 20,
+   "bytes": 4313,
+   "done_functions": 20,
+   "done_bytes": 4313,
+   "pct_bytes": 100.0
+  },
   "sidlib/text.c": {
    "functions": 22,
    "bytes": 4171,
    "done_functions": 0,
    "done_bytes": 0,
    "pct_bytes": 0.0
+  },
+  "crt/read.obj": {
+   "functions": 4,
+   "bytes": 4142,
+   "done_functions": 4,
+   "done_bytes": 4142,
+   "pct_bytes": 100.0
+  },
+  "crt/ioinit.obj": {
+   "functions": 9,
+   "bytes": 4096,
+   "done_functions": 9,
+   "done_bytes": 4096,
+   "pct_bytes": 100.0
+  },
+  "crt/dllcrt0.obj": {
+   "functions": 16,
+   "bytes": 4007,
+   "done_functions": 16,
+   "done_bytes": 4007,
+   "pct_bytes": 100.0
+  },
+  "crt/aw_loc.obj": {
+   "functions": 10,
+   "bytes": 3951,
+   "done_functions": 10,
+   "done_bytes": 3951,
+   "pct_bytes": 100.0
   },
   "game/pred466fe6.c": {
    "functions": 1,
@@ -414,6 +611,34 @@
    "done_functions": 0,
    "done_bytes": 0,
    "pct_bytes": 0.0
+  },
+  "crt/aw_cmp.obj": {
+   "functions": 11,
+   "bytes": 3595,
+   "done_functions": 11,
+   "done_bytes": 3595,
+   "pct_bytes": 100.0
+  },
+  "crt/write.obj": {
+   "functions": 7,
+   "bytes": 3501,
+   "done_functions": 7,
+   "done_bytes": 3501,
+   "pct_bytes": 100.0
+  },
+  "crt/aw_map.obj": {
+   "functions": 5,
+   "bytes": 3483,
+   "done_functions": 5,
+   "done_bytes": 3483,
+   "pct_bytes": 100.0
+  },
+  "crt/setenv.obj": {
+   "functions": 9,
+   "bytes": 3348,
+   "done_functions": 9,
+   "done_bytes": 3348,
+   "pct_bytes": 100.0
   },
   "game/helpers48.c": {
    "functions": 11,
@@ -443,12 +668,54 @@
    "done_bytes": 0,
    "pct_bytes": 0.0
   },
+  "crt/initnum.obj": {
+   "functions": 5,
+   "bytes": 3144,
+   "done_functions": 5,
+   "done_bytes": 3144,
+   "pct_bytes": 100.0
+  },
+  "crt/crt0msg.obj": {
+   "functions": 10,
+   "bytes": 3022,
+   "done_functions": 10,
+   "done_bytes": 3022,
+   "pct_bytes": 100.0
+  },
+  "crt/inithelp.obj": {
+   "functions": 5,
+   "bytes": 3009,
+   "done_functions": 5,
+   "done_bytes": 3009,
+   "pct_bytes": 100.0
+  },
   "game/cards52.c": {
    "functions": 5,
    "bytes": 3004,
    "done_functions": 0,
    "done_bytes": 0,
    "pct_bytes": 0.0
+  },
+  "crt/_open.obj": {
+   "functions": 4,
+   "bytes": 2904,
+   "done_functions": 4,
+   "done_bytes": 2904,
+   "pct_bytes": 100.0
+  },
+  "crt/memcpy.obj": {
+   "functions": 10,
+   "bytes": 2850,
+   "done_functions": 10,
+   "done_bytes": 2850,
+   "pct_bytes": 100.0
+  },
+  "crt/tidtable.obj": {
+   "functions": 22,
+   "bytes": 2815,
+   "done_functions": 22,
+   "done_bytes": 2815,
+   "pct_bytes": 100.0
   },
   "game/game43.c": {
    "functions": 27,
@@ -457,12 +724,68 @@
    "done_bytes": 0,
    "pct_bytes": 0.0
   },
+  "crt/_flsbuf.obj": {
+   "functions": 5,
+   "bytes": 2661,
+   "done_functions": 5,
+   "done_bytes": 2661,
+   "pct_bytes": 100.0
+  },
+  "crt/fflush.obj": {
+   "functions": 16,
+   "bytes": 2661,
+   "done_functions": 16,
+   "done_bytes": 2661,
+   "pct_bytes": 100.0
+  },
+  "crt/lseek.obj": {
+   "functions": 16,
+   "bytes": 2639,
+   "done_functions": 16,
+   "done_bytes": 2639,
+   "pct_bytes": 100.0
+  },
+  "crt/wcstombs.obj": {
+   "functions": 6,
+   "bytes": 2615,
+   "done_functions": 6,
+   "done_bytes": 2615,
+   "pct_bytes": 100.0
+  },
+  "crt/aw_env.obj": {
+   "functions": 5,
+   "bytes": 2598,
+   "done_functions": 5,
+   "done_bytes": 2598,
+   "pct_bytes": 100.0
+  },
+  "crt/chsize.obj": {
+   "functions": 4,
+   "bytes": 2250,
+   "done_functions": 4,
+   "done_bytes": 2250,
+   "pct_bytes": 100.0
+  },
+  "crt/mlock.obj": {
+   "functions": 24,
+   "bytes": 2248,
+   "done_functions": 24,
+   "done_bytes": 2248,
+   "pct_bytes": 100.0
+  },
   "game/helpers51.c": {
    "functions": 5,
    "bytes": 2186,
    "done_functions": 0,
    "done_bytes": 0,
    "pct_bytes": 0.0
+  },
+  "crt/winsig.obj": {
+   "functions": 6,
+   "bytes": 2079,
+   "done_functions": 6,
+   "done_bytes": 2079,
+   "pct_bytes": 100.0
   },
   "game/game56.c": {
    "functions": 29,
@@ -471,12 +794,96 @@
    "done_bytes": 0,
    "pct_bytes": 0.0
   },
+  "crt/ftell.obj": {
+   "functions": 4,
+   "bytes": 1856,
+   "done_functions": 4,
+   "done_bytes": 1856,
+   "pct_bytes": 100.0
+  },
+  "crt/crt0dat.obj": {
+   "functions": 15,
+   "bytes": 1631,
+   "done_functions": 15,
+   "done_bytes": 1631,
+   "pct_bytes": 100.0
+  },
+  "crt/strgtold.obj": {
+   "functions": 1,
+   "bytes": 1578,
+   "done_functions": 1,
+   "done_bytes": 1578,
+   "pct_bytes": 100.0
+  },
+  "crt/fread.obj": {
+   "functions": 8,
+   "bytes": 1567,
+   "done_functions": 8,
+   "done_bytes": 1567,
+   "pct_bytes": 100.0
+  },
+  "crt/close.obj": {
+   "functions": 10,
+   "bytes": 1559,
+   "done_functions": 10,
+   "done_bytes": 1559,
+   "pct_bytes": 100.0
+  },
+  "crt/realloc.obj": {
+   "functions": 3,
+   "bytes": 1548,
+   "done_functions": 3,
+   "done_bytes": 1548,
+   "pct_bytes": 100.0
+  },
+  "crt/strncpy.obj": {
+   "functions": 6,
+   "bytes": 1524,
+   "done_functions": 6,
+   "done_bytes": 1524,
+   "pct_bytes": 100.0
+  },
+  "crt/crtexew.obj": {
+   "functions": 4,
+   "bytes": 1512,
+   "done_functions": 4,
+   "done_bytes": 1512,
+   "pct_bytes": 100.0
+  },
+  "crt/tolower.obj": {
+   "functions": 6,
+   "bytes": 1507,
+   "done_functions": 6,
+   "done_bytes": 1507,
+   "pct_bytes": 100.0
+  },
   "game/game4e.c": {
    "functions": 11,
    "bytes": 1507,
    "done_functions": 0,
    "done_bytes": 0,
    "pct_bytes": 0.0
+  },
+  "crt/stream.obj": {
+   "functions": 4,
+   "bytes": 1467,
+   "done_functions": 4,
+   "done_bytes": 1467,
+   "pct_bytes": 100.0
+  },
+  "crt/wctomb.obj": {
+   "functions": 10,
+   "bytes": 1464,
+   "done_functions": 10,
+   "done_bytes": 1464,
+   "pct_bytes": 100.0
+  },
+  "crt/crtdll.obj": {
+   "functions": 4,
+   "bytes": 1456,
+   "done_functions": 4,
+   "done_bytes": 1456,
+   "pct_bytes": 100.0
   },
   "game/slots.c": {
    "functions": 1,
@@ -491,6 +898,13 @@
    "done_functions": 0,
    "done_bytes": 0,
    "pct_bytes": 0.0
+  },
+  "crt/stdenvp.obj": {
+   "functions": 5,
+   "bytes": 1412,
+   "done_functions": 5,
+   "done_bytes": 1412,
+   "pct_bytes": 100.0
   },
   "game/helpers44.c": {
    "functions": 8,
@@ -513,6 +927,20 @@
    "done_bytes": 0,
    "pct_bytes": 0.0
   },
+  "crt/fclose.obj": {
+   "functions": 10,
+   "bytes": 1348,
+   "done_functions": 10,
+   "done_bytes": 1348,
+   "pct_bytes": 100.0
+  },
+  "crt/strlwr.obj": {
+   "functions": 3,
+   "bytes": 1344,
+   "done_functions": 3,
+   "done_bytes": 1344,
+   "pct_bytes": 100.0
+  },
   "game/helpers40.c": {
    "functions": 7,
    "bytes": 1236,
@@ -527,12 +955,82 @@
    "done_bytes": 0,
    "pct_bytes": 0.0
   },
+  "crt/_filbuf.obj": {
+   "functions": 3,
+   "bytes": 1213,
+   "done_functions": 3,
+   "done_bytes": 1213,
+   "pct_bytes": 100.0
+  },
+  "crt/localtim.obj": {
+   "functions": 2,
+   "bytes": 1194,
+   "done_functions": 2,
+   "done_bytes": 1194,
+   "pct_bytes": 100.0
+  },
   "game/game41.c": {
    "functions": 15,
    "bytes": 1190,
    "done_functions": 0,
    "done_bytes": 0,
    "pct_bytes": 0.0
+  },
+  "crt/_sftbuf.obj": {
+   "functions": 6,
+   "bytes": 1166,
+   "done_functions": 6,
+   "done_bytes": 1166,
+   "pct_bytes": 100.0
+  },
+  "crt/_file.obj": {
+   "functions": 6,
+   "bytes": 1158,
+   "done_functions": 6,
+   "done_bytes": 1158,
+   "pct_bytes": 100.0
+  },
+  "crt/splitpat.obj": {
+   "functions": 2,
+   "bytes": 1156,
+   "done_functions": 2,
+   "done_bytes": 1156,
+   "pct_bytes": 100.0
+  },
+  "crt/commit.obj": {
+   "functions": 5,
+   "bytes": 1152,
+   "done_functions": 5,
+   "done_bytes": 1152,
+   "pct_bytes": 100.0
+  },
+  "crt/gmtime.obj": {
+   "functions": 2,
+   "bytes": 1120,
+   "done_functions": 2,
+   "done_bytes": 1120,
+   "pct_bytes": 100.0
+  },
+  "crt/mbscat.obj": {
+   "functions": 5,
+   "bytes": 1120,
+   "done_functions": 5,
+   "done_bytes": 1120,
+   "pct_bytes": 100.0
+  },
+  "crt/mbtowc.obj": {
+   "functions": 3,
+   "bytes": 1115,
+   "done_functions": 3,
+   "done_bytes": 1115,
+   "pct_bytes": 100.0
+  },
+  "crt/intrncvt.obj": {
+   "functions": 8,
+   "bytes": 1114,
+   "done_functions": 8,
+   "done_bytes": 1114,
+   "pct_bytes": 100.0
   },
   "game/helpers46.c": {
    "functions": 3,
@@ -555,6 +1053,90 @@
    "done_bytes": 0,
    "pct_bytes": 0.0
   },
+  "crt/fseek.obj": {
+   "functions": 6,
+   "bytes": 1052,
+   "done_functions": 6,
+   "done_bytes": 1052,
+   "pct_bytes": 100.0
+  },
+  "crt/malloc.obj": {
+   "functions": 11,
+   "bytes": 1039,
+   "done_functions": 11,
+   "done_bytes": 1039,
+   "pct_bytes": 100.0
+  },
+  "crt/stricmp.obj": {
+   "functions": 5,
+   "bytes": 995,
+   "done_functions": 5,
+   "done_bytes": 995,
+   "pct_bytes": 100.0
+  },
+  "crt/closeall.obj": {
+   "functions": 5,
+   "bytes": 988,
+   "done_functions": 5,
+   "done_bytes": 988,
+   "pct_bytes": 100.0
+  },
+  "crt/asctime.obj": {
+   "functions": 4,
+   "bytes": 970,
+   "done_functions": 4,
+   "done_bytes": 970,
+   "pct_bytes": 100.0
+  },
+  "crt/fopen.obj": {
+   "functions": 7,
+   "bytes": 970,
+   "done_functions": 7,
+   "done_bytes": 970,
+   "pct_bytes": 100.0
+  },
+  "crt/crtmbox.obj": {
+   "functions": 5,
+   "bytes": 961,
+   "done_functions": 5,
+   "done_bytes": 961,
+   "pct_bytes": 100.0
+  },
+  "crt/setmode.obj": {
+   "functions": 4,
+   "bytes": 936,
+   "done_functions": 4,
+   "done_bytes": 936,
+   "pct_bytes": 100.0
+  },
+  "crt/x10fout.obj": {
+   "functions": 1,
+   "bytes": 923,
+   "done_functions": 1,
+   "done_bytes": 923,
+   "pct_bytes": 100.0
+  },
+  "crt/fwrite.obj": {
+   "functions": 2,
+   "bytes": 922,
+   "done_functions": 2,
+   "done_bytes": 922,
+   "pct_bytes": 100.0
+  },
+  "crt/cenvarg.obj": {
+   "functions": 1,
+   "bytes": 918,
+   "done_functions": 1,
+   "done_bytes": 918,
+   "pct_bytes": 100.0
+  },
+  "crt/sprintf.obj": {
+   "functions": 5,
+   "bytes": 914,
+   "done_functions": 5,
+   "done_bytes": 914,
+   "pct_bytes": 100.0
+  },
   "game/reset.c": {
    "functions": 1,
    "bytes": 907,
@@ -569,12 +1151,26 @@
    "done_bytes": 0,
    "pct_bytes": 0.0
   },
+  "crt/dosmap.obj": {
+   "functions": 5,
+   "bytes": 872,
+   "done_functions": 5,
+   "done_bytes": 872,
+   "pct_bytes": 100.0
+  },
   "game/game40.c": {
    "functions": 6,
    "bytes": 857,
    "done_functions": 0,
    "done_bytes": 0,
    "pct_bytes": 0.0
+  },
+  "crt/cvt.obj": {
+   "functions": 6,
+   "bytes": 854,
+   "done_functions": 6,
+   "done_bytes": 854,
+   "pct_bytes": 100.0
   },
   "game/game42.c": {
    "functions": 10,
@@ -590,12 +1186,82 @@
    "done_bytes": 0,
    "pct_bytes": 0.0
   },
+  "crt/isctype.obj": {
+   "functions": 5,
+   "bytes": 836,
+   "done_functions": 5,
+   "done_bytes": 836,
+   "pct_bytes": 100.0
+  },
   "game/game57.c": {
    "functions": 5,
    "bytes": 826,
    "done_functions": 0,
    "done_bytes": 0,
    "pct_bytes": 0.0
+  },
+  "crt/atox.obj": {
+   "functions": 6,
+   "bytes": 812,
+   "done_functions": 6,
+   "done_bytes": 812,
+   "pct_bytes": 100.0
+  },
+  "crt/xtoa.obj": {
+   "functions": 6,
+   "bytes": 807,
+   "done_functions": 6,
+   "done_bytes": 807,
+   "pct_bytes": 100.0
+  },
+  "crt/tenpow.obj": {
+   "functions": 2,
+   "bytes": 801,
+   "done_functions": 2,
+   "done_bytes": 801,
+   "pct_bytes": 100.0
+  },
+  "crt/ungetc.obj": {
+   "functions": 4,
+   "bytes": 779,
+   "done_functions": 4,
+   "done_bytes": 779,
+   "pct_bytes": 100.0
+  },
+  "crt/dtoxtime.obj": {
+   "functions": 3,
+   "bytes": 775,
+   "done_functions": 3,
+   "done_bytes": 775,
+   "pct_bytes": 100.0
+  },
+  "crt/time.obj": {
+   "functions": 2,
+   "bytes": 774,
+   "done_functions": 2,
+   "done_bytes": 774,
+   "pct_bytes": 100.0
+  },
+  "crt/fgets.obj": {
+   "functions": 3,
+   "bytes": 763,
+   "done_functions": 3,
+   "done_bytes": 763,
+   "pct_bytes": 100.0
+  },
+  "crt/strlen.obj": {
+   "functions": 6,
+   "bytes": 738,
+   "done_functions": 6,
+   "done_bytes": 738,
+   "pct_bytes": 100.0
+  },
+  "crt/findfile.obj": {
+   "functions": 4,
+   "bytes": 737,
+   "done_functions": 4,
+   "done_bytes": 737,
+   "pct_bytes": 100.0
   },
   "sidlib/palette.c": {
    "functions": 1,
@@ -604,12 +1270,68 @@
    "done_bytes": 0,
    "pct_bytes": 0.0
   },
+  "crt/heapinit.obj": {
+   "functions": 9,
+   "bytes": 730,
+   "done_functions": 9,
+   "done_bytes": 730,
+   "pct_bytes": 100.0
+  },
+  "crt/mbschr.obj": {
+   "functions": 3,
+   "bytes": 719,
+   "done_functions": 3,
+   "done_bytes": 719,
+   "pct_bytes": 100.0
+  },
+  "crt/_getbuf.obj": {
+   "functions": 5,
+   "bytes": 714,
+   "done_functions": 5,
+   "done_bytes": 714,
+   "pct_bytes": 100.0
+  },
+  "crt/snprintf.obj": {
+   "functions": 3,
+   "bytes": 705,
+   "done_functions": 3,
+   "done_bytes": 705,
+   "pct_bytes": 100.0
+  },
+  "crt/ullrem.obj": {
+   "functions": 6,
+   "bytes": 702,
+   "done_functions": 6,
+   "done_bytes": 702,
+   "pct_bytes": 100.0
+  },
+  "crt/vsnprint.obj": {
+   "functions": 3,
+   "bytes": 687,
+   "done_functions": 3,
+   "done_bytes": 687,
+   "pct_bytes": 100.0
+  },
+  "crt/mbstowcs.obj": {
+   "functions": 6,
+   "bytes": 678,
+   "done_functions": 6,
+   "done_bytes": 678,
+   "pct_bytes": 100.0
+  },
   "game/helpers4b.c": {
    "functions": 4,
    "bytes": 667,
    "done_functions": 0,
    "done_bytes": 0,
    "pct_bytes": 0.0
+  },
+  "crt/spawnve.obj": {
+   "functions": 2,
+   "bytes": 662,
+   "done_functions": 2,
+   "done_bytes": 662,
+   "pct_bytes": 100.0
   },
   "game/game53.c": {
    "functions": 8,
@@ -618,12 +1340,61 @@
    "done_bytes": 0,
    "pct_bytes": 0.0
   },
+  "crt/strcmp.obj": {
+   "functions": 5,
+   "bytes": 645,
+   "done_functions": 5,
+   "done_bytes": 645,
+   "pct_bytes": 100.0
+  },
+  "crt/getenv.obj": {
+   "functions": 4,
+   "bytes": 644,
+   "done_functions": 4,
+   "done_bytes": 644,
+   "pct_bytes": 100.0
+  },
+  "crt/atonexit.obj": {
+   "functions": 4,
+   "bytes": 624,
+   "done_functions": 4,
+   "done_bytes": 624,
+   "pct_bytes": 100.0
+  },
+  "crt/ulldiv.obj": {
+   "functions": 6,
+   "bytes": 624,
+   "done_functions": 6,
+   "done_bytes": 624,
+   "pct_bytes": 100.0
+  },
+  "crt/free.obj": {
+   "functions": 5,
+   "bytes": 623,
+   "done_functions": 5,
+   "done_bytes": 623,
+   "pct_bytes": 100.0
+  },
+  "crt/dospawn.obj": {
+   "functions": 1,
+   "bytes": 605,
+   "done_functions": 1,
+   "done_bytes": 605,
+   "pct_bytes": 100.0
+  },
   "game/game4a.c": {
    "functions": 5,
    "bytes": 598,
    "done_functions": 0,
    "done_bytes": 0,
    "pct_bytes": 0.0
+  },
+  "crt/mbsnbcpy.obj": {
+   "functions": 2,
+   "bytes": 594,
+   "done_functions": 2,
+   "done_bytes": 594,
+   "pct_bytes": 100.0
   },
   "game/helpers56.c": {
    "functions": 6,
@@ -639,12 +1410,26 @@
    "done_bytes": 0,
    "pct_bytes": 0.0
   },
+  "crt/bsearch.obj": {
+   "functions": 2,
+   "bytes": 554,
+   "done_functions": 2,
+   "done_bytes": 554,
+   "pct_bytes": 100.0
+  },
   "sidlib/pcxw.c": {
    "functions": 2,
    "bytes": 553,
    "done_functions": 0,
    "done_bytes": 0,
    "pct_bytes": 0.0
+  },
+  "crt/wtombenv.obj": {
+   "functions": 3,
+   "bytes": 548,
+   "done_functions": 3,
+   "done_bytes": 548,
+   "pct_bytes": 100.0
   },
   "game/game45.c": {
    "functions": 12,
@@ -653,12 +1438,75 @@
    "done_bytes": 0,
    "pct_bytes": 0.0
   },
+  "crt/_freebuf.obj": {
+   "functions": 5,
+   "bytes": 528,
+   "done_functions": 5,
+   "done_bytes": 528,
+   "pct_bytes": 100.0
+  },
   "game/helpers55.c": {
    "functions": 5,
    "bytes": 523,
    "done_functions": 0,
    "done_bytes": 0,
    "pct_bytes": 0.0
+  },
+  "crt/spawnvpe.obj": {
+   "functions": 1,
+   "bytes": 501,
+   "done_functions": 1,
+   "done_bytes": 501,
+   "pct_bytes": 100.0
+  },
+  "crt/mantold.obj": {
+   "functions": 5,
+   "bytes": 485,
+   "done_functions": 5,
+   "done_bytes": 485,
+   "pct_bytes": 100.0
+  },
+  "crt/fprintf.obj": {
+   "functions": 3,
+   "bytes": 473,
+   "done_functions": 3,
+   "done_bytes": 473,
+   "pct_bytes": 100.0
+  },
+  "crt/heapchk.obj": {
+   "functions": 3,
+   "bytes": 462,
+   "done_functions": 3,
+   "done_bytes": 462,
+   "pct_bytes": 100.0
+  },
+  "crt/expand.obj": {
+   "functions": 2,
+   "bytes": 450,
+   "done_functions": 2,
+   "done_bytes": 450,
+   "pct_bytes": 100.0
+  },
+  "crt/memset.obj": {
+   "functions": 5,
+   "bytes": 440,
+   "done_functions": 5,
+   "done_bytes": 440,
+   "pct_bytes": 100.0
+  },
+  "crt/getcwd.obj": {
+   "functions": 3,
+   "bytes": 429,
+   "done_functions": 3,
+   "done_bytes": 429,
+   "pct_bytes": 100.0
+  },
+  "crt/chkstk.obj": {
+   "functions": 9,
+   "bytes": 423,
+   "done_functions": 9,
+   "done_bytes": 423,
+   "pct_bytes": 100.0
   },
   "game/helpers52.c": {
    "functions": 1,
@@ -667,12 +1515,61 @@
    "done_bytes": 0,
    "pct_bytes": 0.0
   },
+  "crt/handler.obj": {
+   "functions": 5,
+   "bytes": 400,
+   "done_functions": 5,
+   "done_bytes": 400,
+   "pct_bytes": 100.0
+  },
+  "crt/wincrt0.obj": {
+   "functions": 2,
+   "bytes": 395,
+   "done_functions": 2,
+   "done_bytes": 395,
+   "pct_bytes": 100.0
+  },
   "window.c": {
    "functions": 4,
    "bytes": 392,
    "done_functions": 0,
    "done_bytes": 0,
    "pct_bytes": 0.0
+  },
+  "crt/sscanf.obj": {
+   "functions": 2,
+   "bytes": 386,
+   "done_functions": 2,
+   "done_bytes": 386,
+   "pct_bytes": 100.0
+  },
+  "crt/winxfltr.obj": {
+   "functions": 2,
+   "bytes": 382,
+   "done_functions": 2,
+   "done_bytes": 382,
+   "pct_bytes": 100.0
+  },
+  "crt/strcspn.obj": {
+   "functions": 6,
+   "bytes": 372,
+   "done_functions": 6,
+   "done_bytes": 372,
+   "pct_bytes": 100.0
+  },
+  "crt/ieee87.obj": {
+   "functions": 3,
+   "bytes": 365,
+   "done_functions": 3,
+   "done_bytes": 365,
+   "pct_bytes": 100.0
+  },
+  "crt/strpbrk.obj": {
+   "functions": 6,
+   "bytes": 348,
+   "done_functions": 6,
+   "done_bytes": 348,
+   "pct_bytes": 100.0
   },
   "game/game44.c": {
    "functions": 6,
@@ -681,12 +1578,61 @@
    "done_bytes": 0,
    "pct_bytes": 0.0
   },
+  "crt/calloc.obj": {
+   "functions": 2,
+   "bytes": 342,
+   "done_functions": 2,
+   "done_bytes": 342,
+   "pct_bytes": 100.0
+  },
+  "crt/toupper.obj": {
+   "functions": 2,
+   "bytes": 339,
+   "done_functions": 2,
+   "done_bytes": 339,
+   "pct_bytes": 100.0
+  },
+  "crt/strncmp.obj": {
+   "functions": 6,
+   "bytes": 336,
+   "done_functions": 6,
+   "done_bytes": 336,
+   "pct_bytes": 100.0
+  },
+  "crt/cfout.obj": {
+   "functions": 2,
+   "bytes": 317,
+   "done_functions": 2,
+   "done_bytes": 317,
+   "pct_bytes": 100.0
+  },
+  "crt/isatty.obj": {
+   "functions": 5,
+   "bytes": 312,
+   "done_functions": 5,
+   "done_bytes": 312,
+   "pct_bytes": 100.0
+  },
+  "crt/exsup.obj": {
+   "functions": 5,
+   "bytes": 307,
+   "done_functions": 5,
+   "done_bytes": 307,
+   "pct_bytes": 100.0
+  },
   "game/helpers4c.c": {
    "functions": 4,
    "bytes": 302,
    "done_functions": 0,
    "done_bytes": 0,
    "pct_bytes": 0.0
+  },
+  "crt/cprintf.obj": {
+   "functions": 9,
+   "bytes": 288,
+   "done_functions": 9,
+   "done_bytes": 288,
+   "pct_bytes": 100.0
   },
   "game/helpers4a.c": {
    "functions": 2,
@@ -709,12 +1655,33 @@
    "done_bytes": 0,
    "pct_bytes": 0.0
   },
+  "crt/cscanf.obj": {
+   "functions": 3,
+   "bytes": 266,
+   "done_functions": 3,
+   "done_bytes": 266,
+   "pct_bytes": 100.0
+  },
+  "crt/mbsnbico.obj": {
+   "functions": 3,
+   "bytes": 265,
+   "done_functions": 3,
+   "done_bytes": 265,
+   "pct_bytes": 100.0
+  },
   "game/game4b.c": {
    "functions": 2,
    "bytes": 257,
    "done_functions": 0,
    "done_bytes": 0,
    "pct_bytes": 0.0
+  },
+  "crt/strnicmp.obj": {
+   "functions": 1,
+   "bytes": 244,
+   "done_functions": 1,
+   "done_bytes": 244,
+   "pct_bytes": 100.0
   },
   "game/game4f.c": {
    "functions": 4,
@@ -730,12 +1697,61 @@
    "done_bytes": 0,
    "pct_bytes": 0.0
   },
+  "crt/strtok.obj": {
+   "functions": 1,
+   "bytes": 216,
+   "done_functions": 1,
+   "done_bytes": 216,
+   "pct_bytes": 100.0
+  },
+  "crt/fgetc.obj": {
+   "functions": 2,
+   "bytes": 210,
+   "done_functions": 2,
+   "done_bytes": 210,
+   "pct_bytes": 100.0
+  },
+  "crt/thread.obj": {
+   "functions": 2,
+   "bytes": 199,
+   "done_functions": 2,
+   "done_bytes": 199,
+   "pct_bytes": 100.0
+  },
   "game/cards50.c": {
    "functions": 5,
    "bytes": 190,
    "done_functions": 0,
    "done_bytes": 0,
    "pct_bytes": 0.0
+  },
+  "crt/llshl.obj": {
+   "functions": 6,
+   "bytes": 186,
+   "done_functions": 6,
+   "done_bytes": 186,
+   "pct_bytes": 100.0
+  },
+  "crt/_ctype.obj": {
+   "functions": 3,
+   "bytes": 181,
+   "done_functions": 3,
+   "done_bytes": 181,
+   "pct_bytes": 100.0
+  },
+  "crt/chdir.obj": {
+   "functions": 1,
+   "bytes": 164,
+   "done_functions": 1,
+   "done_bytes": 164,
+   "pct_bytes": 100.0
+  },
+  "crt/wcslen.obj": {
+   "functions": 3,
+   "bytes": 156,
+   "done_functions": 3,
+   "done_bytes": 156,
+   "pct_bytes": 100.0
   },
   "game/game51.c": {
    "functions": 1,
@@ -744,6 +1760,69 @@
    "done_bytes": 0,
    "pct_bytes": 0.0
   },
+  "crt/mbtoupr.obj": {
+   "functions": 1,
+   "bytes": 141,
+   "done_functions": 1,
+   "done_bytes": 141,
+   "pct_bytes": 100.0
+  },
+  "crt/rmdir.obj": {
+   "functions": 2,
+   "bytes": 140,
+   "done_functions": 2,
+   "done_bytes": 140,
+   "pct_bytes": 100.0
+  },
+  "crt/getpath.obj": {
+   "functions": 1,
+   "bytes": 132,
+   "done_functions": 1,
+   "done_bytes": 132,
+   "pct_bytes": 100.0
+  },
+  "crt/mbsrchr.obj": {
+   "functions": 1,
+   "bytes": 132,
+   "done_functions": 1,
+   "done_bytes": 132,
+   "pct_bytes": 100.0
+  },
+  "crt/_fptostr.obj": {
+   "functions": 1,
+   "bytes": 129,
+   "done_functions": 1,
+   "done_bytes": 129,
+   "pct_bytes": 100.0
+  },
+  "crt/ctime.obj": {
+   "functions": 2,
+   "bytes": 126,
+   "done_functions": 2,
+   "done_bytes": 126,
+   "pct_bytes": 100.0
+  },
+  "crt/strspn.obj": {
+   "functions": 2,
+   "bytes": 124,
+   "done_functions": 2,
+   "done_bytes": 124,
+   "pct_bytes": 100.0
+  },
+  "crt/testfdiv.obj": {
+   "functions": 2,
+   "bytes": 120,
+   "done_functions": 2,
+   "done_bytes": 120,
+   "pct_bytes": 100.0
+  },
+  "crt/strrchr.obj": {
+   "functions": 3,
+   "bytes": 117,
+   "done_functions": 3,
+   "done_bytes": 117,
+   "pct_bytes": 100.0
+  },
   "deck/deck.c": {
    "functions": 1,
    "bytes": 114,
@@ -751,12 +1830,89 @@
    "done_bytes": 0,
    "pct_bytes": 0.0
   },
+  "crt/rewind.obj": {
+   "functions": 1,
+   "bytes": 110,
+   "done_functions": 1,
+   "done_bytes": 110,
+   "pct_bytes": 100.0
+  },
+  "crt/llmul.obj": {
+   "functions": 2,
+   "bytes": 104,
+   "done_functions": 2,
+   "done_bytes": 104,
+   "pct_bytes": 100.0
+  },
   "game/game47.c": {
    "functions": 1,
    "bytes": 96,
    "done_functions": 0,
    "done_bytes": 0,
    "pct_bytes": 0.0
+  },
+  "crt/access.obj": {
+   "functions": 1,
+   "bytes": 79,
+   "done_functions": 1,
+   "done_bytes": 79,
+   "pct_bytes": 100.0
+  },
+  "crt/mbsdup.obj": {
+   "functions": 2,
+   "bytes": 76,
+   "done_functions": 2,
+   "done_bytes": 76,
+   "pct_bytes": 100.0
+  },
+  "crt/ismbbyte.obj": {
+   "functions": 1,
+   "bytes": 58,
+   "done_functions": 1,
+   "done_bytes": 58,
+   "pct_bytes": 100.0
+  },
+  "crt/fpinit.obj": {
+   "functions": 1,
+   "bytes": 56,
+   "done_functions": 1,
+   "done_bytes": 56,
+   "pct_bytes": 100.0
+  },
+  "crt/rename.obj": {
+   "functions": 1,
+   "bytes": 53,
+   "done_functions": 1,
+   "done_bytes": 53,
+   "pct_bytes": 100.0
+  },
+  "crt/fscanf.obj": {
+   "functions": 1,
+   "bytes": 50,
+   "done_functions": 1,
+   "done_bytes": 50,
+   "pct_bytes": 100.0
+  },
+  "crt/ftol.obj": {
+   "functions": 1,
+   "bytes": 39,
+   "done_functions": 1,
+   "done_bytes": 39,
+   "pct_bytes": 100.0
+  },
+  "crt/dllmain.obj": {
+   "functions": 1,
+   "bytes": 35,
+   "done_functions": 1,
+   "done_bytes": 35,
+   "pct_bytes": 100.0
+  },
+  "crt/undname.obj": {
+   "functions": 1,
+   "bytes": 34,
+   "done_functions": 1,
+   "done_bytes": 34,
+   "pct_bytes": 100.0
   },
   "game/cards4c.c": {
    "functions": 1,

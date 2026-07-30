@@ -106,3 +106,8 @@ Real advantages this target has over a typical decompilation:
 
 Baseline established 2026-07-30: **0.000% matched**, 7,668 functions / 3,921,020 bytes tracked.
 Infrastructure (Ghidra pipeline, progress DB, verifier core) is operational.
+
+Update, later 2026-07-30: **6.816% (267,263 bytes)** — all `library`, from byte-matching
+the shipped binaries against the MSVC 4.2 CRT objects (`tools/libmatch/`, method and
+false-positive analysis in `docs/notes/2026-07-30-libmatch-and-salvage-validation.md`).
+`matching` is still 0; the hand-decompilation front has not started.
