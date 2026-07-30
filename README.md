@@ -1,4 +1,4 @@
-#decompilation of MicroProse *Magic: The Gathering* (1997)
+# Decompilation of MicroProse *Magic: The Gathering* (1997)
 
 A byte-accurate reverse engineering project targeting the MicroProse *Magic: The Gathering*
 PC game — the **Shandalar** campaign — together with the **ManaLink** multiplayer module.
