@@ -7,15 +7,26 @@ The goal is a **matching decompilation**: C source that, compiled with the perio
 toolchain, produces byte-identical output to the original 1998 binaries. Not a remake, not a
 port, not a reimplementation.
 
-**Status: infrastructure complete, 0.000% matched.** Baseline established 2026-07-30.
+**Status: infrastructure complete, 0.000% verified here — but 808 functions of reconstruction
+salvaged from an earlier attempt and awaiting re-verification.**
 
 | | |
 |---|---|
 | Modules in scope | 15 |
 | Functions | **7,668** |
 | Code bytes | **3,921,020** |
-| Matched | **0** (0.000%) |
+| Verified matching | **0** (0.000%) |
+| Reconstruction salvaged | **808 functions / 321,052 bytes**, of which **193 were previously measured byte-exact** |
 | Original compiler | Microsoft Visual C++ **4.2** (linker 4.20); MSVC 5.0 for `Gcconn.dll` |
+
+> **Blocked on one thing:** MSVC 4.2's `INCLUDE` headers are missing from this machine. The
+> compiler and linker binaries are present and verified working (`LINK.EXE` 4.20.6164 — the exact
+> linker that built the originals), but without the period headers nothing can be compiled, so
+> nothing can be verified. See [docs/04-plan.md](docs/04-plan.md) Phase 1.
+
+The 0.000% is deliberate. The salvaged scores were measured against a build we cannot currently
+reproduce, so they are recorded as `decompiled` with the prior measurement in notes, and get
+promoted to `matching` only when reccmp confirms them here.
 
 ## Start here
 
