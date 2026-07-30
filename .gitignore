@@ -14,3 +14,7 @@ __pycache__/
 *.pyc
 node_modules/
 .venv/
+
+# Salvaged C# oracle from the first attempt - kept for reference, not built here
+salvage/csharp-oracle/**/bin/
+salvage/csharp-oracle/**/obj/

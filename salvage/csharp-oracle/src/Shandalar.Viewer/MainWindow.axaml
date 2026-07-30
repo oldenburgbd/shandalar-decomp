@@ -1,0 +1,115 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Shandalar.Viewer.MainWindow"
+        Title="Shandalar Asset Viewer"
+        Width="1150" Height="780">
+  <DockPanel>
+    <Border x:Name="InstallBanner" DockPanel.Dock="Top" IsVisible="False"
+            Background="#7A2E2E" Padding="10">
+      <StackPanel Orientation="Horizontal" Spacing="8">
+        <TextBlock VerticalAlignment="Center" Foreground="White"
+                   Text="Game install not found (set SHANDALAR_GAME_DIR or enter the path):" />
+        <TextBox x:Name="InstallPathBox" MinWidth="380" />
+        <Button Content="Open" Click="OnOpenInstall" />
+        <TextBlock x:Name="InstallError" VerticalAlignment="Center" Foreground="#FFD0D0" />
+      </StackPanel>
+    </Border>
+
+    <TabControl x:Name="Tabs" Margin="4">
+
+      <TabItem Header="Cards">
+        <Grid ColumnDefinitions="290,*,320">
+          <DockPanel Grid.Column="0">
+            <TextBox x:Name="CardSearch" DockPanel.Dock="Top" PlaceholderText="Search 1,250 cards..."
+                     Margin="4" TextChanged="OnCardSearchChanged" />
+            <ListBox x:Name="CardList" SelectionChanged="OnCardSelected" />
+          </DockPanel>
+
+          <Viewbox Grid.Column="1" Stretch="Uniform" StretchDirection="Both" Margin="12"
+                   MaxWidth="570" MaxHeight="812">
+            <Grid Width="228" Height="325">
+              <Image x:Name="FaceImage" Width="228" Height="325"
+                     RenderOptions.BitmapInterpolationMode="None" />
+              <Canvas>
+                <!-- Name/type/artist/P&T use a bold serif and rules use a plain sans, matching
+                     the original's GDI text; colours are set per-frame in code-behind. -->
+                <TextBlock x:Name="FaceName" Canvas.Left="15" Canvas.Top="3"
+                           FontFamily="Times New Roman,Georgia,serif"
+                           FontSize="10.5" FontWeight="Bold" Foreground="Black" />
+                <TextBlock x:Name="FaceType" Canvas.Left="21" Canvas.Top="182"
+                           FontFamily="Times New Roman,Georgia,serif"
+                           FontSize="9.5" FontWeight="Bold" Foreground="Black" />
+                <StackPanel Canvas.Left="27" Canvas.Top="203" Width="174" Spacing="3">
+                  <TextBlock x:Name="FaceRules" FontFamily="Arial,Helvetica,sans-serif"
+                             FontSize="8" TextWrapping="Wrap" Foreground="Black" />
+                  <TextBlock x:Name="FaceFlavor" FontFamily="Arial,Helvetica,sans-serif"
+                             FontSize="7" FontStyle="Italic"
+                             TextWrapping="Wrap" Foreground="#222222" />
+                </StackPanel>
+                <TextBlock x:Name="FaceArtist" Canvas.Left="16" Canvas.Top="304"
+                           FontFamily="Times New Roman,Georgia,serif"
+                           FontSize="8.5" FontWeight="Bold" Foreground="Black" />
+                <TextBlock x:Name="FacePT" Canvas.Right="16" Canvas.Top="302"
+                           FontFamily="Times New Roman,Georgia,serif"
+                           FontSize="11" FontWeight="Bold" Foreground="Black" />
+              </Canvas>
+            </Grid>
+          </Viewbox>
+
+          <ScrollViewer Grid.Column="2">
+            <StackPanel Margin="10" Spacing="8">
+              <TextBlock x:Name="DetailTitle" FontSize="18" FontWeight="Bold" TextWrapping="Wrap" />
+              <TextBlock x:Name="DetailFacts" TextWrapping="Wrap" FontSize="13" />
+              <TextBlock x:Name="DetailRules" TextWrapping="Wrap" FontSize="13" />
+              <TextBlock x:Name="DetailFlavor" TextWrapping="Wrap" FontSize="13"
+                         FontStyle="Italic" Foreground="Gray" />
+            </StackPanel>
+          </ScrollViewer>
+        </Grid>
+      </TabItem>
+
+      <TabItem Header="Images (.pic)">
+        <Grid ColumnDefinitions="310,*">
+          <DockPanel Grid.Column="0">
+            <TextBox x:Name="PicSearch" DockPanel.Dock="Top" PlaceholderText="Filter..."
+                     Margin="4" TextChanged="OnPicSearchChanged" />
+            <ListBox x:Name="PicList" SelectionChanged="OnPicSelected" />
+          </DockPanel>
+          <DockPanel Grid.Column="1">
+            <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Spacing="10" Margin="8">
+              <TextBlock Text="Palette:" VerticalAlignment="Center" />
+              <ComboBox x:Name="PicPalette" MinWidth="240" SelectionChanged="OnPicSelected" />
+              <TextBlock x:Name="PicInfo" VerticalAlignment="Center" />
+            </StackPanel>
+            <ScrollViewer HorizontalScrollBarVisibility="Auto">
+              <Image x:Name="PicView" Stretch="None" RenderOptions.BitmapInterpolationMode="None"
+                     HorizontalAlignment="Left" VerticalAlignment="Top" Margin="8" />
+            </ScrollViewer>
+          </DockPanel>
+        </Grid>
+      </TabItem>
+
+      <TabItem Header="Sprites (.spr)">
+        <Grid ColumnDefinitions="310,*">
+          <DockPanel Grid.Column="0">
+            <TextBox x:Name="SprSearch" DockPanel.Dock="Top" PlaceholderText="Filter..."
+                     Margin="4" TextChanged="OnSprSearchChanged" />
+            <ListBox x:Name="SprList" SelectionChanged="OnSprSelected" />
+          </DockPanel>
+          <DockPanel Grid.Column="1">
+            <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Spacing="10" Margin="8">
+              <TextBlock Text="Palette:" VerticalAlignment="Center" />
+              <ComboBox x:Name="SprPalette" MinWidth="240" SelectionChanged="OnSprSelected" />
+              <TextBlock x:Name="SprInfo" VerticalAlignment="Center" />
+            </StackPanel>
+            <ScrollViewer HorizontalScrollBarVisibility="Auto">
+              <Image x:Name="SprView" Stretch="None" RenderOptions.BitmapInterpolationMode="None"
+                     HorizontalAlignment="Left" VerticalAlignment="Top" Margin="8" />
+            </ScrollViewer>
+          </DockPanel>
+        </Grid>
+      </TabItem>
+
+    </TabControl>
+  </DockPanel>
+</Window>

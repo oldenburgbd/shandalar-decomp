@@ -1,6 +1,6 @@
 # Decompilation Progress
 
-_Generated 2026-07-30T17:36:12+00:00_
+_Generated 2026-07-30T18:02:49+00:00_
 
 ## Overall: **0.000%** of code bytes matched
 
@@ -31,4 +31,16 @@ _Generated 2026-07-30T17:36:12+00:00_
 
 | Status | Functions | Bytes |
 |---|---:|---:|
-| unstarted | 7,668 | 3,921,020 |
+| unstarted | 6,860 | 3,593,952 |
+| identified | 26 | 6,016 |
+| decompiled | 782 | 321,052 |
+
+## By subsystem
+
+| Subsystem | Functions | Bytes | % matched |
+|---|---:|---:|---:|
+| (unassigned) | 6,860 | 3,593,952 | 0.00% |
+| game | 715 | 308,455 | 0.00% |
+| sidlib | 88 | 18,107 | 0.00% |
+| core | 4 | 392 | 0.00% |
+| deck | 1 | 114 | 0.00% |

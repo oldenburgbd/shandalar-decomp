@@ -1,0 +1,68 @@
+# Two targets, one source tree. sidlib is statically linked into five of the
+# shipped binaries, so the same reconstructed C is scored against two
+# independently-linked images of it. Where they agree the code is right; where
+# they disagree the difference is linker or layout noise rather than source.
+#
+# FACEMAKER is the better binary to ANALYSE sidlib in: 49 kB of .text against
+# Shandalar's 1.47 MB, more compiled-in assert anchors (lib.c line 1152,
+# text.c 219/221, Fileio.c 365 -- none of which Shandalar carries), and it
+# still ships its FPO table, which gives exact function boundaries plus
+# parameter and locals sizes and the saved-register count for 151 functions.
+#
+# Facemaker addresses were established by content matching, not by an address
+# delta. The delta looks like it works -- all seven of lib.c's assert anchors
+# line up at exactly 0x1728d0 -- and it is wrong, because the two images link
+# different subsets of each object file. See ghidra-work/scripts/xmatch.py.
+# Only unique, byte-exact matches are annotated here.
+targets:
+  SHANDALAR:
+    filename: Shandalar.exe
+    source_root: .
+    hash:
+      sha256: b5bb107fe3ad15e2e49db8938685bd823b5d5107e12089cf6e7a847595fed743
+    data_sources: []
+    encoding:
+    ghidra:
+      ignore_types: []
+      ignore_functions: []
+      name_substitutions: []
+      allow_hash_mismatch: false
+    report:
+      ignore_functions: []
+      ignore_variables: []
+      icon:
+    marker_aliases: {}
+  DECK:
+    filename: Deck.exe
+    source_root: .
+    hash:
+      sha256: 4c33775a7f6c091616bdb8ddf7a0bebfb972c0a9bfc2faddd8f2c9c82ec804b0
+    data_sources: []
+    encoding:
+    ghidra:
+      ignore_types: []
+      ignore_functions: []
+      name_substitutions: []
+      allow_hash_mismatch: false
+    report:
+      ignore_functions: ['__DllMainCRTStartup@12']   # our CRT entry, not Deck's
+      ignore_variables: []
+      icon:
+    marker_aliases: {}
+  FACEMAKER:
+    filename: Facemaker.exe
+    source_root: .
+    hash:
+      sha256: c8d15f006bb9bffe4dedf543dcc7fefe82f2eb651e1a1c165186a5c133bc3841
+    data_sources: []
+    encoding:
+    ghidra:
+      ignore_types: []
+      ignore_functions: []
+      name_substitutions: []
+      allow_hash_mismatch: false
+    report:
+      ignore_functions: []
+      ignore_variables: []
+      icon:
+    marker_aliases: {}

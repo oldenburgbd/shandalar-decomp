@@ -1,0 +1,6 @@
+ID,Card Name,Type Description,Artist Name,Rule Text,Quote
+0000,Test Elemental ,Summon Elemental,A. Painter,Flying,"A synthetic fixture card, with a comma and ""quoted"" words in its flavor text."
+0001,Plain Instant,Instant,B. Painter,Target player draws 3 cards.,
+0002,Fixture Effect,Instant Effect,C. Painter,None
+0003,Truncated Wonder,Enchantment,D. Painter,"This rule text is cut off mid-sentence with no closing quo
+0004,After Truncation,Instant,E. Painter,This card must still load.,
