@@ -1,0 +1,1026 @@
+﻿reccmp-reccmp.exe : Assuming target name is "SHANDALAR"
+At line:1 char:415
++ ... xe"; $out = & $rec --paths "C:\Users\bo1026\Desktop\RE Project\mtg-re ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Assuming target name is "SHANDALAR":String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[INFO] Parsing C:\mtgbuild\build\shandalar_decomp.pdb ...
+[ERROR] Dropped duplicate address 0x5a1690 on STRING annotation in file: C:\mtgbuild\src\sidlib\lib.c
+[ERROR] Dropped duplicate address 0x5a17a4 on STRING annotation in file: C:\mtgbuild\src\sidlib\sprite.c
+[ERROR] Dropped duplicate address 0x5a17a4 on STRING annotation in file: C:\mtgbuild\src\sidlib\sprite.c
+[ERROR] Dropped duplicate address 0x5a17f4 on STRING annotation in file: C:\mtgbuild\src\sidlib\sprite.c
+[ERROR] Dropped duplicate address 0x5a17a4 on STRING annotation in file: C:\mtgbuild\src\sidlib\text.c
+[ERROR] Dropped duplicate address 0x97f1c0 on GLOBAL annotation in file: C:\mtgbuild\src\stubs.c
+[ERROR] Dropped duplicate address 0x40f77c on STUB annotation in file: C:\mtgbuild\src\stubs.c
+[ERROR] Dropped duplicate address 0x4ba5a1 on STUB annotation in file: C:\mtgbuild\src\stubs.c
+[ERROR] Dropped duplicate address 0x56ae5d on STUB annotation in file: C:\mtgbuild\src\stubs.c
+[ERROR] Dropped duplicate address 0x46dbed on STUB annotation in file: C:\mtgbuild\src\stubs.c
+[ERROR] Dropped duplicate address 0x5a1814 on GLOBAL annotation in file: C:\mtgbuild\src\stubs.c
+[ERROR] Dropped duplicate address 0x748428 on GLOBAL annotation in file: C:\mtgbuild\src\stubs.c
+[ERROR] Dropped duplicate address 0x982540 on GLOBAL annotation in file: C:\mtgbuild\src\stubs.c
+[ERROR] Dropped duplicate address 0x578c40 on STUB annotation in file: C:\mtgbuild\src\stubs.c
+[ERROR] Dropped duplicate address 0x578c60 on STUB annotation in file: C:\mtgbuild\src\stubs.c
+[ERROR] Dropped duplicate address 0x579240 on STUB annotation in file: C:\mtgbuild\src\stubs.c
+[ERROR] Dropped duplicate address 0x5795f0 on STUB annotation in file: C:\mtgbuild\src\stubs.c
+[ERROR] Dropped duplicate address 0x5796c0 on STUB annotation in file: C:\mtgbuild\src\stubs.c
+[ERROR] Dropped duplicate address 0x579760 on STUB annotation in file: C:\mtgbuild\src\stubs.c
+[ERROR] Dropped duplicate address 0x5797e0 on STUB annotation in file: C:\mtgbuild\src\stubs.c
+[ERROR] Dropped duplicate address 0x579890 on STUB annotation in file: C:\mtgbuild\src\stubs.c
+[ERROR] Dropped duplicate address 0x579bf0 on STUB annotation in file: C:\mtgbuild\src\stubs.c
+[ERROR] Dropped duplicate address 0x579e40 on STUB annotation in file: C:\mtgbuild\src\stubs.c
+[ERROR] Dropped duplicate address 0x57a060 on STUB annotation in file: C:\mtgbuild\src\stubs.c
+[ERROR] Dropped duplicate address 0x57bfa0 on STUB annotation in file: C:\mtgbuild\src\stubs.c
+[ERROR] Dropped duplicate address 0x57c580 on STUB annotation in file: C:\mtgbuild\src\stubs.c
+[ERROR] Dropped duplicate address 0x57c7e0 on STUB annotation in file: C:\mtgbuild\src\stubs.c
+[ERROR] Dropped duplicate address 0x57c820 on STUB annotation in file: C:\mtgbuild\src\stubs.c
+[ERROR] Dropped duplicate address 0x578c70 on STUB annotation in file: C:\mtgbuild\src\stubs.c
+[ERROR] Dropped duplicate address 0x57b650 on STUB annotation in file: C:\mtgbuild\src\stubs.c
+[ERROR] Dropped duplicate address 0x57b670 on STUB annotation in file: C:\mtgbuild\src\stubs.c
+[ERROR] Dropped duplicate address 0x57c800 on STUB annotation in file: C:\mtgbuild\src\stubs.c
+[ERROR] Dropped duplicate address 0x57c840 on STUB annotation in file: C:\mtgbuild\src\stubs.c
+
+  Game_CardScript401000 (0x401000) is 100.00% similar to the original
+  Game_CardScript401611 (0x401611) is 100.00% similar to the original
+  Game_CardScript402ad0 (0x402ad0) is 100.00% similar to the original
+  Game_Helper403eeb (0x403eeb) is 100.00% similar to the original
+  Game_Fn404677 (0x404677) is 100.00% similar to the original
+  Game_ResetState (0x409680) is 100.00% similar to the original
+  Game_Helper409a0b (0x409a0b) is a stub.
+  Game_Helper409ee8 (0x409ee8) is a stub.
+  Game_Helper40a4b8 (0x40a4b8) is 100.00% similar to the original
+  Game_Fn40a561 (0x40a561) is 100.00% similar to the original
+  Game_Helper40a62b (0x40a62b) is a stub.
+  Game_Helper40b26d (0x40b26d) is a stub.
+  Game_Helper40c4e1 (0x40c4e1) is 97.92% similar to the original
+  Game_Helper40cadc (0x40cadc) is a stub.
+  Game_Helper40cd94 (0x40cd94) is 100.00% similar to the original
+  Game_Helper40d0cb (0x40d0cb) is a stub.
+  Game_Helper40d146 (0x40d146) is a stub.
+  Game_Helper40d414 (0x40d414) is 98.74% similar to the original
+  Game_Fn40d572 (0x40d572) is 89.58% similar to the original
+  Game_Helper40d7b2 (0x40d7b2) is a stub.
+  Game_Helper40dffd (0x40dffd) is 100.00% similar to the original
+  Game_Helper40e158 (0x40e158) is 96.20% similar to the original
+  Game_Helper40e1f5 (0x40e1f5) is a stub.
+  Game_Helper40e3dc (0x40e3dc) is a stub.
+  Game_Helper40e646 (0x40e646) is a stub.
+  Game_Helper40e6fc (0x40e6fc) is a stub.
+  Game_Fn40eb87 (0x40eb87) is 84.44% similar to the original
+  Game_Helper40ebb9 (0x40ebb9) is a stub.
+  Game_Fn40f0f6 (0x40f0f6) is 81.48% similar to the original
+  Game_Fn40f132 (0x40f132) is 100.00% similar to the original
+  Game_LogEvent (0x40f77c) is 64.30% similar to the original
+  Game_Helper41040d (0x41040d) is 61.16% similar to the original
+  Game_Fn4105b7 (0x4105b7) is 93.33% similar to the original
+  Game_Helper4105e0 (0x4105e0) is a stub.
+  Game_Helper410efc (0x410efc) is 100.00% similar to the original
+  Game_Helper410f46 (0x410f46) is a stub.
+  Game_Fn41116d (0x41116d) is 100.00% similar to the original
+  Game_Helper4111b1 (0x4111b1) is a stub.
+  Game_Helper411d90 (0x411d90) is 98.00% similar to the original
+  Game_Fn412b80 (0x412b80) is 100.00% similar to the original
+  Game_Fn412bae (0x412bae) is 100.00% similar to the original
+  Game_Fn412bff (0x412bff) is 100.00% similar to the original
+  Game_Helper412c37 (0x412c37) is a stub.
+  Game_Fn413796 (0x413796) is 87.22% similar to the original
+  Game_Fn413829 (0x413829) is 97.81% similar to the original
+  Game_Helper4143e0 (0x4143e0) is a stub.
+  Game_Fn4170f8 (0x4170f8) is 86.21% similar to the original
+  Game_Fn41716b (0x41716b) is 82.61% similar to the original
+  Game_Fn4171b7 (0x4171b7) is 73.33% similar to the original
+  Game_Fn4171eb (0x4171eb) is 90.91% similar to the original
+  Game_Helper417301 (0x417301) is 65.65% similar to the original
+  Game_Helper417dc6 (0x417dc6) is a stub.
+  Game_Fn418a2d (0x418a2d) is 100.00% similar to the original
+  Game_Helper419d01 (0x419d01) is 97.44% similar to the original
+  Game_Helper419dc4 (0x419dc4) is a stub.
+  Game_Helper419e85 (0x419e85) is 74.88% similar to the original
+  Game_CardScript419fc9 (0x419fc9) is 95.90% similar to the original
+  Game_Helper41a252 (0x41a252) is a stub.
+  Game_Helper41a64f (0x41a64f) is 60.24% similar to the original
+  Game_CardScript41a76b (0x41a76b) is 100.00% similar to the original
+  Game_Fn41d169 (0x41d169) is 93.75% similar to the original
+  Game_Fn41d1ef (0x41d1ef) is 71.43% similar to the original
+  Game_Fn41d21d (0x41d21d) is 71.43% similar to the original
+  Game_Fn424c13 (0x424c13) is 88.52% similar to the original
+  Game_Helper4261ae (0x4261ae) is a stub.
+  Game_Fn426ddf (0x426ddf) is 75.00% similar to the original
+  Game_Fn426efc (0x426efc) is 100.00% similar to the original
+  Game_Fn42804f (0x42804f) is 82.05% similar to the original
+  Game_Helper42811a (0x42811a) is a stub.
+  Game_Helper428615 (0x428615) is a stub.
+  Game_Fn4288f1 (0x4288f1) is 77.55% similar to the original
+  Game_Fn4289b1 (0x4289b1) is 100.00% similar to the original
+  Game_Fn4290e2 (0x4290e2) is 77.42% similar to the original
+  Game_CardScript429ee0 (0x429ee0) is 97.56% similar to the original
+  Game_CardScript429f06 (0x429f06) is 97.56% similar to the original
+  Game_CardScript429f2c (0x429f2c) is 97.56% similar to the original
+  Game_CardScript429f52 (0x429f52) is 97.56% similar to the original
+  Game_CardScript429f78 (0x429f78) is 97.56% similar to the original
+  Game_CardScript429f9e (0x429f9e) is 51.92% similar to the original
+  Game_CardScript42d548 (0x42d548) is 51.18% similar to the original
+  Game_Helper42d790 (0x42d790) is 55.17% similar to the original
+  Game_Fn42e1e2 (0x42e1e2) is 83.33% similar to the original
+  Game_Fn42fde0 (0x42fde0) is 100.00% similar to the original
+  Game_Helper42fe00 (0x42fe00) is a stub.
+  Game_Fn42ffd0 (0x42ffd0) is 84.00% similar to the original
+  Game_Fn430994 (0x430994) is 99.26% similar to the original
+  Game_Fn430a96 (0x430a96) is 69.23% similar to the original
+  Game_Fn430e00 (0x430e00) is 86.79% similar to the original
+  Game_Helper430ef4 (0x430ef4) is a stub.
+  Game_Fn430f2f (0x430f2f) is 98.36% similar to the original
+  Game_Fn430f69 (0x430f69) is 86.15% similar to the original
+  Game_Fn430fb5 (0x430fb5) is 92.31% similar to the original
+  Game_Fn431002 (0x431002) is 92.31% similar to the original
+  Game_Helper43104f (0x43104f) is a stub.
+  Game_Fn4310a4 (0x4310a4) is 98.46% similar to the original
+  Game_Helper4310e8 (0x4310e8) is a stub.
+  Game_Fn431148 (0x431148) is 81.90% similar to the original
+  Game_Fn4311d2 (0x4311d2) is 85.71% similar to the original
+  Game_Fn43125f (0x43125f) is 85.71% similar to the original
+  Game_Fn4312ea (0x4312ea) is 86.42% similar to the original
+  Game_Fn431351 (0x431351) is 84.54% similar to the original
+  Game_Fn4313cf (0x4313cf) is 86.42% similar to the original
+  Game_Fn431436 (0x431436) is 94.74% similar to the original
+  Game_Fn43146b (0x43146b) is 96.67% similar to the original
+  Game_Fn4314ca (0x4314ca) is 96.77% similar to the original
+  Game_Fn431526 (0x431526) is 81.01% similar to the original
+  Game_Fn431593 (0x431593) is 81.93% similar to the original
+  Game_Fn431604 (0x431604) is 96.88% similar to the original
+  Game_Fn431663 (0x431663) is 81.93% similar to the original
+  Game_Fn4316d6 (0x4316d6) is 82.76% similar to the original
+  Game_Fn43174d (0x43174d) is 90.16% similar to the original
+  Game_Fn431859 (0x431859) is 97.37% similar to the original
+  Game_Fn4318c7 (0x4318c7) is 100.00% similar to the original
+  Game_CardScript432260 (0x432260) is 71.82% similar to the original
+  Game_Callback4323cc (0x4323cc) is a stub.
+  Game_CardScript432455 (0x432455) is 77.65% similar to the original
+  Game_CardScript432575 (0x432575) is 99.38% similar to the original
+  Game_CardScript432798 (0x432798) is 93.90% similar to the original
+  Game_CardScript432b51 (0x432b51) is 65.98% similar to the original
+  Game_CardScript433233 (0x433233) is 60.40% similar to the original
+  Game_Fn433527 (0x433527) is 100.00% similar to the original
+  Game_CardScript433ca1 (0x433ca1) is 95.08% similar to the original
+  Game_CardScript433d6f (0x433d6f) is 99.57% similar to the original
+  Game_CardScript434051 (0x434051) is 71.52% similar to the original
+  Game_CardScript434189 (0x434189) is 100.00% similar to the original
+  Game_CardScript434213 (0x434213) is 84.93% similar to the original
+  Game_CardScript434305 (0x434305) is 97.86% similar to the original
+  Game_CardScript43469a (0x43469a) is 82.85% similar to the original
+  Game_CardScript434a1e (0x434a1e) is 56.77% similar to the original
+  Game_CardScript434c40 (0x434c40) is 99.72% similar to the original
+  Game_CardScript4350e4 (0x4350e4) is 97.78% similar to the original
+  Game_CardScript435590 (0x435590) is 53.82% similar to the original
+  Game_CardScript435c34 (0x435c34) is 61.69% similar to the original
+  Game_CardScript435f5f (0x435f5f) is 98.68% similar to the original
+  Game_CardScript436525 (0x436525) is 48.04% similar to the original
+  Game_CardScript436655 (0x436655) is 99.67% similar to the original
+  Game_CardScript4369d5 (0x4369d5) is 91.03% similar to the original
+  Game_Fn436ad2 (0x436ad2) is 100.00% similar to the original
+  Game_CardScript4372e0 (0x4372e0) is 51.39% similar to the original
+  Game_CardScript437637 (0x437637) is 95.20% similar to the original
+  Game_CardScript4382fd (0x4382fd) is 83.61% similar to the original
+  Game_CardScript4392a0 (0x4392a0) is 99.68% similar to the original
+  Game_CardScript439655 (0x439655) is 98.62% similar to the original
+  Game_CardScript439b5c (0x439b5c) is 94.51% similar to the original
+  Game_CardScript43a19e (0x43a19e) is 30.66% similar to the original
+  Game_CardScript43a9c9 (0x43a9c9) is 43.02% similar to the original
+  Game_CardScript43b476 (0x43b476) is 89.23% similar to the original
+  Game_CardScript43c5b6 (0x43c5b6) is 65.19% similar to the original
+  Game_CardScript43c72a (0x43c72a) is 60.77% similar to the original
+  Game_CardScript43c89c (0x43c89c) is 64.09% similar to the original
+  Game_CardScript43ca02 (0x43ca02) is 100.00% similar to the original
+  Game_CardScript43d2cc (0x43d2cc) is 72.37% similar to the original
+  Game_CardScript43d3be (0x43d3be) is 66.23% similar to the original
+  Game_CardScript43d4e3 (0x43d4e3) is 100.00% similar to the original
+  Game_CardScript43d553 (0x43d553) is 93.51% similar to the original
+  Game_CardScript43d798 (0x43d798) is 99.58% similar to the original
+  Game_CardScript43da66 (0x43da66) is 99.51% similar to the original
+  Game_CardScript43ddff (0x43ddff) is 99.53% similar to the original
+  Game_CardScript43e1c6 (0x43e1c6) is 82.30% similar to the original
+  Game_CardScript43e33a (0x43e33a) is 63.71% similar to the original
+  Game_CardScript43e500 (0x43e500) is 72.51% similar to the original
+  Game_CardScript43e64b (0x43e64b) is 78.26% similar to the original
+  Game_CardScript43e76e (0x43e76e) is 65.16% similar to the original
+  Game_CardScript43ec68 (0x43ec68) is 63.57% similar to the original
+  Game_CardScript43f348 (0x43f348) is 100.00% similar to the original
+  Game_CardScript43f46e (0x43f46e) is 81.82% similar to the original
+  Game_CardScript43f890 (0x43f890) is 58.48% similar to the original
+  Game_CardScript43f9d9 (0x43f9d9) is 96.00% similar to the original
+  Game_CardScript43fefe (0x43fefe) is 83.14% similar to the original
+  Game_CardScript440388 (0x440388) is 77.45% similar to the original
+  Game_CardScript440704 (0x440704) is 100.00% similar to the original
+  Game_CardScript4407b3 (0x4407b3) is 100.00% similar to the original
+  Game_Callback440b07 (0x440b07) is a stub.
+  Game_Helper440b8a (0x440b8a) is 54.62% similar to the original
+  Game_Helper440d44 (0x440d44) is a stub.
+  Game_Fn441260 (0x441260) is 100.00% similar to the original
+  Game_Fn4412a2 (0x4412a2) is 70.97% similar to the original
+  Game_Helper4412ec (0x4412ec) is a stub.
+  Game_Helper44147b (0x44147b) is a stub.
+  Game_Helper441539 (0x441539) is 66.67% similar to the original
+  Game_Helper44157b (0x44157b) is 70.97% similar to the original
+  Game_Helper4415c5 (0x4415c5) is 100.00% similar to the original
+  Game_Fn441607 (0x441607) is 70.97% similar to the original
+  Game_Helper441651 (0x441651) is 100.00% similar to the original
+  Game_Helper441699 (0x441699) is a stub.
+  Game_Helper4419ca (0x4419ca) is 62.99% similar to the original
+  Game_Fn441b70 (0x441b70) is 93.02% similar to the original
+  Game_Helper442f6a (0x442f6a) is a stub.
+  Game_Helper4431d8 (0x4431d8) is a stub.
+  Game_Fn4432e0 (0x4432e0) is 100.00% similar to the original
+  Game_Helper4432ff (0x4432ff) is a stub.
+  Game_Fn446a57 (0x446a57) is 87.27% similar to the original
+  Game_CardScript44710d (0x44710d) is 89.54% similar to the original
+  Game_CardScript4476d4 (0x4476d4) is 100.00% similar to the original
+  Game_CardScript447de6 (0x447de6) is 72.22% similar to the original
+  Game_CardScript447f4b (0x447f4b) is 93.71% similar to the original
+  Game_Helper44818c (0x44818c) is 96.55% similar to the original
+  Game_CardScript4481e7 (0x4481e7) is 82.14% similar to the original
+  Game_CardScript448662 (0x448662) is 92.93% similar to the original
+  Game_CardScript448939 (0x448939) is 100.00% similar to the original
+  Game_CardScript449791 (0x449791) is 100.00% similar to the original
+  Game_CardScript449888 (0x449888) is 89.01% similar to the original
+  Game_CardScript449f2c (0x449f2c) is 95.73% similar to the original
+  Game_Helper44a96c (0x44a96c) is 97.30% similar to the original
+  Game_Helper44aa1f (0x44aa1f) is a stub.
+  Game_CardScript44bde2 (0x44bde2) is 68.34% similar to the original
+  Game_CardScript44e84e (0x44e84e) is 100.00% similar to the original
+  Game_CardScript44e945 (0x44e945) is 100.00% similar to the original
+  Game_CardScript44f1ac (0x44f1ac) is 89.10% similar to the original
+  Game_CardScript44fd8c (0x44fd8c) is 90.17% similar to the original
+  Game_Callback44ffd0 (0x44ffd0) is a stub.
+  Game_Helper450110 (0x450110) is a stub.
+  Game_Helper450813 (0x450813) is a stub.
+  Game_Fn450836 (0x450836) is 50.00% similar to the original
+  Game_Helper450925 (0x450925) is a stub.
+  Game_Fn4509ae (0x4509ae) is 95.65% similar to the original
+  Game_Fn4509be (0x4509be) is 76.92% similar to the original
+  Game_Fn451ab2 (0x451ab2) is 71.70% similar to the original
+  Game_Fn451b3e (0x451b3e) is 95.65% similar to the original
+  Game_Fn451b4e (0x451b4e) is 91.67% similar to the original
+  Game_Helper451c24 (0x451c24) is a stub.
+  Game_Fn451f3b (0x451f3b) is 100.00% similar to the original
+  Game_Helper452355 (0x452355) is a stub.
+  Sid_LookupWindowId (0x4523d4) is a stub.
+  Game_Fn452973 (0x452973) is 86.11% similar to the original
+  Game_Helper452ad9 (0x452ad9) is a stub.
+  Game_Fn452e85 (0x452e85) is 100.00% similar to the original
+  Game_Fn452efb (0x452efb) is 100.00% similar to the original
+  Game_Fn453740 (0x453740) is 100.00% similar to the original
+  Game_Helper453b6c (0x453b6c) is a stub.
+  Game_Helper453f42 (0x453f42) is a stub.
+  Game_Fn454311 (0x454311) is 90.57% similar to the original
+  Game_CardScript4547d0 (0x4547d0) is 77.47% similar to the original
+  Game_CardScript455247 (0x455247) is 92.18% similar to the original
+  Game_CardScript455b59 (0x455b59) is 90.91% similar to the original
+  Game_CardScript456897 (0x456897) is 60.62% similar to the original
+  Game_CardScript456cd1 (0x456cd1) is 97.30% similar to the original
+  Game_CardScript45782f (0x45782f) is 94.94% similar to the original
+  Game_CardScript457f9e (0x457f9e) is 91.80% similar to the original
+  Game_CardScript4584e4 (0x4584e4) is 65.61% similar to the original
+  Game_CardScript45862c (0x45862c) is 99.74% similar to the original
+  Game_CardScript459be7 (0x459be7) is 96.76% similar to the original
+  Game_CardScript459f70 (0x459f70) is 93.87% similar to the original
+  Game_CardScript45a8d4 (0x45a8d4) is 100.00% similar to the original
+  Game_CardScript45a98b (0x45a98b) is 97.89% similar to the original
+  Game_CardScript45bf15 (0x45bf15) is 80.65% similar to the original
+  Game_CardScript45c62c (0x45c62c) is 100.00%* similar to the original
+  Game_Helper45cba4 (0x45cba4) is a stub.
+  Game_Fn4615b1 (0x4615b1) is 100.00% similar to the original
+  Game_Helper46297d (0x46297d) is a stub.
+  Game_Fn4629be (0x4629be) is 74.91% similar to the original
+  Game_Helper46488b (0x46488b) is a stub.
+  Game_Helper464c8a (0x464c8a) is a stub.
+  Game_Helper46537b (0x46537b) is a stub.
+  Game_Helper465764 (0x465764) is a stub.
+  Game_Fn465dac (0x465dac) is 70.59% similar to the original
+  Game_Fn466049 (0x466049) is 98.11% similar to the original
+  Game_Fn466078 (0x466078) is 98.11% similar to the original
+  Game_Fn4660a7 (0x4660a7) is 98.11% similar to the original
+  Game_Helper4660d6 (0x4660d6) is a stub.
+  Game_Fn466d01 (0x466d01) is 35.71% similar to the original
+  Game_CombineMask (0x466f70) is a stub.
+  Game_Predicate466fe6 (0x466fe6) is 100.00% similar to the original
+  Game_Fn467f35 (0x467f35) is 100.00% similar to the original
+  Game_Helper468365 (0x468365) is a stub.
+  Game_Fn4683e4 (0x4683e4) is 100.00% similar to the original
+  Game_Helper468498 (0x468498) is a stub.
+  Game_Helper46933c (0x46933c) is a stub.
+  Sid_Assert (0x46a520) is a stub.
+  Game_Helper46a674 (0x46a674) is a stub.
+  Game_Predicate46c6cf (0x46c6cf) is 93.60% similar to the original
+  Game_Helper46d8c1 (0x46d8c1) is 45.24% similar to the original
+  Game_Helper46db2e (0x46db2e) is 100.00% similar to the original
+  Game_Callback46dbed (0x46dbed) is a stub.
+  Game_Helper46e159 (0x46e159) is a stub.
+  Game_Helper46e4d0 (0x46e4d0) is 70.51% similar to the original
+  Game_Fn46e64b (0x46e64b) is 88.17% similar to the original
+  Game_Fn46ec92 (0x46ec92) is 100.00% similar to the original
+  Game_Fn46eca4 (0x46eca4) is 83.02% similar to the original
+  Game_Fn46ed03 (0x46ed03) is 74.29% similar to the original
+  Game_Helper46ed33 (0x46ed33) is a stub.
+  Game_Fn46ed63 (0x46ed63) is 56.41% similar to the original
+  Game_Fn46ed9c (0x46ed9c) is 89.66% similar to the original
+  Game_Fn46edb3 (0x46edb3) is 100.00% similar to the original
+  Game_Fn46edc5 (0x46edc5) is 86.27% similar to the original
+  Game_Helper46ef07 (0x46ef07) is a stub.
+  Game_CardScript470b00 (0x470b00) is 30.25% similar to the original
+  Game_CardScript472d56 (0x472d56) is 87.76% similar to the original
+  Game_CardScript472df4 (0x472df4) is 100.00% similar to the original
+  Game_CardScript472f6b (0x472f6b) is 98.28% similar to the original
+  Game_CardScript47360e (0x47360e) is 94.03% similar to the original
+  Game_CardScript473a91 (0x473a91) is 90.08% similar to the original
+  Game_CardScript47444f (0x47444f) is 77.03% similar to the original
+  Game_Helper474721 (0x474721) is a stub.
+  Game_CardScript474f5d (0x474f5d) is 100.00% similar to the original
+  Game_CardScript475328 (0x475328) is 99.66% similar to the original
+  Game_CardScript475df0 (0x475df0) is 79.83% similar to the original
+  Game_Helper476297 (0x476297) is a stub.
+  Game_CardScript4764bc (0x4764bc) is 71.96% similar to the original
+  Game_CardScript4765fe (0x4765fe) is 72.97% similar to the original
+  Game_CardScript4768e5 (0x4768e5) is 60.00% similar to the original
+  Game_CardScript476ddc (0x476ddc) is 28.64% similar to the original
+  Game_CardScript4775a8 (0x4775a8) is 80.72% similar to the original
+  Game_Callback477b57 (0x477b57) is a stub.
+  Game_Fn4789d3 (0x4789d3) is 100.00% similar to the original
+  Game_CardScript478a33 (0x478a33) is 100.00% similar to the original
+  Game_CardScript478b53 (0x478b53) is 94.23% similar to the original
+  Game_CardScript478cc1 (0x478cc1) is 69.36% similar to the original
+  Game_CardScript47903d (0x47903d) is 100.00% similar to the original
+  Game_CardScript4790b4 (0x4790b4) is 67.53% similar to the original
+  Game_CardScript4792c1 (0x4792c1) is 83.87% similar to the original
+  Game_CardScript47c106 (0x47c106) is 99.63% similar to the original
+  Game_CardScript47cfdc (0x47cfdc) is 89.23% similar to the original
+  Game_CardScript47d0aa (0x47d0aa) is 77.89% similar to the original
+  Game_CardScript47d1d2 (0x47d1d2) is 97.78% similar to the original
+  Game_CardScript47d2b6 (0x47d2b6) is 97.01% similar to the original
+  Game_CardScript47d770 (0x47d770) is 84.25% similar to the original
+  Game_CardScript47dd1e (0x47dd1e) is 97.65% similar to the original
+  Game_CardScript47ffee (0x47ffee) is 88.76% similar to the original
+  Game_Callback480238 (0x480238) is a stub.
+  Game_Callback4803cc (0x4803cc) is a stub.
+  Game_Callback48044a (0x48044a) is a stub.
+  Game_CardScript4808e9 (0x4808e9) is 89.69% similar to the original
+  Game_Callback480f45 (0x480f45) is a stub.
+  Game_CardScript480feb (0x480feb) is 43.94% similar to the original
+  Game_CardScript4829d8 (0x4829d8) is 98.48% similar to the original
+  Game_CardScript483690 (0x483690) is 92.44% similar to the original
+  Game_CardScript483817 (0x483817) is 32.47% similar to the original
+  Game_CardScript484044 (0x484044) is 100.00% similar to the original
+  Game_CardScript48416b (0x48416b) is 53.48% similar to the original
+  Game_CardScript484619 (0x484619) is 95.47% similar to the original
+  Game_CardScript48486e (0x48486e) is 89.57% similar to the original
+  Game_CardScript484b5d (0x484b5d) is 100.00% similar to the original
+  Game_CardScript484d55 (0x484d55) is 79.75% similar to the original
+  Game_CardScript485094 (0x485094) is 95.17% similar to the original
+  Game_Helper485185 (0x485185) is 100.00% similar to the original
+  Game_Fn485297 (0x485297) is 100.00% similar to the original
+  Game_Helper485308 (0x485308) is 92.93% similar to the original
+  Game_Callback48592f (0x48592f) is a stub.
+  Game_Helper485eb8 (0x485eb8) is a stub.
+  Game_Helper4869b0 (0x4869b0) is 100.00% similar to the original
+  Game_Fn487077 (0x487077) is 84.62% similar to the original
+  Game_CardScript4875d7 (0x4875d7) is 71.82% similar to the original
+  Game_Helper487ce0 (0x487ce0) is a stub.
+  Game_Helper48808b (0x48808b) is 63.89% similar to the original
+  Game_Helper488147 (0x488147) is 83.70% similar to the original
+  Game_Helper4882b5 (0x4882b5) is 97.71% similar to the original
+  Game_Helper4883aa (0x4883aa) is 100.00% similar to the original
+  Game_Helper488474 (0x488474) is 100.00% similar to the original
+  Game_Helper4884c1 (0x4884c1) is a stub.
+  Game_Helper4885e4 (0x4885e4) is 100.00% similar to the original
+  Game_Helper488638 (0x488638) is a stub.
+  Game_Helper488789 (0x488789) is a stub.
+  Game_Callback48889d (0x48889d) is a stub.
+  Game_Helper488b70 (0x488b70) is a stub.
+  Game_CardScript488ca0 (0x488ca0) is 100.00% similar to the original
+  Game_CardScript488cb2 (0x488cb2) is 100.00% similar to the original
+  Game_Helper488cc4 (0x488cc4) is 94.95% similar to the original
+  Game_CardScript488e68 (0x488e68) is 95.96% similar to the original
+  Game_CardScript48a4aa (0x48a4aa) is 83.97% similar to the original
+  Game_CardScript48b2c1 (0x48b2c1) is 100.00% similar to the original
+  Game_CardScript48b5a9 (0x48b5a9) is 100.00% similar to the original
+  Game_CardScript48b610 (0x48b610) is 80.65% similar to the original
+  Game_CardScript48b673 (0x48b673) is 92.00% similar to the original
+  Game_CardScript48b71c (0x48b71c) is 96.48% similar to the original
+  Game_CardScript48b9cb (0x48b9cb) is 63.27% similar to the original
+  Game_CardScript48bc78 (0x48bc78) is 96.43% similar to the original
+  Game_CardScript48bf26 (0x48bf26) is 62.33% similar to the original
+  Game_Helper48c204 (0x48c204) is 46.00% similar to the original
+  Game_CardScript48c465 (0x48c465) is 100.00% similar to the original
+  Game_CardScript48d477 (0x48d477) is 96.70% similar to the original
+  Game_CardScript48d76b (0x48d76b) is 94.81% similar to the original
+  Game_CardScript48e066 (0x48e066) is 40.13% similar to the original
+  Game_CardScript48f64a (0x48f64a) is 71.49% similar to the original
+  Game_CardScript48f983 (0x48f983) is 100.00% similar to the original
+  Game_CardScript48faf7 (0x48faf7) is 99.56% similar to the original
+  Game_CardScript4906e7 (0x4906e7) is 75.41% similar to the original
+  Game_CardScript490853 (0x490853) is 100.00% similar to the original
+  Game_CardScript490963 (0x490963) is 94.92% similar to the original
+  Game_Helper4909b0 (0x4909b0) is 60.20% similar to the original
+  Game_Helper490c6d (0x490c6d) is 100.00% similar to the original
+  Game_CardScript493829 (0x493829) is 95.72% similar to the original
+  Game_CardScript493e75 (0x493e75) is 70.62% similar to the original
+  Game_CardScript494312 (0x494312) is 70.17% similar to the original
+  Game_CardScript494f82 (0x494f82) is 100.00% similar to the original
+  Game_CardScript495851 (0x495851) is 65.25% similar to the original
+  Game_CardScript495df9 (0x495df9) is 97.36% similar to the original
+  Game_CardScript4961df (0x4961df) is 87.60% similar to the original
+  Game_CardScript496e1d (0x496e1d) is 94.38% similar to the original
+  Game_CardScript497258 (0x497258) is 95.28% similar to the original
+  Game_CardScript49744a (0x49744a) is 60.61% similar to the original
+  Game_CardScript4974ab (0x4974ab) is 100.00% similar to the original
+  Game_CardScript4974fb (0x4974fb) is 100.00% similar to the original
+  Game_Callback4975e2 (0x4975e2) is a stub.
+  Game_CardScript497640 (0x497640) is 94.92% similar to the original
+  Game_CardScript49768d (0x49768d) is 100.00% similar to the original
+  Game_CardScript497760 (0x497760) is 64.44% similar to the original
+  Game_CardScript497ec5 (0x497ec5) is 83.05% similar to the original
+  Game_Helper498365 (0x498365) is a stub.
+  Game_CardScript4985d4 (0x4985d4) is 99.25% similar to the original
+  Game_CardScript498786 (0x498786) is 97.21% similar to the original
+  Game_CardScript498baa (0x498baa) is 58.71% similar to the original
+  Game_Helper498e8a (0x498e8a) is a stub.
+  Game_Helper49914d (0x49914d) is 58.30% similar to the original
+  Game_CardScript4993ea (0x4993ea) is 99.26% similar to the original
+  Game_CardScript49959d (0x49959d) is 100.00% similar to the original
+  Game_CardScript49963e (0x49963e) is 58.33% similar to the original
+  Game_CardScript499ae9 (0x499ae9) is 100.00% similar to the original
+  Game_CardScript499c47 (0x499c47) is 73.68% similar to the original
+  Game_CardScript499d35 (0x499d35) is 67.61% similar to the original
+  Game_CardScript499f04 (0x499f04) is 69.68% similar to the original
+  Game_CardScript49a1eb (0x49a1eb) is 89.42% similar to the original
+  Game_CardScript49ad68 (0x49ad68) is 94.90% similar to the original
+  Game_CardScript49aeb3 (0x49aeb3) is 100.00% similar to the original
+  Game_CardScript49affe (0x49affe) is 100.00% similar to the original
+  Game_CardScript49b183 (0x49b183) is 54.55% similar to the original
+  Game_CardScript49b8dc (0x49b8dc) is 70.41% similar to the original
+  Game_CardScript49bb0a (0x49bb0a) is 70.18% similar to the original
+  Game_Helper49bf0e (0x49bf0e) is 100.00% similar to the original
+  Game_CardScript49bfca (0x49bfca) is 64.29% similar to the original
+  Game_CardScript49c127 (0x49c127) is 100.00% similar to the original
+  Game_CardScript49c195 (0x49c195) is 67.31% similar to the original
+  Game_CardScript49c5b0 (0x49c5b0) is 91.95% similar to the original
+  Game_CardScript49c630 (0x49c630) is 100.00% similar to the original
+  Game_Helper49c6b1 (0x49c6b1) is 50.00% similar to the original
+  Game_CardScript49c834 (0x49c834) is 93.88% similar to the original
+  Game_CardScript49cbc7 (0x49cbc7) is 94.80% similar to the original
+  Game_CardScript49cf85 (0x49cf85) is 97.21% similar to the original
+  Game_CardScript49da3f (0x49da3f) is 88.74% similar to the original
+  Game_CardScript49deff (0x49deff) is 67.65% similar to the original
+  Game_CardScript49e1f3 (0x49e1f3) is 62.04% similar to the original
+  Game_CardScript49e35e (0x49e35e) is 69.00% similar to the original
+  Game_CardScript49e49f (0x49e49f) is 49.86% similar to the original
+  Game_Helper49f31f (0x49f31f) is 56.72% similar to the original
+  Game_Helper49f3c0 (0x49f3c0) is a stub.
+  Game_Helper49f483 (0x49f483) is 48.78% similar to the original
+  Game_Helper49f577 (0x49f577) is 77.12% similar to the original
+  Game_Helper49f61a (0x49f61a) is 97.56% similar to the original
+  Game_Helper49f710 (0x49f710) is 40.52% similar to the original
+  Game_Helper49f7b5 (0x49f7b5) is 44.07% similar to the original
+  Game_Helper49f838 (0x49f838) is 100.00% similar to the original
+  Game_Helper49f87b (0x49f87b) is a stub.
+  Game_Helper49fb64 (0x49fb64) is a stub.
+  Game_Helper49fda3 (0x49fda3) is a stub.
+  Game_Helper4a008c (0x4a008c) is 100.00% similar to the original
+  Game_Helper4a011a (0x4a011a) is a stub.
+  Game_Helper4a0403 (0x4a0403) is 92.45% similar to the original
+  Game_Helper4a04a0 (0x4a04a0) is a stub.
+  Game_Fn4a04bd (0x4a04bd) is 100.00% similar to the original
+  Game_Fn4a101f (0x4a101f) is 82.16% similar to the original
+  Game_Helper4a2cd1 (0x4a2cd1) is a stub.
+  Game_Fn4a2dd0 (0x4a2dd0) is 94.12% similar to the original
+  Game_CardScript4a3190 (0x4a3190) is 100.00% similar to the original
+  Game_CardScript4a3232 (0x4a3232) is 96.51% similar to the original
+  Game_CardScript4a354a (0x4a354a) is 92.18% similar to the original
+  Game_CardScript4a3da3 (0x4a3da3) is 89.49% similar to the original
+  Game_CardScript4a4784 (0x4a4784) is 97.07% similar to the original
+  Game_CardScript4a4ae4 (0x4a4ae4) is 97.04% similar to the original
+  Game_CardScript4a4e37 (0x4a4e37) is 65.93% similar to the original
+  Game_Fn4a8470 (0x4a8470) is 100.00% similar to the original
+  Game_Fn4a84ab (0x4a84ab) is 100.00% similar to the original
+  Game_Helper4a8da8 (0x4a8da8) is a stub.
+  Game_Helper4a9910 (0x4a9910) is a stub.
+  Game_CardScript4aa246 (0x4aa246) is 100.00% similar to the original
+  Game_CardScript4aa306 (0x4aa306) is 95.69% similar to the original
+  Game_CardScript4aab29 (0x4aab29) is 30.43% similar to the original
+  Game_CardScript4abf34 (0x4abf34) is 86.93% similar to the original
+  Game_CardScript4ac14c (0x4ac14c) is 65.91% similar to the original
+  Game_CardScript4ac273 (0x4ac273) is 60.90% similar to the original
+  Game_CardScript4ac420 (0x4ac420) is 27.09% similar to the original
+  Game_CardScript4ac7ed (0x4ac7ed) is 100.00% similar to the original
+  Game_CardScript4aded3 (0x4aded3) is 50.70% similar to the original
+  Game_CardScript4ae290 (0x4ae290) is 100.00% similar to the original
+  Game_Callback4ae506 (0x4ae506) is a stub.
+  Game_CardScript4ae6a4 (0x4ae6a4) is 99.41% similar to the original
+  Game_CardScript4ae8b2 (0x4ae8b2) is 93.27% similar to the original
+  Game_Callback4aea1d (0x4aea1d) is a stub.
+  Game_CardScript4aeac7 (0x4aeac7) is 97.98% similar to the original
+  Game_CardScript4aed84 (0x4aed84) is 96.86% similar to the original
+  Game_CardScript4afd4c (0x4afd4c) is 100.00% similar to the original
+  Game_CardScript4afe3b (0x4afe3b) is 87.43% similar to the original
+  Game_CardScript4b01c2 (0x4b01c2) is 100.00% similar to the original
+  Game_Callback4b03cd (0x4b03cd) is a stub.
+  Game_CardScript4b0512 (0x4b0512) is 90.48% similar to the original
+  Game_CardScript4b0590 (0x4b0590) is 64.33% similar to the original
+  Game_CardScript4b0e02 (0x4b0e02) is 75.95% similar to the original
+  Game_CardScript4b0fe3 (0x4b0fe3) is 68.52% similar to the original
+  Game_Helper4b183c (0x4b183c) is 56.52% similar to the original
+  Game_CardScript4b1910 (0x4b1910) is 96.64% similar to the original
+  Game_CardScript4b1bcb (0x4b1bcb) is 73.45% similar to the original
+  Game_CardScript4b23c6 (0x4b23c6) is 68.22% similar to the original
+  Game_CardScript4b29c6 (0x4b29c6) is 100.00% similar to the original
+  Game_CardScript4b2a22 (0x4b2a22) is 95.68% similar to the original
+  Game_CardScript4b315b (0x4b315b) is 90.11% similar to the original
+  Game_CardScript4b35bf (0x4b35bf) is 67.65% similar to the original
+  Game_CardScript4b3902 (0x4b3902) is 100.00% similar to the original
+  Game_Callback4b39b5 (0x4b39b5) is a stub.
+  Game_CardScript4b3a96 (0x4b3a96) is 100.00% similar to the original
+  Game_Callback4b3b46 (0x4b3b46) is a stub.
+  Game_CardScript4b3c5f (0x4b3c5f) is 99.63% similar to the original
+  Game_CardScript4b3f6b (0x4b3f6b) is 86.21% similar to the original
+  Game_CardScript4b4028 (0x4b4028) is 79.06% similar to the original
+  Game_CardScript4b45ba (0x4b45ba) is 79.29% similar to the original
+  Game_CardScript4b47b1 (0x4b47b1) is 83.72% similar to the original
+  Game_Callback4b484b (0x4b484b) is a stub.
+  Game_CardScript4b647a (0x4b647a) is 63.65% similar to the original
+  Game_CardScript4b6a32 (0x4b6a32) is 91.73% similar to the original
+  Game_CardScript4b7a5b (0x4b7a5b) is 63.29% similar to the original
+  Game_CardScript4b8014 (0x4b8014) is 100.00% similar to the original
+  Game_CardScript4b80b2 (0x4b80b2) is 97.67% similar to the original
+  Game_CardScript4b80dc (0x4b80dc) is 97.56% similar to the original
+  Game_Helper4b8102 (0x4b8102) is a stub.
+  Game_CardScript4b9465 (0x4b9465) is 99.63% similar to the original
+  Game_CardScript4b97b4 (0x4b97b4) is 72.30% similar to the original
+  Game_CardScript4b9998 (0x4b9998) is 71.25% similar to the original
+  Game_Helper4ba25e (0x4ba25e) is a stub.
+  Game_Helper4ba2ed (0x4ba2ed) is 89.66% similar to the original
+  Game_Helper4ba309 (0x4ba309) is a stub.
+  Game_Helper4ba392 (0x4ba392) is a stub.
+  Game_Helper4ba41b (0x4ba41b) is 99.17% similar to the original
+  Game_AllocSlot (0x4ba5a1) is 84.84% similar to the original
+  Game_Helper4bab38 (0x4bab38) is 95.45% similar to the original
+  Game_Helper4bac17 (0x4bac17) is a stub.
+  Game_Fn4bb458 (0x4bb458) is 88.52% similar to the original
+  Game_Fn4be4c4 (0x4be4c4) is 40.00% similar to the original
+  Game_Helper4be650 (0x4be650) is a stub.
+  Game_Helper4bea85 (0x4bea85) is a stub.
+  Game_Helper4c0efa (0x4c0efa) is a stub.
+  Game_Fn4c16fb (0x4c16fb) is 100.00% similar to the original
+  Game_Helper4c19a2 (0x4c19a2) is a stub.
+  Game_Fn4c2501 (0x4c2501) is 100.00% similar to the original
+  Game_Helper4c357e (0x4c357e) is a stub.
+  Game_Fn4c38a2 (0x4c38a2) is 86.04% similar to the original
+  Game_Fn4c3b83 (0x4c3b83) is 85.71% similar to the original
+  Game_Fn4c3e34 (0x4c3e34) is 85.71% similar to the original
+  Game_Fn4c40e5 (0x4c40e5) is 92.86% similar to the original
+  Game_Fn4c410a (0x4c410a) is 89.66% similar to the original
+  Game_Helper4c4181 (0x4c4181) is a stub.
+  Game_Helper4c4263 (0x4c4263) is 82.93% similar to the original
+  Game_Helper4c42ae (0x4c42ae) is 100.00% similar to the original
+  Game_Helper4c42f8 (0x4c42f8) is 94.34% similar to the original
+  Game_Fn4c4364 (0x4c4364) is 88.10% similar to the original
+  Game_Fn4c4415 (0x4c4415) is 100.00% similar to the original
+  Game_Helper4c442a (0x4c442a) is 88.24% similar to the original
+  Game_Helper4c5bf6 (0x4c5bf6) is a stub.
+  Game_Fn4c69f3 (0x4c69f3) is 76.92% similar to the original
+  Game_Helper4c6c10 (0x4c6c10) is a stub.
+  Game_Fn4c8381 (0x4c8381) is 72.22% similar to the original
+  Game_Fn4c8bc5 (0x4c8bc5) is 75.00% similar to the original
+  Game_Callback4c8bec (0x4c8bec) is a stub.
+  Game_Helper4c8f49 (0x4c8f49) is a stub.
+  Game_Helper4cc0c1 (0x4cc0c1) is a stub.
+  Game_Helper4ccd9e (0x4ccd9e) is a stub.
+  Game_Fn4cdd1b (0x4cdd1b) is 75.00% similar to the original
+  Game_Fn4ce955 (0x4ce955) is 100.00% similar to the original
+  Game_Fn4ce97d (0x4ce97d) is 100.00% similar to the original
+  Game_Fn4cea02 (0x4cea02) is 100.00% similar to the original
+  Game_Helper4cea4c (0x4cea4c) is a stub.
+  Game_Fn4ceacb (0x4ceacb) is 90.32% similar to the original
+  Game_Fn4ceb0a (0x4ceb0a) is 90.91% similar to the original
+  Game_Fn4ceb15 (0x4ceb15) is 90.91% similar to the original
+  Game_Fn4ceb20 (0x4ceb20) is 90.91% similar to the original
+  Game_Fn4ceb2b (0x4ceb2b) is 90.91% similar to the original
+  Game_Fn4ceb36 (0x4ceb36) is 90.91% similar to the original
+  Game_Fn4ceb41 (0x4ceb41) is 90.91% similar to the original
+  Game_CardScript4ceb50 (0x4ceb50) is 100.00% similar to the original
+  Game_CardScript4d09fa (0x4d09fa) is 67.44% similar to the original
+  Game_CardScript4d0cc6 (0x4d0cc6) is 50.94% similar to the original
+  Game_Helper4d1c03 (0x4d1c03) is a stub.
+  Game_CardScript4d2d45 (0x4d2d45) is 98.57% similar to the original
+  Game_CardScript4d32db (0x4d32db) is 98.55% similar to the original
+  Game_CardScript4d3348 (0x4d3348) is 94.78% similar to the original
+  Game_Helper4d34d6 (0x4d34d6) is 35.39% similar to the original
+  Game_Callback4d3f22 (0x4d3f22) is a stub.
+  Game_Helper4d40a4 (0x4d40a4) is a stub.
+  Game_CardScript4d5020 (0x4d5020) is 48.39% similar to the original
+  Game_CardScript4d5741 (0x4d5741) is 58.22% similar to the original
+  Game_Helper4d646a (0x4d646a) is 100.00% similar to the original
+  Game_CardScript4d7623 (0x4d7623) is 86.51% similar to the original
+  Game_CardScript4d829b (0x4d829b) is 34.17% similar to the original
+  Game_CardScript4d8911 (0x4d8911) is 66.97% similar to the original
+  Game_CardScript4d8c4a (0x4d8c4a) is 97.83% similar to the original
+  Game_CardScript4d92a4 (0x4d92a4) is 89.81% similar to the original
+  Game_CardScript4da7c9 (0x4da7c9) is 89.47% similar to the original
+  Game_CardScript4da8d7 (0x4da8d7) is 93.05% similar to the original
+  Game_CardScript4dab86 (0x4dab86) is 81.58% similar to the original
+  Game_CardScript4dac78 (0x4dac78) is 91.30% similar to the original
+  Game_CardScript4dadbe (0x4dadbe) is 77.04% similar to the original
+  Game_CardScript4dafcb (0x4dafcb) is 58.33% similar to the original
+  Game_CardScript4db096 (0x4db096) is 76.80% similar to the original
+  Game_CardScript4db180 (0x4db180) is 58.82% similar to the original
+  Game_CardScript4db252 (0x4db252) is 62.79% similar to the original
+  Game_CardScript4db6e2 (0x4db6e2) is 98.48% similar to the original
+  Game_Helper4dbdfc (0x4dbdfc) is 96.97% similar to the original
+  Game_CardScript4dc5a1 (0x4dc5a1) is 99.76% similar to the original
+  Game_CardScript4dcace (0x4dcace) is 98.48% similar to the original
+  Game_CardScript4de7f8 (0x4de7f8) is 40.75% similar to the original
+  Game_CardScript4df65e (0x4df65e) is 95.81% similar to the original
+  Game_CardScript4e03af (0x4e03af) is 89.33% similar to the original
+  Game_CardScript4e07ad (0x4e07ad) is 56.49% similar to the original
+  Game_CardScript4e0bab (0x4e0bab) is 64.36% similar to the original
+  Game_CardScript4e12ec (0x4e12ec) is 64.37% similar to the original
+  Game_CardScript4e17ca (0x4e17ca) is 72.02% similar to the original
+  Game_Helper4e25e6 (0x4e25e6) is a stub.
+  Game_CardScript4e2723 (0x4e2723) is 94.12% similar to the original
+  Game_CardScript4e2bc8 (0x4e2bc8) is 87.88% similar to the original
+  Game_CardScript4e303a (0x4e303a) is 74.07% similar to the original
+  Game_CardScript4e31e9 (0x4e31e9) is 34.04% similar to the original
+  Game_CardScript4e45de (0x4e45de) is 57.05% similar to the original
+  Game_CardScript4e49ba (0x4e49ba) is 71.04% similar to the original
+  Game_Fn4e4f5c (0x4e4f5c) is 100.00% similar to the original
+  Game_Helper4e4fa0 (0x4e4fa0) is 58.65% similar to the original
+  Game_CardScript4e52db (0x4e52db) is 98.59% similar to the original
+  Game_CardScript4e534a (0x4e534a) is 98.59% similar to the original
+  Game_CardScript4e53b9 (0x4e53b9) is 98.59% similar to the original
+  Game_CardScript4e5426 (0x4e5426) is 98.59% similar to the original
+  Game_CardScript4e5495 (0x4e5495) is 81.69% similar to the original
+  Game_CardScript4e5502 (0x4e5502) is 98.59% similar to the original
+  Game_Helper4e5571 (0x4e5571) is a stub.
+  Game_CardScript4e5a30 (0x4e5a30) is 92.86% similar to the original
+  Game_CardScript4e5aea (0x4e5aea) is 98.18% similar to the original
+  Game_CardScript4e5b21 (0x4e5b21) is 98.18% similar to the original
+  Game_CardScript4e5b58 (0x4e5b58) is 98.18% similar to the original
+  Game_CardScript4e5b8f (0x4e5b8f) is 98.18% similar to the original
+  Game_CardScript4e5bc6 (0x4e5bc6) is 98.18% similar to the original
+  Game_Helper4e5bfd (0x4e5bfd) is a stub.
+  Game_CardScript4e6541 (0x4e6541) is 97.96% similar to the original
+  Game_CardScript4e9531 (0x4e9531) is 99.77% similar to the original
+  Game_CardScript4e9ad4 (0x4e9ad4) is 46.56% similar to the original
+  Game_CardScript4ea2d4 (0x4ea2d4) is 98.18% similar to the original
+  Game_CardScript4ea30b (0x4ea30b) is 98.18% similar to the original
+  Game_CardScript4ea342 (0x4ea342) is 98.18% similar to the original
+  Game_CardScript4ea379 (0x4ea379) is 98.18% similar to the original
+  Game_CardScript4ea3b0 (0x4ea3b0) is 98.18% similar to the original
+  Game_Helper4ea3e7 (0x4ea3e7) is a stub.
+  Game_CardScript4eadb0 (0x4eadb0) is 97.59% similar to the original
+  Game_CardScript4eb3bf (0x4eb3bf) is 69.71% similar to the original
+  Game_CardScript4eb68f (0x4eb68f) is 96.58% similar to the original
+  Game_CardScript4ebb33 (0x4ebb33) is 51.47% similar to the original
+  Game_CardScript4ebfa3 (0x4ebfa3) is 71.01% similar to the original
+  Game_CardScript4ec2be (0x4ec2be) is 92.73% similar to the original
+  Game_Helper4ec5d7 (0x4ec5d7) is a stub.
+  Game_Fn4ece40 (0x4ece40) is 62.50% similar to the original
+  Game_Helper4ecec6 (0x4ecec6) is 100.00% similar to the original
+  Game_Fn4ecefd (0x4ecefd) is 89.47% similar to the original
+  Game_Fn4ecf30 (0x4ecf30) is 81.58% similar to the original
+  Game_Helper4ecfa2 (0x4ecfa2) is a stub.
+  Game_Helper4ed005 (0x4ed005) is a stub.
+  Game_Fn4ed06d (0x4ed06d) is 97.67% similar to the original
+  Game_Fn4ed095 (0x4ed095) is 97.67% similar to the original
+  Game_Fn4ed0bd (0x4ed0bd) is 100.00% similar to the original
+  Game_Fn4ed19f (0x4ed19f) is 85.48% similar to the original
+  Game_Fn4ed44b (0x4ed44b) is 95.60% similar to the original
+  Game_Fn4ed525 (0x4ed525) is 84.00% similar to the original
+  Game_Fn4ef07e (0x4ef07e) is 67.92% similar to the original
+  Game_Fn4f21bb (0x4f21bb) is 100.00% similar to the original
+  Game_Fn4f23bc (0x4f23bc) is 95.24% similar to the original
+  Game_Fn4f716f (0x4f716f) is 76.92% similar to the original
+  Game_Fn4f7f99 (0x4f7f99) is 100.00% similar to the original
+  Game_Helper4f7fb9 (0x4f7fb9) is a stub.
+  Game_Helper4f8400 (0x4f8400) is a stub.
+  Game_CardScript4f8890 (0x4f8890) is 99.15% similar to the original
+  Game_CardScript4f92f9 (0x4f92f9) is 97.64% similar to the original
+  Game_Callback4f9d1d (0x4f9d1d) is a stub.
+  Game_CardScript4fa491 (0x4fa491) is 60.87% similar to the original
+  Game_CardScript4fb4fd (0x4fb4fd) is 95.84% similar to the original
+  Game_CardScript4fbb9f (0x4fbb9f) is 84.55% similar to the original
+  Game_CardScript4fbd52 (0x4fbd52) is 52.50% similar to the original
+  Game_CardScript4fc825 (0x4fc825) is 100.00% similar to the original
+  Game_CardScript4fc8fa (0x4fc8fa) is 97.39% similar to the original
+  Game_CardScript4fd888 (0x4fd888) is 96.97% similar to the original
+  Game_CardScript4fe0c6 (0x4fe0c6) is 98.47% similar to the original
+  Game_CardScript4fe9cd (0x4fe9cd) is 84.44% similar to the original
+  Game_Fn5000fb (0x5000fb) is 100.00% similar to the original
+  Game_Fn500129 (0x500129) is 100.00% similar to the original
+  Game_Fn50014e (0x50014e) is 84.62% similar to the original
+  Game_Helper50027e (0x50027e) is a stub.
+  Game_Fn500321 (0x500321) is 100.00% similar to the original
+  Game_Fn50035e (0x50035e) is 100.00% similar to the original
+  Game_Fn500ee0 (0x500ee0) is 57.14% similar to the original
+  Game_Fn5019ad (0x5019ad) is 96.89% similar to the original
+  Game_Fn501aec (0x501aec) is 100.00% similar to the original
+  Game_Helper501b7d (0x501b7d) is a stub.
+  Game_Fn501e32 (0x501e32) is 100.00% similar to the original
+  Game_Helper5020fe (0x5020fe) is a stub.
+  Game_Fn50318e (0x50318e) is 100.00% similar to the original
+  Game_Fn5031a8 (0x5031a8) is 100.00% similar to the original
+  Game_Helper5040da (0x5040da) is a stub.
+  Game_Helper50425c (0x50425c) is a stub.
+  Game_Helper5044ac (0x5044ac) is a stub.
+  Game_Helper504be8 (0x504be8) is a stub.
+  Game_Fn5081e0 (0x5081e0) is 100.00% similar to the original
+  Game_Fn508bf3 (0x508bf3) is 73.08% similar to the original
+  Game_Fn50a56d (0x50a56d) is 65.12% similar to the original
+  Game_Helper50d809 (0x50d809) is a stub.
+  Game_CardScript50f7c0 (0x50f7c0) is 97.56% similar to the original
+  Game_CardScript50f7e6 (0x50f7e6) is 97.56% similar to the original
+  Game_CardScript50f80c (0x50f80c) is 97.56% similar to the original
+  Game_CardScript50f832 (0x50f832) is 97.56% similar to the original
+  Game_CardScript50f858 (0x50f858) is 95.24% similar to the original
+  Game_CardScript51032b (0x51032b) is 77.54% similar to the original
+  Game_CardScript510594 (0x510594) is 55.73% similar to the original
+  Game_CardScript510802 (0x510802) is 60.09% similar to the original
+  Game_CardScript5109c7 (0x5109c7) is 94.97% similar to the original
+  Game_CardScript511395 (0x511395) is 99.36% similar to the original
+  Game_CardScript51159c (0x51159c) is 74.49% similar to the original
+  Game_Helper512898 (0x512898) is 98.59% similar to the original
+  Game_Helper512a01 (0x512a01) is 65.91% similar to the original
+  Game_Helper512b06 (0x512b06) is 100.00% similar to the original
+  Game_CardScript512f6e (0x512f6e) is 78.26% similar to the original
+  Game_CardScript513019 (0x513019) is 81.63% similar to the original
+  Game_CardScript51649a (0x51649a) is 72.67% similar to the original
+  Game_CardScript516e6e (0x516e6e) is 94.92% similar to the original
+  Game_CardScript516ebb (0x516ebb) is 91.80% similar to the original
+  Game_CardScript517500 (0x517500) is 52.48% similar to the original
+  Game_CardScript517888 (0x517888) is 100.00% similar to the original
+  Game_CardScript517922 (0x517922) is 97.56% similar to the original
+  Game_CardScript517948 (0x517948) is 97.56% similar to the original
+  Game_CardScript51796e (0x51796e) is 97.56% similar to the original
+  Game_CardScript517994 (0x517994) is 97.56% similar to the original
+  Game_CardScript5179ba (0x5179ba) is 97.56% similar to the original
+  Game_Helper5179e0 (0x5179e0) is a stub.
+  Game_CardScript5189c3 (0x5189c3) is 97.56% similar to the original
+  Game_CardScript5189e9 (0x5189e9) is 97.56% similar to the original
+  Game_CardScript518a0f (0x518a0f) is 97.56% similar to the original
+  Game_CardScript518a35 (0x518a35) is 97.56% similar to the original
+  Game_CardScript518a5b (0x518a5b) is 97.56% similar to the original
+  Game_Helper518a81 (0x518a81) is 75.99% similar to the original
+  Game_CardScript518d54 (0x518d54) is 89.66% similar to the original
+  Game_CardScript51a01c (0x51a01c) is 95.79% similar to the original
+  Game_CardScript51a531 (0x51a531) is 93.33% similar to the original
+  Game_CardScript51aee6 (0x51aee6) is 54.23% similar to the original
+  Game_CardScript51baa5 (0x51baa5) is 93.96% similar to the original
+  Game_Helper51be77 (0x51be77) is 48.59% similar to the original
+  Game_CardScript51c0ad (0x51c0ad) is 70.95% similar to the original
+  Game_CardScript51c7d3 (0x51c7d3) is 97.80% similar to the original
+  Game_Fn51dcf2 (0x51dcf2) is 100.00% similar to the original
+  Game_CardScript51dd8d (0x51dd8d) is 99.49% similar to the original
+  Game_CardScript51e01b (0x51e01b) is 93.33% similar to the original
+  Game_CardScript51e2a5 (0x51e2a5) is 93.20% similar to the original
+  Game_CardScript51e814 (0x51e814) is 24.49% similar to the original
+  Game_CardScript51ea11 (0x51ea11) is 88.32% similar to the original
+  Game_CardScript51ef24 (0x51ef24) is 97.56% similar to the original
+  Game_CardScript51ef4a (0x51ef4a) is 97.56% similar to the original
+  Game_Helper51ef70 (0x51ef70) is a stub.
+  Game_CardScript51f4af (0x51f4af) is 37.87% similar to the original
+  Game_CardScript51fd11 (0x51fd11) is 93.81% similar to the original
+  Game_CardScript520787 (0x520787) is 95.31% similar to the original
+  Game_CardScript520c71 (0x520c71) is 91.14% similar to the original
+  Game_CardScript52160a (0x52160a) is 78.57% similar to the original
+  Game_CardScript521791 (0x521791) is 99.10% similar to the original
+  Game_Helper5218f3 (0x5218f3) is a stub.
+  Game_CardScript521be8 (0x521be8) is 65.79% similar to the original
+  Game_Helper521cd0 (0x521cd0) is 60.16% similar to the original
+  Game_Fn5224a0 (0x5224a0) is 63.16% similar to the original
+  Game_Fn5224d9 (0x5224d9) is 92.31% similar to the original
+  Game_Helper522508 (0x522508) is a stub.
+  Game_Helper522535 (0x522535) is a stub.
+  Game_Fn522660 (0x522660) is 78.57% similar to the original
+  Game_Fn522daa (0x522daa) is 97.96% similar to the original
+  Game_Fn52fac0 (0x52fac0) is 100.00% similar to the original
+  Game_Fn5307c3 (0x5307c3) is 100.00% similar to the original
+  Game_Fn530b7e (0x530b7e) is 100.00% similar to the original
+  Game_Fn53133f (0x53133f) is 65.79% similar to the original
+  Game_Fn53182b (0x53182b) is 62.79% similar to the original
+  Game_Fn5318e3 (0x5318e3) is 100.00% similar to the original
+  Game_Fn532809 (0x532809) is 91.53% similar to the original
+  Game_Fn536039 (0x536039) is 83.08% similar to the original
+  Game_Fn5377df (0x5377df) is 85.71% similar to the original
+  Game_Helper53a054 (0x53a054) is a stub.
+  Game_Helper53a265 (0x53a265) is a stub.
+  Game_Helper53bc1a (0x53bc1a) is a stub.
+  Game_Helper53c19a (0x53c19a) is a stub.
+  Game_Helper53c35e (0x53c35e) is a stub.
+  Game_Helper53cb05 (0x53cb05) is a stub.
+  Game_Fn540ee8 (0x540ee8) is 86.21% similar to the original
+  Game_Fn544d9c (0x544d9c) is 88.46% similar to the original
+  Game_Fn544ded (0x544ded) is 88.46% similar to the original
+  Game_Fn544e3e (0x544e3e) is 88.46% similar to the original
+  Game_Helper544e8f (0x544e8f) is a stub.
+  Game_Helper5472f1 (0x5472f1) is a stub.
+  Game_Helper5474e1 (0x5474e1) is a stub.
+  Game_Fn548eb1 (0x548eb1) is 92.62% similar to the original
+  Game_Fn54a880 (0x54a880) is 92.31% similar to the original
+  Game_Fn54a89f (0x54a89f) is 87.10% similar to the original
+  Game_Fn54cdbd (0x54cdbd) is 75.93% similar to the original
+  Game_Fn5501dc (0x5501dc) is 83.87% similar to the original
+  Game_Fn5501fe (0x5501fe) is 83.87% similar to the original
+  Game_Fn550593 (0x550593) is 100.00% similar to the original
+  Game_Helper550dba (0x550dba) is a stub.
+  Game_CardScript5530c4 (0x5530c4) is 79.51% similar to the original
+  Game_CardScript5553ee (0x5553ee) is 95.63% similar to the original
+  Game_CardScript555699 (0x555699) is 95.63% similar to the original
+  Game_Helper555944 (0x555944) is a stub.
+  Game_CardScript555e68 (0x555e68) is 98.80% similar to the original
+  Game_CardScript555ed8 (0x555ed8) is 98.80% similar to the original
+  Game_CardScript555f48 (0x555f48) is 74.70% similar to the original
+  Game_CardScript555fb8 (0x555fb8) is 98.80% similar to the original
+  Game_CardScript556028 (0x556028) is 74.70% similar to the original
+  Game_CardScript556098 (0x556098) is 74.70% similar to the original
+  Game_CardScript556108 (0x556108) is 98.80% similar to the original
+  Game_CardScript556178 (0x556178) is 98.80% similar to the original
+  Game_CardScript5561e8 (0x5561e8) is 74.70% similar to the original
+  Game_CardScript556258 (0x556258) is 74.70% similar to the original
+  Game_Helper556385 (0x556385) is a stub.
+  Game_Helper557893 (0x557893) is a stub.
+  Game_Fn5578d1 (0x5578d1) is 76.47% similar to the original
+  Game_Helper5579fc (0x5579fc) is a stub.
+  Game_Fn557a3a (0x557a3a) is 76.67% similar to the original
+  CardTypeFromID (0x557aa9) is 100.00% similar to the original
+  CardIDFromType (0x557b2d) is 100.00% similar to the original
+  CardInDeck (0x557b6a) is 100.00% similar to the original
+  SetCardInDeck (0x557b9b) is 100.00% similar to the original
+  Game_Fn5582ed (0x5582ed) is 100.00% similar to the original
+  Game_Helper558321 (0x558321) is 95.83% similar to the original
+  Game_Helper558356 (0x558356) is 95.00% similar to the original
+  Game_Fn55837e (0x55837e) is 100.00% similar to the original
+  Game_Helper5583c5 (0x5583c5) is a stub.
+  Game_Helper55840e (0x55840e) is a stub.
+  Game_Fn558457 (0x558457) is 100.00% similar to the original
+  Game_Fn5584ac (0x5584ac) is 83.33% similar to the original
+  Game_Fn5584d5 (0x5584d5) is 89.74% similar to the original
+  Game_Helper558538 (0x558538) is a stub.
+  Game_Helper558828 (0x558828) is 88.00% similar to the original
+  Game_Fn558874 (0x558874) is 86.21% similar to the original
+  Game_Fn5588c3 (0x5588c3) is 100.00% similar to the original
+  Game_Fn558908 (0x558908) is 100.00% similar to the original
+  Game_Helper558941 (0x558941) is 80.81% similar to the original
+  Game_Helper5589ed (0x5589ed) is 71.84% similar to the original
+  Game_Fn558aa3 (0x558aa3) is 84.00% similar to the original
+  Game_Helper558aea (0x558aea) is a stub.
+  Game_Helper55912c (0x55912c) is a stub.
+  Game_Fn559781 (0x559781) is 84.62% similar to the original
+  Game_Fn5597ca (0x5597ca) is 95.00% similar to the original
+  Game_Helper559999 (0x559999) is a stub.
+  Game_Helper559dcd (0x559dcd) is a stub.
+  Game_Helper559e3d (0x559e3d) is a stub.
+  Game_Fn559e52 (0x559e52) is 100.00% similar to the original
+  Game_Helper559ff4 (0x559ff4) is a stub.
+  Game_Helper55a13b (0x55a13b) is a stub.
+  Game_Fn55d8fa (0x55d8fa) is 50.00% similar to the original
+  Game_Fn561441 (0x561441) is 72.22% similar to the original
+  Game_Fn561465 (0x561465) is 90.91% similar to the original
+  Game_Fn5616aa (0x5616aa) is 96.77% similar to the original
+  Game_Fn5616cb (0x5616cb) is 69.57% similar to the original
+  Game_Fn5626b0 (0x5626b0) is 88.07% similar to the original
+  Game_Fn562736 (0x562736) is 85.06% similar to the original
+  Game_Fn56279e (0x56279e) is 73.85% similar to the original
+  Game_Fn5627ee (0x5627ee) is 78.69% similar to the original
+  Game_Fn562835 (0x562835) is 76.06% similar to the original
+  Game_Fn5629c3 (0x5629c3) is 79.45% similar to the original
+  Game_Fn562d03 (0x562d03) is 98.27% similar to the original
+  Game_Helper562f92 (0x562f92) is a stub.
+  Game_Helper564e70 (0x564e70) is a stub.
+  Game_Fn566134 (0x566134) is 100.00% similar to the original
+  Game_Fn56615f (0x56615f) is 50.91% similar to the original
+  Game_Fn566238 (0x566238) is 45.59% similar to the original
+  Sid_FastMemcpy (0x566cea) is a stub.
+  Game_Helper56a3a7 (0x56a3a7) is 91.07% similar to the original
+  Game_Helper56a45f (0x56a45f) is 91.07% similar to the original
+  Game_Helper56a515 (0x56a515) is a stub.
+  Game_FindFreeSlot (0x56ae5d) is a stub.
+  Game_Helper56bf4c (0x56bf4c) is 92.86% similar to the original
+  Game_Helper56bfa4 (0x56bfa4) is a stub.
+  Game_Helper56c1b5 (0x56c1b5) is a stub.
+  Game_Helper56c496 (0x56c496) is 76.47% similar to the original
+  Game_Helper56c4f7 (0x56c4f7) is a stub.
+  Game_Helper56c705 (0x56c705) is a stub.
+  Game_Fn56c779 (0x56c779) is 82.54% similar to the original
+  Game_Fn56c804 (0x56c804) is 97.14% similar to the original
+  Game_Fn56c827 (0x56c827) is 94.34% similar to the original
+  Game_Fn56c877 (0x56c877) is 90.91% similar to the original
+  Game_Helper56c91f (0x56c91f) is 100.00% similar to the original
+  Game_Helper56c931 (0x56c931) is 100.00% similar to the original
+  Game_Fn56c943 (0x56c943) is 90.91% similar to the original
+  Game_Fn56c94e (0x56c94e) is 90.91% similar to the original
+  Game_Fn56c959 (0x56c959) is 90.91% similar to the original
+  Game_Fn56c964 (0x56c964) is 90.91% similar to the original
+  Game_Fn56c96f (0x56c96f) is 90.91% similar to the original
+  Game_Fn56c97a (0x56c97a) is 90.91% similar to the original
+  Game_Fn56c985 (0x56c985) is 90.91% similar to the original
+  Game_Fn56c990 (0x56c990) is 90.91% similar to the original
+  Game_Fn56c99b (0x56c99b) is 100.00% similar to the original
+  Game_Fn56c9b0 (0x56c9b0) is 90.91% similar to the original
+  Game_Helper56ca10 (0x56ca10) is a stub.
+  Game_Helper56cc4d (0x56cc4d) is a stub.
+  Game_Helper56d133 (0x56d133) is a stub.
+  Game_Helper56d167 (0x56d167) is a stub.
+  Game_Helper56d194 (0x56d194) is a stub.
+  Game_Helper56d4b0 (0x56d4b0) is a stub.
+  Game_Fn56d74e (0x56d74e) is 95.00% similar to the original
+  Game_Helper56da03 (0x56da03) is a stub.
+  Game_Helper56dc9c (0x56dc9c) is a stub.
+  Game_Helper56f8c1 (0x56f8c1) is a stub.
+  Game_Fn573745 (0x573745) is 88.52% similar to the original
+  Game_Helper57378d (0x57378d) is a stub.
+  Game_Fn573868 (0x573868) is 100.00% similar to the original
+  Game_Fn573c2a (0x573c2a) is 76.92% similar to the original
+  Game_Helper57456b (0x57456b) is a stub.
+  Game_Helper577b8f (0x577b8f) is a stub.
+  Game_Fn578319 (0x578319) is 100.00% similar to the original
+  Game_Fn578873 (0x578873) is 47.62% similar to the original
+  Sid_WindowMatchesKey (0x578a71) is 100.00% similar to the original
+  Sid_WindowHasId (0x578af3) is 86.36% similar to the original
+  Sid_GetWindowId (0x578b77) is 83.33% similar to the original
+  Sid_GetWindowExtra8 (0x578bda) is 100.00% similar to the original
+  Game_Helper578c04 (0x578c04) is a stub.
+  Sid_Unknown578c20 (0x578c20) is 100.00% similar to the original
+  Sid_Unknown578c30 (0x578c30) is 100.00% similar to the original
+  Sid_ShowCursor (0x578c40) is 100.00% similar to the original
+  Sid_HideCursor (0x578c50) is 100.00% similar to the original
+  Sid_TakeEventFlags (0x578c60) is 100.00% similar to the original
+  Sid_Noop (0x578c70) is 100.00% similar to the original
+  Sid_CloseArchive (0x578c80) is 100.00% similar to the original
+  Sid_OpenArchive (0x578c90) is 100.00% similar to the original
+  Sid_CreateScreenPage (0x578e80) is 88.51% similar to the original
+  Sid_AllocPage (0x579050) is 69.06% similar to the original
+  Sid_FreePage (0x579240) is 100.00% similar to the original
+  Sid_BlitPageToScreen (0x579400) is 100.00% similar to the original
+  Sid_BlitPageToScreenUnchecked (0x579440) is 100.00% similar to the original
+  Sid_ClearPage (0x579480) is 63.74% similar to the original
+  Sid_GetPixelPage (0x579520) is 100.00% similar to the original
+  Sid_GetPixel (0x5795f0) is 100.00% similar to the original
+  Sid_DrawLine (0x5796c0) is 100.00% similar to the original
+  Sid_SetPixel (0x579760) is 100.00% similar to the original
+  Sid_FillRect (0x5797e0) is 57.14% similar to the original
+  Sid_BlitPage (0x579890) is 64.42% similar to the original
+  Sid_BlitPageRestore (0x579bf0) is 79.08% similar to the original
+  Sid_StretchBlitPage (0x579e40) is 100.00% similar to the original
+  Sid_SetClipRect (0x579ea0) is 100.00% similar to the original
+  Sid_PutLine (0x579f10) is 96.30% similar to the original
+  Sid_GetLine (0x57a000) is 100.00% similar to the original
+  Sid_SetPalette (0x57a060) is 71.71% similar to the original
+  Sid_BlitToWindow24 (0x57a3d0) is 77.42% similar to the original
+  Sid_BuildBitmapInfo (0x57a440) is 100.00% similar to the original
+  Sid_FreeBitmapInfo (0x57a4c0) is 100.00% similar to the original
+  Sid_LoadFontFile (0x57a4e0) is 100.00% similar to the original
+  Sid_LoadFontRecord (0x57a5f0) is 66.08% similar to the original
+  Sid_FreeFont (0x57a9f0) is 100.00% similar to the original
+  Sid_MeasureText (0x57aae0) is 41.51% similar to the original
+  Sid_GetFontLineSpacing (0x57adf0) is 100.00% similar to the original
+  Sid_GetFontHeight (0x57ae30) is 100.00% similar to the original
+  Sid_DrawString (0x57ae50) is 28.25% similar to the original
+  Sid_DrawTextCore (0x57b230) is 79.04% similar to the original
+  Sid_DrawText (0x57b440) is 100.00% similar to the original
+  Sid_DrawTextV (0x57b470) is 100.00% similar to the original
+  Sid_DrawTextHV (0x57b4a0) is 100.00% similar to the original
+  Sid_DrawTextS (0x57b4d0) is 100.00% similar to the original
+  Sid_DrawTextSH (0x57b500) is 100.00% similar to the original
+  Sid_DrawTextSV (0x57b530) is 100.00% similar to the original
+  Sid_DrawTextSHV (0x57b560) is 100.00% similar to the original
+  Sid_DrawTextRHV (0x57b590) is 100.00% similar to the original
+  Sid_DrawTextSRH (0x57b5c0) is 100.00% similar to the original
+  Sid_DrawTextSRV (0x57b5f0) is 100.00% similar to the original
+  Sid_DrawTextSRHV (0x57b620) is 100.00% similar to the original
+  Spr_ArenaBegin (0x57b650) is 100.00% similar to the original
+  Spr_ArenaEnd (0x57b670) is 100.00% similar to the original
+  Sid_Free (0x57b6a0) is 100.00% similar to the original
+  Spr_DumpToFile (0x57b6c0) is 100.00% similar to the original
+  Spr_LoadFile (0x57b710) is 100.00% similar to the original
+  Spr_LoadFileMax (0x57b7a0) is 66.67% similar to the original
+  Spr_AppendFrame (0x57b840) is 49.82% similar to the original
+  Spr_DrawScaled (0x57bfa0) is 38.23% similar to the original
+  Spr_GetFrameExtent (0x57c450) is 68.89% similar to the original
+  Sid_OpenFileCore (0x57c580) is 91.46% similar to the original
+  Sid_OpenFileInGroup (0x57c7e0) is 100.00% similar to the original
+  Sid_OpenFileInGroupAlt (0x57c800) is 100.00% similar to the original
+  Sid_OpenFileByName (0x57c820) is 100.00% similar to the original
+  Sid_OpenFileByNameFlag (0x57c840) is 100.00% similar to the original
+  Sid_MpsRefill (0x57c860) is 100.00% similar to the original
+  Pcx_ReadHeader (0x57d850) is 100.00% similar to the original
+  Pcx_DecodeRow (0x57da00) is 56.00% similar to the original
+  Game_Helper57e820 (0x57e820) is a stub.
+  Game_Helper57e826 (0x57e826) is a stub.
+  Game_CopyBlock (0x57e82c) is a stub.
+  Game_Helper57e832 (0x57e832) is a stub.
+  Game_Helper57e83e (0x57e83e) is a stub.
+  __DllMainCRTStartup@12 (0x57e970) is 5.88% similar to the original
+  Mps_Begin (0x98a000) is a stub.
+  Mps_Read (0x98a484) is a stub.
+
+Implemented:  100.00%  (785 / 785)
+Accuracy:     85.94%
+Progress:     85.94%
