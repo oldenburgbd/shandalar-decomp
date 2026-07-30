@@ -58,22 +58,39 @@ DDLOCAL="${DECOMP_DEV_LOCAL:-/c/Users/bo1026/decomp-target/debug/decomp-dev-loca
 DDDIR="${DECOMP_DEV_DIR:-/c/Users/bo1026/Desktop/RE Project/decomp.dev}"
 if [ -x "$DDLOCAL" ] && [ -f "$DDDIR/config.yml" ]; then
   echo "== publishing to local decomp.dev =="
-  # The importer derives its commit id from the report bytes, so re-importing an
-  # unchanged report collides on report_report_units. Only publish real changes.
+  # Two constraints from the importer:
+  #  - it derives its commit id from the report BYTES, so any report whose content
+  #    was ever published before collides on report_report_units -- including a
+  #    revert back to an earlier state. So we always pass an explicit --commit.
+  #  - decomp.dev keeps one history datapoint per commit, so publishing an
+  #    unchanged report would just spam the burn-up chart. Hence the skip.
   NEWSUM="$(sha256sum reports/report.json | cut -d' ' -f1)"
   OLDSUM="$(cat progress/.last-published 2>/dev/null || echo none)"
   if [ "$NEWSUM" = "$OLDSUM" ]; then
     echo "   unchanged since last publish -- skipped"
   else
+    # Unique, monotonic-ish 40-hex commit id: content hash mixed with the clock.
+    COMMIT="$(printf '%s%s' "$NEWSUM" "$(date -u +%s%N)" | sha256sum | cut -c1-40)"
+    # Build the message BEFORE the subshell -- inside it, cwd is decomp.dev and
+    # a relative path would not resolve.
+    # cygpath -m: Python is a native Windows binary and cannot open /c/... paths.
+    PROGJSON="$(cygpath -m "$ROOT/reports/progress.json" 2>/dev/null || echo "$ROOT/reports/progress.json")"
+    MSG="$("$PY" -c "
+import json
+m = json.load(open(r'$PROGJSON'))['totals']
+print('%.3f%% code (%d/%d bytes), %d/%d functions' % (
+    m['pct_bytes'], m['done_bytes'], m['bytes'],
+    m['done_functions'], m['functions']))" 2>/dev/null)"
+    [ -n "$MSG" ] || MSG="progress update"
     # Must run with decomp.dev as cwd: config.yml (and thus db.sqlite) is
     # resolved relative to the working directory.
     REPORT_WIN="$(cygpath -w "$ROOT/reports/report.json" 2>/dev/null || echo "$ROOT/reports/report.json")"
     if ( cd "$DDDIR" && "$DDLOCAL" import \
-          --file "$REPORT_WIN" \
+          --file "$REPORT_WIN" --commit "$COMMIT" --message "$MSG" \
           --owner mtg-re --repo shandalar --platform win32 --version shandalar \
           --name "Magic: The Gathering - Shandalar" --short-name Shandalar ) >/dev/null 2>&1; then
       echo "$NEWSUM" > progress/.last-published
-      echo "   http://localhost:3000/mtg-re/shandalar"
+      echo "   http://localhost:3000/mtg-re/shandalar  (commit ${COMMIT:0:8})"
     else
       echo "   (import failed -- see docs/05-decomp-dev.md)"
     fi
