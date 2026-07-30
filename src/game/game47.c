@@ -1,0 +1,14 @@
+/* Ordinary Shandalar game code (gamewire-reconstructed): plain .text
+ * functions, neither card scripts nor their helpers. Address-derived names;
+ * reccmp is the correctness check. */
+#include "game/gamefns.h"
+
+// FUNCTION: SHANDALAR 0x004789d3
+int Game_Fn4789d3(int a1, int a2, int a3, int a4, int a5)
+{
+    if ((g_gameCards[a5].flags & 0x2) != 0
+        && (Game_Helper40d7b2(a3, a4, 0x34, -1) & 0x20) != 0) {
+        Game_AllocSlot(a3, a4, 1, a1, a2);
+    }
+    return 0;
+}

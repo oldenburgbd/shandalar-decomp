@@ -1,0 +1,343 @@
+/* Ordinary Shandalar game code (gamewire-reconstructed): plain .text
+ * functions, neither card scripts nor their helpers. Address-derived names;
+ * reccmp is the correctness check. */
+#include "game/gamefns.h"
+
+// FUNCTION: SHANDALAR 0x00561441
+int Game_Fn561441(int a1)
+{
+    return (a1 * 8 - a1) * 4 + (a1 * 8 - a1) * 16 + 0x591a12;
+}
+
+// FUNCTION: SHANDALAR 0x00561465
+int Game_Fn561465(int a1)
+{
+    Game_Helper57e820(0x6696c0, a1 * 140 + 0x591a08);
+    Game_Helper57e826(0x6696c0, a1 * 140 + 0x591a08 + 0xa);
+    return 0x6696c0;
+}
+
+// FUNCTION: SHANDALAR 0x005616aa
+int Game_Fn5616aa(int a1)
+{
+    g_game6696f8 = -1;
+    return Game_Fn5616cb(a1);
+}
+
+// FUNCTION: SHANDALAR 0x005616cb
+int Game_Fn5616cb(int a1)
+{
+    if (a1 != g_game6696f8) {
+        Game_Helper57c820(0x591684);
+        g_game6696f8 = a1;
+        return a1;
+    }
+    return 0;
+}
+
+// FUNCTION: SHANDALAR 0x005626b0
+int Game_Fn5626b0(int a1, int a2, int a3, int a4, int a5)
+{
+    int iv;   /* [ebp-4] */
+    int ig;   /* [ebp-24] */
+    int ih;   /* [ebp-28] */
+    int ii;   /* [ebp-32] */
+
+    Game_Helper56d133(a2);
+    Game_Helper562f92(a1, a2, 0);
+    Game_Helper57e83e(&ii, 0, 0x20);
+    ii = a3 * 4;
+    ih = a4 * 22050 / 0x64;
+    ig = a5 * 4;
+    iv &= ~1;
+    iv &= ~0x10;
+    return Game_Helper56d194(a2, &ii);
+}
+
+// FUNCTION: SHANDALAR 0x00562736
+int Game_Fn562736(int a1, int a2, int a3, int a4)
+{
+    int iv;   /* [ebp-4] */
+    int ig;   /* [ebp-24] */
+    int ih;   /* [ebp-28] */
+    int ii;   /* [ebp-32] */
+
+    Game_Helper57e83e(&ii, 0, 0x20);
+    ii = a2 * 4;
+    ih = a3 * 22050 / 0x64;
+    ig = a4 * 4;
+    iv &= ~1;
+    iv &= ~0x10;
+    return Game_Helper56d194(a1, &ii);
+}
+
+// FUNCTION: SHANDALAR 0x0056279e
+int Game_Fn56279e(int a1, int a2, int a3)
+{
+    int iv;   /* [ebp-4] */
+    int ig;   /* [ebp-24] */
+    int ih;   /* [ebp-28] */
+    int ii;   /* [ebp-32] */
+
+    Game_Helper57e83e(&ii, 0, 0x20);
+    ii = a2 * 4;
+    ih = 0x5622;
+    ig = a3 * 4;
+    iv = iv | 1;
+    return Game_Helper56d194(a1, &ii);
+}
+
+// FUNCTION: SHANDALAR 0x005627ee
+int Game_Fn5627ee(int a1, int a2, int a3)
+{
+    int iv;   /* [ebp-24] */
+    int ig;   /* [ebp-28] */
+    int ih;   /* [ebp-32] */
+
+    Game_Helper57e83e(&ih, 0, 0x20);
+    ih = a2 * 4;
+    ig = 0x5622;
+    iv = a3 * 4;
+    return Game_Helper56d194(a1, &ih);
+}
+
+// FUNCTION: SHANDALAR 0x00562835
+int Game_Fn562835(int a1, int a2)
+{
+    int iv;   /* [ebp-4] */
+    int ig;   /* [ebp-24] */
+    int ih;   /* [ebp-28] */
+    int ii;   /* [ebp-32] */
+
+    Game_Helper57e83e(&ii, 0, 0x20);
+    iv = iv | 4;
+    ii = 0x190;
+    ih = 0;
+    ig = 0;
+    Game_Helper562f92(a1, a2, &ii);
+    return Game_Helper56d4b0(a2, 1);
+}
+
+// FUNCTION: SHANDALAR 0x00562d03
+int Game_Fn562d03(void)
+{
+    Game_Helper562f92(0x591880, 0, 0);
+    Game_Helper562f92(0x591894, 1, 0);
+    Game_Helper562f92(0x5918a8, 2, 0);
+    Game_Helper562f92(0x5918bc, 3, 0);
+    Game_Helper562f92(0x5918d0, 4, 0);
+    Game_Helper562f92(0x5918e4, 5, 0);
+    Game_Helper562f92(0x5918f8, 6, 0);
+    Game_Helper562f92(0x59190c, 7, 0);
+    Game_Helper562f92(0x591920, 8, 0);
+    Game_Helper562f92(0x591934, 9, 0);
+    Game_Helper562f92(0x591948, 0xa, 0);
+    Game_Helper562f92(0x59195c, 0xb, 0);
+    Game_Helper562f92(0x591970, 0xc, 0);
+    Game_Helper562f92(0x591984, 0xd, 0);
+    return Game_Helper562f92(0x591998, 0xe, 0);
+}
+
+// FUNCTION: SHANDALAR 0x0056615f
+int Game_Fn56615f(int a1)
+{
+    if (a1 == 1) {
+        return 0;
+    }
+    if (a1 == 2) {
+        return 1;
+    }
+    if (a1 == 3) {
+        return 0;
+    }
+    if (a1 == 4) {
+        return 1;
+    }
+    if (a1 == 5) {
+    }
+    return 0;
+}
+
+// FUNCTION: SHANDALAR 0x00566238
+int Game_Fn566238(void)
+{
+    int iv;   /* [ebp-4] */
+
+    iv = g_game94d634;
+    if (iv == 0) {
+        return 1;
+    }
+    if (iv == 1) {
+        return 0;
+    }
+    if (iv == 2) {
+        return 1;
+    }
+    if (iv == 3) {
+        return 0;
+    }
+    if (iv == 4) {
+        return 1;
+    }
+    if (iv == 5) {
+        return 0;
+    }
+    if (iv == 6) {
+        return 1;
+    }
+    if (iv == 7) {
+        return 0;
+    }
+    if (iv == 8) {
+        return 1;
+    }
+    if (iv == 9) {
+        return 0;
+    }
+    if (iv == 0xa) {
+        return 0;
+    }
+    if (iv == 0xb) {
+        return 1;
+    }
+    if (iv == 0xc) {
+        return 0;
+    }
+    if (iv == 0xd) {
+        return 1;
+    }
+    return 0;
+}
+
+// FUNCTION: SHANDALAR 0x0056c779
+int Game_Fn56c779(int a1)
+{
+    int iv;   /* [ebp-4] */
+
+    if (g_game8bd200 == 1) {
+        return 0;
+    }
+    Game_Helper46ed33();
+    iv = Game_Helper4310e8(a1) + 8;
+    if (iv > 8) {
+        Game_Fn558aa3(a1);
+    }
+    return Game_Fn46ed03();
+}
+
+// FUNCTION: SHANDALAR 0x0056c804
+int Game_Fn56c804(int a1)
+{
+    return Game_Helper46a674(0, 0x5941d8, 0x76b, a1);
+}
+
+// FUNCTION: SHANDALAR 0x0056c827
+int Game_Fn56c827(void)
+{
+    Game_Helper46ed33();
+    Game_Helper5797e0(g_game5832b4, 0xc8, 0x3c, 0xf0, 0x118, 0xbc);
+    return Game_Helper43104f(0x5941fc, 0x140, 0xc4, 0xff);
+}
+
+// FUNCTION: SHANDALAR 0x0056c877
+int Game_Fn56c877(void)
+{
+    return Game_Helper558aea(g_game8c776c, 6);
+}
+
+// FUNCTION: SHANDALAR 0x0056c943
+int Game_Fn56c943(int a1)
+{
+    return 0;
+}
+
+// FUNCTION: SHANDALAR 0x0056c94e
+int Game_Fn56c94e(int a1)
+{
+    return 0;
+}
+
+// FUNCTION: SHANDALAR 0x0056c959
+int Game_Fn56c959(int a1)
+{
+    return 0;
+}
+
+// FUNCTION: SHANDALAR 0x0056c964
+int Game_Fn56c964(int a1)
+{
+    return 0;
+}
+
+// FUNCTION: SHANDALAR 0x0056c96f
+int Game_Fn56c96f(void)
+{
+    return 0;
+}
+
+// FUNCTION: SHANDALAR 0x0056c97a
+int Game_Fn56c97a(int a1)
+{
+    return 0;
+}
+
+// FUNCTION: SHANDALAR 0x0056c985
+int Game_Fn56c985(void)
+{
+    return 0;
+}
+
+// FUNCTION: SHANDALAR 0x0056c990
+int Game_Fn56c990(void)
+{
+    return 0;
+}
+
+// FUNCTION: SHANDALAR 0x0056c99b
+int Game_Fn56c99b(int a1, int a2, int a3)
+{
+    return 0;
+}
+
+// FUNCTION: SHANDALAR 0x0056c9b0
+int Game_Fn56c9b0(void)
+{
+    Game_Helper57c7e0(1, 0x5a0d1c);
+    Game_Helper579e40(g_game5832dc, 0, 0, 0x280, 0x1e0, g_game5832b4, 0, 0, g_game5863b8, g_game5863bc);
+    Game_Fn5597ca();
+    return 0;
+}
+
+// FUNCTION: SHANDALAR 0x0056d74e
+int Game_Fn56d74e(void)
+{
+    int iv;   /* [ebp-4] */
+
+    for (iv = 0; iv < 0x1b; iv++) {
+        g_game73bfa0[iv] = 0;
+    }
+    return iv;
+}
+
+// FUNCTION: SHANDALAR 0x005629c3
+int Game_Fn5629c3(int a1)
+{
+    if (g_game591220 != -1) {
+        Game_Helper56d133(0x10);
+    }
+    g_game591220 = 0x15;
+    g_game59126c = -1;
+    Game_Fn562835(g_game591278[a1], 0x10);
+    Game_Fn5627ee(0x10, 0x80, 0);
+    g_game59121c = 1;
+    return Game_Fn5627ee(0x10, 0x80, 0);
+}
+
+// FUNCTION: SHANDALAR 0x00566134
+int Game_Fn566134(int a1)
+{
+    if (a1 == -1) {
+        return 0;
+    }
+    return g_game593c88[a1];
+}

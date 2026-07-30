@@ -1,18 +1,18 @@
 # Decompilation Progress
 
-_Generated 2026-07-30T19:26:18+00:00_
+_Generated 2026-07-30T23:01:40+00:00_
 
-## Overall: **6.816%** of code bytes matched
+## Overall: **8.160%** of code bytes matched
 
-- **267,263 / 3,921,020** bytes
-- **927 / 7,668** functions
+- **319,972 / 3,921,020** bytes
+- **1,204 / 7,668** functions
 
 ## By binary
 
 | Binary | Functions | Bytes | Matched fn | Matched bytes | % bytes |
 |---|---:|---:|---:|---:|---:|
-| Shandalar.exe | 2,216 | 1,545,520 | 4 | 612 | 0.04% |
-| Magic.exe | 1,953 | 1,416,359 | 2 | 78 | 0.01% |
+| Shandalar.exe | 2,216 | 1,545,520 | 197 | 32,830 | 2.12% |
+| Magic.exe | 1,953 | 1,416,359 | 86 | 20,569 | 1.45% |
 | Deckdll.dll | 384 | 188,478 | 5 | 685 | 0.36% |
 | Manalink.exe | 497 | 168,064 | 224 | 49,275 | 29.32% |
 | Gcconn.dll | 909 | 135,296 | 15 | 1,464 | 1.08% |
@@ -31,18 +31,19 @@ _Generated 2026-07-30T19:26:18+00:00_
 
 | Status | Functions | Bytes |
 |---|---:|---:|
-| unstarted | 5,933 | 3,326,689 |
+| unstarted | 5,849 | 3,306,198 |
 | identified | 26 | 6,016 |
-| decompiled | 782 | 321,052 |
+| decompiled | 589 | 288,834 |
+| matching | 277 | 52,709 |
 | library | 927 | 267,263 |
 
 ## By subsystem
 
 | Subsystem | Functions | Bytes | % matched |
 |---|---:|---:|---:|
-| (unassigned) | 5,933 | 3,326,689 | 0.00% |
-| game | 715 | 308,455 | 0.00% |
+| (unassigned) | 5,933 | 3,326,689 | 0.62% |
+| game | 715 | 308,455 | 9.36% |
 | crt | 927 | 267,263 | 100.00% |
-| sidlib | 88 | 18,107 | 0.00% |
-| core | 4 | 392 | 0.00% |
+| sidlib | 88 | 18,107 | 17.62% |
+| core | 4 | 392 | 42.35% |
 | deck | 1 | 114 | 0.00% |

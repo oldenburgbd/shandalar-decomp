@@ -1,0 +1,76 @@
+/* Ordinary Shandalar game code (gamewire-reconstructed): plain .text
+ * functions, neither card scripts nor their helpers. Address-derived names;
+ * reccmp is the correctness check. */
+#include "game/gamefns.h"
+
+// FUNCTION: SHANDALAR 0x004a101f
+int Game_Fn4a101f(int a1, int a2)
+{
+    int iv;   /* [ebp-4] */
+    int ig;   /* [ebp-8] */
+    int ih;   /* [ebp-12] */
+    int ii;   /* [ebp-16] */
+    int ij;   /* [ebp-20] */
+    int ik;   /* [ebp-24] */
+
+    ik = a2;
+    if (ik != 0) {
+        if (ik != 1) {
+            if (ik == 2) {
+                ij = g_game583304;
+            }
+        } else {
+            ij = g_game583304;
+        }
+    } else {
+        ij = g_game5832dc;
+    }
+    ih = g_game587590[a1][2];
+    ii = g_game587590[a1][3];
+    iv = g_game5875a0[a1][0];
+    ig = g_game5875a0[a1][1];
+    if (a2 == 2) {
+        Game_Helper579890(g_game5832dc, 0xc8, ii - Game_Fn5501fe(0x43), iv, ig, g_game5832dc, 0, 0);
+        Game_Helper579e40(ij, ih, ii, iv, ig, g_game5832dc, 4, 4, iv - 4, ig - 4);
+        Game_Helper579bf0(g_game5832dc, 0, 0, iv, ig, g_game5832b4, ih, ii);
+    } else {
+        Game_Helper579bf0(ij, ih, ii, iv, ig, g_game5832b4, ih, ii);
+    }
+    return 0;
+}
+
+// FUNCTION: SHANDALAR 0x004a84ab
+int Game_Fn4a84ab(void)
+{
+    g_game5aa470 = 0xe;
+    return 0;
+}
+
+// FUNCTION: SHANDALAR 0x004a04bd
+int Game_Fn4a04bd(int a1, int a2)
+{
+    if (a2 == 2) {
+        Game_Helper4a04a0(a1, a2);
+    }
+    return 0;
+}
+
+// FUNCTION: SHANDALAR 0x004a2dd0
+int Game_Fn4a2dd0(int a1)
+{
+    Game_Helper57b650();
+    g_game781728 = Game_Helper4a2cd1(g_game5832dc, 0, 0, g_game781780[a1]);
+    g_game78172c = Game_Helper4a2cd1(g_game5832dc, 0, 0, g_game781730[a1]);
+    Game_Helper57b670();
+    return g_game781728;
+}
+
+// FUNCTION: SHANDALAR 0x004a8470
+int Game_Fn4a8470(int a1, int a2)
+{
+    if (a2 == 2) {
+        Game_Fn5626b0(0x588dc4, 0xf, 0x64, 0x64, 0);
+        g_game5aa470 = 0xe;
+    }
+    return 0;
+}
