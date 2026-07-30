@@ -45,11 +45,40 @@ echo "== refreshing progress database =="
 "$PY" tools/progress/progress.py report
 "$PY" tools/progress/progress.py dash
 
-echo "== emitting objdiff report for decomp.dev =="
+echo "== emitting objdiff report =="
 "$PY" tools/progress/objdiff_report.py -o reports/report.json
-# decomp.dev looks for report.json / <version>_report.json / progress.json inside a
-# GitHub Actions artifact zip, so publish under the version name too.
+# decomp.dev's GitHub path looks for report.json / <version>_report.json / progress.json
+# inside a workflow-artifact zip, so publish under the version name too.
 cp reports/report.json reports/shandalar_report.json
+
+# Publish into the local decomp.dev instance, if it is set up. Skipped silently
+# otherwise -- decomp.dev is a nice-to-have view, not a dependency of the metrics.
+# See docs/05-decomp-dev.md.
+DDLOCAL="${DECOMP_DEV_LOCAL:-/c/Users/bo1026/decomp-target/debug/decomp-dev-local.exe}"
+DDDIR="${DECOMP_DEV_DIR:-/c/Users/bo1026/Desktop/RE Project/decomp.dev}"
+if [ -x "$DDLOCAL" ] && [ -f "$DDDIR/config.yml" ]; then
+  echo "== publishing to local decomp.dev =="
+  # The importer derives its commit id from the report bytes, so re-importing an
+  # unchanged report collides on report_report_units. Only publish real changes.
+  NEWSUM="$(sha256sum reports/report.json | cut -d' ' -f1)"
+  OLDSUM="$(cat progress/.last-published 2>/dev/null || echo none)"
+  if [ "$NEWSUM" = "$OLDSUM" ]; then
+    echo "   unchanged since last publish -- skipped"
+  else
+    # Must run with decomp.dev as cwd: config.yml (and thus db.sqlite) is
+    # resolved relative to the working directory.
+    REPORT_WIN="$(cygpath -w "$ROOT/reports/report.json" 2>/dev/null || echo "$ROOT/reports/report.json")"
+    if ( cd "$DDDIR" && "$DDLOCAL" import \
+          --file "$REPORT_WIN" \
+          --owner mtg-re --repo shandalar --platform win32 --version shandalar \
+          --name "Magic: The Gathering - Shandalar" --short-name Shandalar ) >/dev/null 2>&1; then
+      echo "$NEWSUM" > progress/.last-published
+      echo "   http://localhost:3000/mtg-re/shandalar"
+    else
+      echo "   (import failed -- see docs/05-decomp-dev.md)"
+    fi
+  fi
+fi
 
 date -u +%Y-%m-%dT%H:%M:%SZ > progress/.last-report
 rm -f progress/.refresh-needed
