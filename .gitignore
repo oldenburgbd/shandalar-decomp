@@ -1,0 +1,16 @@
+# Original binaries and game assets are NOT redistributable.
+orig/
+build/
+progress/*.db
+progress/*.db-journal
+reports/ghidra/
+reports/dashboard.html
+*.pdb
+*.obj
+*.exe
+*.dll
+*.ilk
+__pycache__/
+*.pyc
+node_modules/
+.venv/

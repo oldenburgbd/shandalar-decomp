@@ -1,0 +1,262 @@
+{
+ "generated": "2026-07-30T15:28:22+00:00",
+ "binaries": {
+  "Cardartlib.dll": {
+   "sha256": "74a36dcd1c79b3009d19c79df169eacc31f91723dbc44f78fae5fa30cf15b5ed",
+   "functions": 325,
+   "bytes": 103283,
+   "done_functions": 0,
+   "done_bytes": 0,
+   "pct_functions": 0.0,
+   "pct_bytes": 0.0,
+   "status": {
+    "unstarted": {
+     "functions": 325,
+     "bytes": 103283
+    }
+   }
+  },
+  "Cdtools.dll": {
+   "sha256": "be50229b83567fcbb12d8659bad0ccba62a2f16682c6d25348ce48bb8b0291c2",
+   "functions": 171,
+   "bytes": 49816,
+   "done_functions": 0,
+   "done_bytes": 0,
+   "pct_functions": 0.0,
+   "pct_bytes": 0.0,
+   "status": {
+    "unstarted": {
+     "functions": 171,
+     "bytes": 49816
+    }
+   }
+  },
+  "Deck.exe": {
+   "sha256": "4c33775a7f6c091616bdb8ddf7a0bebfb972c0a9bfc2faddd8f2c9c82ec804b0",
+   "functions": 4,
+   "bytes": 512,
+   "done_functions": 0,
+   "done_bytes": 0,
+   "pct_functions": 0.0,
+   "pct_bytes": 0.0,
+   "status": {
+    "unstarted": {
+     "functions": 4,
+     "bytes": 512
+    }
+   }
+  },
+  "Deckdll.dll": {
+   "sha256": "c1369cee44da2e6dcbc53a7ba10d628ea4881dabaac866df9332d77b493b960d",
+   "functions": 384,
+   "bytes": 188478,
+   "done_functions": 0,
+   "done_bytes": 0,
+   "pct_functions": 0.0,
+   "pct_bytes": 0.0,
+   "status": {
+    "unstarted": {
+     "functions": 384,
+     "bytes": 188478
+    }
+   }
+  },
+  "Drawcardlib.dll": {
+   "sha256": "389993d787c3f8e09cd8042ac961cbd99d50ab6ea265a23bd88969ef0e992fe0",
+   "functions": 359,
+   "bytes": 119803,
+   "done_functions": 0,
+   "done_bytes": 0,
+   "pct_functions": 0.0,
+   "pct_bytes": 0.0,
+   "status": {
+    "unstarted": {
+     "functions": 359,
+     "bytes": 119803
+    }
+   }
+  },
+  "Facemaker.exe": {
+   "sha256": "b4f3d19614dcd825da846d097baa3cd9badc0c9852492bc27a8ba62c1741a493",
+   "functions": 146,
+   "bytes": 40312,
+   "done_functions": 0,
+   "done_bytes": 0,
+   "pct_functions": 0.0,
+   "pct_bytes": 0.0,
+   "status": {
+    "unstarted": {
+     "functions": 146,
+     "bytes": 40312
+    }
+   }
+  },
+  "Facemaker_sub.exe": {
+   "sha256": "c8d15f006bb9bffe4dedf543dcc7fefe82f2eb651e1a1c165186a5c133bc3841",
+   "functions": 159,
+   "bytes": 42234,
+   "done_functions": 0,
+   "done_bytes": 0,
+   "pct_functions": 0.0,
+   "pct_bytes": 0.0,
+   "status": {
+    "unstarted": {
+     "functions": 159,
+     "bytes": 42234
+    }
+   }
+  },
+  "Gcconn.dll": {
+   "sha256": "da1ba49826424c6139b7830754a2a59905cbcd9fd3fc116155d7b53f1608ee6f",
+   "functions": 909,
+   "bytes": 135296,
+   "done_functions": 0,
+   "done_bytes": 0,
+   "pct_functions": 0.0,
+   "pct_bytes": 0.0,
+   "status": {
+    "unstarted": {
+     "functions": 909,
+     "bytes": 135296
+    }
+   }
+  },
+  "Magic.exe": {
+   "sha256": "71ef20ea3f96f793a5f6981ea5d78a21a35cb5c6a6d797016bfdbec26ced61c6",
+   "functions": 1953,
+   "bytes": 1416359,
+   "done_functions": 0,
+   "done_bytes": 0,
+   "pct_functions": 0.0,
+   "pct_bytes": 0.0,
+   "status": {
+    "unstarted": {
+     "functions": 1953,
+     "bytes": 1416359
+    }
+   }
+  },
+  "Magsnd.dll": {
+   "sha256": "213b7dc2e1d0eed131d38485cba8004c1d7760f8ff0a94486b86bba5f3aeba9e",
+   "functions": 60,
+   "bytes": 19225,
+   "done_functions": 0,
+   "done_bytes": 0,
+   "pct_functions": 0.0,
+   "pct_bytes": 0.0,
+   "status": {
+    "unstarted": {
+     "functions": 60,
+     "bytes": 19225
+    }
+   }
+  },
+  "Magvid.dll": {
+   "sha256": "b686bd43bb7f9ba040fc7416d8d74e59e27c3b5b1bbccd76bfc16c5505bcf90a",
+   "functions": 203,
+   "bytes": 36260,
+   "done_functions": 0,
+   "done_bytes": 0,
+   "pct_functions": 0.0,
+   "pct_bytes": 0.0,
+   "status": {
+    "unstarted": {
+     "functions": 203,
+     "bytes": 36260
+    }
+   }
+  },
+  "Manalink.exe": {
+   "sha256": "953c54a3a713352c48b7a9d566ff4a1b1897b5748934a2a74293760044574cc4",
+   "functions": 497,
+   "bytes": 168064,
+   "done_functions": 0,
+   "done_bytes": 0,
+   "pct_functions": 0.0,
+   "pct_bytes": 0.0,
+   "status": {
+    "unstarted": {
+     "functions": 497,
+     "bytes": 168064
+    }
+   }
+  },
+  "Manalinkinterface.dll": {
+   "sha256": "ce1ef29feb4dcae75eba964b8aca0e233aae1ab89ffec569345cc98c18002d09",
+   "functions": 137,
+   "bytes": 23075,
+   "done_functions": 0,
+   "done_bytes": 0,
+   "pct_functions": 0.0,
+   "pct_bytes": 0.0,
+   "status": {
+    "unstarted": {
+     "functions": 137,
+     "bytes": 23075
+    }
+   }
+  },
+  "Shandalar.exe": {
+   "sha256": "b5bb107fe3ad15e2e49db8938685bd823b5d5107e12089cf6e7a847595fed743",
+   "functions": 2216,
+   "bytes": 1545520,
+   "done_functions": 0,
+   "done_bytes": 0,
+   "pct_functions": 0.0,
+   "pct_bytes": 0.0,
+   "status": {
+    "unstarted": {
+     "functions": 2216,
+     "bytes": 1545520
+    }
+   }
+  },
+  "Statwin.dll": {
+   "sha256": "c1ca59496afa786f22fcd97b94052b937910a613f9321399b4ef4dd5dec76940",
+   "functions": 145,
+   "bytes": 32783,
+   "done_functions": 0,
+   "done_bytes": 0,
+   "pct_functions": 0.0,
+   "pct_bytes": 0.0,
+   "status": {
+    "unstarted": {
+     "functions": 145,
+     "bytes": 32783
+    }
+   }
+  }
+ },
+ "totals": {
+  "functions": 7668,
+  "bytes": 3921020,
+  "done_functions": 0,
+  "done_bytes": 0,
+  "pct_functions": 0.0,
+  "pct_bytes": 0.0
+ },
+ "by_status": {
+  "unstarted": {
+   "functions": 7668,
+   "bytes": 3921020
+  }
+ },
+ "by_subsystem": {
+  "(unassigned)": {
+   "functions": 7668,
+   "bytes": 3921020,
+   "done_functions": 0,
+   "done_bytes": 0,
+   "pct_bytes": 0.0
+  }
+ },
+ "by_tu": {
+  "(unassigned)": {
+   "functions": 7668,
+   "bytes": 3921020,
+   "done_functions": 0,
+   "done_bytes": 0,
+   "pct_bytes": 0.0
+  }
+ }
+}

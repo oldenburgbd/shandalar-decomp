@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/tools/progress/on-source-change.sh\"",
+            "timeout": 60
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/tools/progress/refresh.sh\" 2>&1 | tail -12",
+            "timeout": 180
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "Bash(sha256sum:*)",
+      "Bash(objdump:*)",
+      "Bash(strings:*)",
+      "Bash(xxd:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git add:*)",
+      "Bash(bash tools/progress/refresh.sh:*)",
+      "Bash(bash tools/ghidra/run-headless.sh:*)"
+    ],
+    "deny": [
+      "Write(./orig/**)",
+      "Edit(./orig/**)",
+      "Write(../Shandalar/**)",
+      "Edit(../Shandalar/**)"
+    ]
+  }
+}
