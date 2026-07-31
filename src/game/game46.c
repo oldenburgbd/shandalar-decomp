@@ -377,19 +377,23 @@ int Game_Fn465dac(int a1)
 // FUNCTION: SHANDALAR 0x00466049
 int Game_Fn466049(int a1, int a2, int a3, int a4, int a5, int a6)
 {
-    return Game_Helper4660d6(a1, a2, 0, a3, a4, a5, a6, 0x25);
+    /* Original falls through to the epilogue: no explicit return statement,
+       the helper's result is simply left in eax. */
+    Game_Helper4660d6(a1, a2, 0, a3, a4, a5, a6, 0x25);
 }
 
 // FUNCTION: SHANDALAR 0x00466078
 int Game_Fn466078(int a1, int a2, int a3, int a4, int a5, int a6)
 {
-    return Game_Helper4660d6(a1, a2, 0, a3, a4, a5, a6, 1);
+    /* Original falls through to the epilogue: no explicit return statement. */
+    Game_Helper4660d6(a1, a2, 0, a3, a4, a5, a6, 1);
 }
 
 // FUNCTION: SHANDALAR 0x004660a7
 int Game_Fn4660a7(int a1, int a2, int a3, int a4, int a5, int a6)
 {
-    return Game_Helper4660d6(a1, 0, a2, a3, a4, a5, a6, 0x25);
+    /* Original falls through to the epilogue: no explicit return statement. */
+    Game_Helper4660d6(a1, 0, a2, a3, a4, a5, a6, 0x25);
 }
 
 // FUNCTION: SHANDALAR 0x00466d01

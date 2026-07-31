@@ -369,17 +369,15 @@ int Game_CardScript48faf7(int a, int b, int kind)
         }
         return 0;
     }
-    if (kind != 0x32) {
-        if (kind == 0x33
-            && g_game951bdc == b
-            && g_game8e1aa8 == a) {
-            if (g_game7a82e0 == a) {
-                g_gameSlots[(signed char)g_gameSlots[a][b].field0c][g_gameSlots[a][b].field48].field4c |= 2;
-            } else {
-                g_gameSlots[(signed char)g_gameSlots[a][b].field0c][g_gameSlots[a][b].field48].field4c &= ~2;
-            }
-            return 0;
+    if ((kind == 0x32 || kind == 0x33)
+        && g_game951bdc == b
+        && g_game8e1aa8 == a) {
+        if (g_game7a82e0 == a) {
+            g_gameSlots[(signed char)g_gameSlots[a][b].field0c][g_gameSlots[a][b].field48].field4c |= 2;
+        } else {
+            g_gameSlots[(signed char)g_gameSlots[a][b].field0c][g_gameSlots[a][b].field48].field4c &= ~2;
         }
+        return 0;
     }
     return 0;
 }
@@ -1037,11 +1035,8 @@ int Game_CardScript475328(int a, int b, int kind)
     int v8;
 
     if (kind == 0x73) {
-        if ((g_gameSlots[a][b].flags08 & 0x20010) == 0
-            && Game_Helper4be650(0, 0, a, 2, 2, 0x200, 2, 0, 0, Game_Helper488cc4(a, b), 0, 0, -1, -1, -1, -1, 1, 0, 0) != 0) {
-            return 1;
-        }
-        return 0;
+        return (g_gameSlots[a][b].flags08 & 0x20010) == 0
+            && Game_Helper4be650(0, 0, a, 2, 2, 0x200, 2, 0, 0, Game_Helper488cc4(a, b), 0, 0, -1, -1, -1, -1, 1, 0, 0) != 0;
     }
     if (kind == 0x90) {
         Game_Helper4c4263(0);
@@ -1183,11 +1178,8 @@ int Game_CardScript47c106(int a, int b, int kind)
     int v8;
 
     if (kind == 0x73) {
-        if ((g_gameSlots[a][b].flags08 & 0x20010) == 0
-            && Game_Helper4be650(0, 0, a, a | 4, a | 4, 0x200, 0x40, 0, 0, 0, 0, 0, -1, -1, -1, -1, 0, 0, 0) != 0) {
-            return 1;
-        }
-        return 0;
+        return (g_gameSlots[a][b].flags08 & 0x20010) == 0
+            && Game_Helper4be650(0, 0, a, a | 4, a | 4, 0x200, 0x40, 0, 0, 0, 0, 0, -1, -1, -1, -1, 0, 0, 0) != 0;
     }
     if (kind == 0x90) {
         Game_Helper4c4263(0);
@@ -1505,53 +1497,51 @@ int Game_CardScript472f6b(int a, int b, int kind)
     }
     if (kind == 0x73) {
         return Game_Helper4be650(0, 0, a, a, a, 0x200, 0x40, 0, 0, 0, 0, 0, -1, -1, -1, -1, 0, 0, 0);
-    } else {
-        if (kind == 0x90) {
-            Game_Helper4c4263(0);
-            return 0;
+    }
+    if (kind == 0x90) {
+        Game_Helper4c4263(0);
+        return 0;
+    }
+    if (kind == 0x6d) {
+        Game_Helper56ca10(0x586818, 0x586810);
+        if (Game_Helper4c0efa(a, a, a, 0x200, 0x40, 0, 0, 0, 0, 0, -1, -1, -1, -1, 0, 0, 0, 0x8aa920, 1, &ih) != 0) {
+            if (g_game8bd200 != 1) {
+                Game_Helper40ebb9(0xf);
+            }
+            Game_Helper46d8c1(ih, ig, 3);
+            g_gameSlots[a][b].field74 = a;
+            g_gameSlots[a][b].field78 = b;
+            g_gameSlots[a][b].field36 = 1;
+            if (g_gameSlots[a][b].field38 == 0) {
+                g_gameSlots[a][b].field38 |= 0x80000;
+            }
         } else {
-            if (kind == 0x6d) {
-                Game_Helper56ca10(0x586818, 0x586810);
-                if (Game_Helper4c0efa(a, a, a, 0x200, 0x40, 0, 0, 0, 0, 0, -1, -1, -1, -1, 0, 0, 0, 0x8aa920, 1, &ih) != 0) {
-                    if (g_game8bd200 != 1) {
-                        Game_Helper40ebb9(0xf);
-                    }
-                    Game_Helper46d8c1(ih, ig, 3);
-                    g_gameSlots[a][b].field74 = a;
-                    g_gameSlots[a][b].field78 = b;
-                    g_gameSlots[a][b].field36 = 1;
-                    if (g_gameSlots[a][b].field38 == 0) {
-                        g_gameSlots[a][b].field38 |= 0x80000;
-                    }
-                } else {
-                    g_game8c83ec = 1;
-                }
-            }
-            if (kind == 0x72) {
-                if (g_gameSlots[g_gameSlots[a][b].field10c][g_gameSlots[a][b].field110].field6c != -1) {
-                    g_gameSlots[g_gameSlots[a][b].field10c][g_gameSlots[a][b].field110].field38 += 2;
-                    g_gameSlots[g_gameSlots[a][b].field10c][g_gameSlots[a][b].field110].field38 += 0x200;
-                    g_gameSlots[g_gameSlots[a][b].field10c][g_gameSlots[a][b].field110].field36 = 0;
-                    if ((g_gameSlots[g_gameSlots[a][b].field10c][g_gameSlots[a][b].field110].field38 & 0x80000) != 0) {
-                        g_gameSlots[g_gameSlots[a][b].field10c][g_gameSlots[a][b].field110].field38 &= ~0x80000;
-                        iv = Game_Helper4a9910(g_game94f280, g_game930f5c, g_game8bcff8, g_game94f280, g_game930f5c);
-                        if (iv != -1) {
-                            g_gameSlots[a][iv].field38 |= 0x80000;
-                        }
-                    }
-                } else {
-                    g_game8c83ec = 1;
-                }
-            }
-            if (kind == 0x22 || kind == 0xc7) {
-                g_gameSlots[a][b].field38 = 0;
-            }
-            if (kind == 0xc7 && g_game94d464 == 0x1f && a == g_game8c7468) {
-                g_game94d63c += g_game8e3edc * 24;
-            }
-            return 0;
+            g_game8c83ec = 1;
         }
     }
+    if (kind == 0x72) {
+        if (g_gameSlots[g_gameSlots[a][b].field10c][g_gameSlots[a][b].field110].field6c != -1) {
+            g_gameSlots[g_gameSlots[a][b].field10c][g_gameSlots[a][b].field110].field38 += 2;
+            g_gameSlots[g_gameSlots[a][b].field10c][g_gameSlots[a][b].field110].field38 += 0x200;
+            g_gameSlots[g_gameSlots[a][b].field10c][g_gameSlots[a][b].field110].field36 = 0;
+            if ((g_gameSlots[g_gameSlots[a][b].field10c][g_gameSlots[a][b].field110].field38 & 0x80000) != 0) {
+                g_gameSlots[g_gameSlots[a][b].field10c][g_gameSlots[a][b].field110].field38 &= ~0x80000;
+                iv = Game_Helper4a9910(g_game94f280, g_game930f5c, g_game8bcff8, g_game94f280, g_game930f5c);
+                if (iv != -1) {
+                    g_gameSlots[a][iv].field38 |= 0x80000;
+                }
+            }
+        } else {
+            g_game8c83ec = 1;
+        }
+    }
+    if (kind == 0x22 || kind == 0xc7) {
+        g_gameSlots[a][b].field38 = 0;
+    }
+    if (kind == 0xc7 && g_game94d464 == 0x1f && a == g_game8c7468) {
+        g_game94d63c += g_game8e3edc * 24;
+    }
+    return 0;
 }
 
 // FUNCTION: SHANDALAR 0x0047444f

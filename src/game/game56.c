@@ -135,7 +135,11 @@ int Game_Fn562d03(void)
     Game_Helper562f92(0x59195c, 0xb, 0);
     Game_Helper562f92(0x591970, 0xc, 0);
     Game_Helper562f92(0x591984, 0xd, 0);
-    return Game_Helper562f92(0x591998, 0xe, 0);
+    /* Nothing is returned: the original falls off the end, so the last call is
+     * a bare statement. An explicit `return` here would emit a jmp to the
+     * epilogue (zero displacement) that the original does not have. C4035 is
+     * expected; `return 0;` would add an xor the original lacks. */
+    Game_Helper562f92(0x591998, 0xe, 0);
 }
 
 // FUNCTION: SHANDALAR 0x0056615f

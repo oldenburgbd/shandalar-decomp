@@ -55,7 +55,7 @@ int Game_Helper40d414(int a1, int a2, int a3, int a4)
         g_gameSlots[a1][a2].flags08 = ih;
         g_gameSlots[a1][a2].field24 = ig;
     }
-    return 0;
+    return iv;
 }
 
 // FUNCTION: SHANDALAR 0x0040dffd

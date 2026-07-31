@@ -93,51 +93,50 @@ int Game_CardScript4fc8fa(int a, int b, int kind)
 int Game_CardScript4fe0c6(int a, int b, int kind)
 {
     if (kind == 0x74) {
-        Game_Helper4be650(0, 0, a, 2, 2, 0x200, 2, 0, 0, Game_Helper488cc4(a, b), 0, 0, -1, -1, -1, -1, 0, 0, 0);
-    } else {
-        if (kind == 0x6c
-            && g_game951bdc == b
-            && g_game8e1aa8 == a) {
-            Game_Helper56ca10(0x58b504, 0x58b4f8);
-            if (Game_Helper49f87b(a, 2, b) == 0) {
-                g_game8c83ec = 1;
-            } else {
-                g_game8c83ec = 0;
-            }
+        return Game_Helper4be650(0, 0, a, 2, 2, 0x200, 2, 0, 0, Game_Helper488cc4(a, b), 0, 0, -1, -1, -1, -1, 0, 0, 0);
+    }
+    if (kind == 0x6c
+        && g_game951bdc == b
+        && g_game8e1aa8 == a) {
+        Game_Helper56ca10(0x58b504, 0x58b4f8);
+        if (Game_Helper49f87b(a, 2, b) == 0) {
+            g_game8c83ec = 1;
+        } else {
+            g_game8c83ec = 0;
         }
-        if (kind == 0x71) {
-            if (Game_Helper4bea85(g_gameSlots[a][b].field74, g_gameSlots[a][b].field78, 0, a, 2, 2, 0x200, 2, 0, 0, Game_Helper488cc4(a, b), 0, 0, -1, -1, -1, -1, 0, 0, 0) != 0) {
-                g_gameSlots[a][b].field50 = g_gameSlots[a][b].field74;
-                g_gameSlots[a][b].field04 = g_gameSlots[a][b].field78;
-                Game_Helper4885e4(g_gameSlots[a][b].field74, g_gameSlots[a][b].field78);
-            } else {
-                Game_Helper46d8c1(a, b, 1);
-                g_game8c83ec = 1;
-            }
-            g_gameSlots[a][b].field36 = 0;
+    }
+    if (kind == 0x71) {
+        if (Game_Helper4bea85(g_gameSlots[a][b].field74, g_gameSlots[a][b].field78, 0, a, 2, 2, 0x200, 2, 0, 0, Game_Helper488cc4(a, b), 0, 0, -1, -1, -1, -1, 0, 0, 0) != 0) {
+            g_gameSlots[a][b].field50 = g_gameSlots[a][b].field74;
+            g_gameSlots[a][b].field04 = g_gameSlots[a][b].field78;
+            Game_Helper4885e4(g_gameSlots[a][b].field74, g_gameSlots[a][b].field78);
+        } else {
+            Game_Helper46d8c1(a, b, 1);
+            g_game8c83ec = 1;
         }
-        if (g_game94d178 == 0xd4
-            && g_game951bdc == b
-            && g_game8e1aa8 == a
-            && a == g_game8c8afc
-            && g_game7bf4b8 == a
-            && g_game8e2fc4 == b
-            && (signed char)g_gameSlots[a][b].field50 != -1
-            && g_gameSlots[a][b].field04 != -1) {
-            if (kind == 0x7d) {
-                g_game7a01e0 |= 2;
-            }
-            if (kind == 0x7e) {
-                Game_Helper488474((signed char)g_gameSlots[a][b].field50, g_gameSlots[a][b].field04);
-            }
+        g_gameSlots[a][b].field36 = 0;
+    }
+    if (g_game94d178 == 0xd4
+        && g_game951bdc == b
+        && g_game8e1aa8 == a
+        && a == g_game8c8afc
+        && g_game7bf4b8 == a
+        && g_game8e2fc4 == b
+        && (signed char)g_gameSlots[a][b].field50 != -1
+        && g_gameSlots[a][b].field04 != -1) {
+        if (kind == 0x7d) {
+            g_game7a01e0 |= 2;
         }
-        if (kind == 0x77
-            && g_game951bdc == b
-            && g_game8e1aa8 == a) {
+        if (kind == 0x7e) {
             Game_Helper488474((signed char)g_gameSlots[a][b].field50, g_gameSlots[a][b].field04);
-            g_gameSlots[a][b].field04 = -1;
-            g_gameSlots[a][b].field50 = g_gameSlots[a][b].field04;
         }
+    }
+    if (kind == 0x77
+        && g_game951bdc == b
+        && g_game8e1aa8 == a) {
+        Game_Helper488474((signed char)g_gameSlots[a][b].field50, g_gameSlots[a][b].field04);
+        g_gameSlots[a][b].field04 = -1;
+        g_gameSlots[a][b].field50 = g_gameSlots[a][b].field04;
     }
     return 0;
 }
@@ -311,38 +310,37 @@ int Game_CardScript4f8890(int a, int b, int kind)
 {
     if (kind == 0x74) {
         return Game_Helper4be650(0, 0, a, 2, 2, 0x200, 0x40, 0, 0, Game_Helper488cc4(a, b), 0, 0, -1, -1, -1, -1, 0, 0, 0);
-    } else {
-        if (kind == 0x6c && g_game951bdc == b && g_game8e1aa8 == a) {
-            Game_Helper56ca10(0x58b2cc, 0x58b2b8);
-            if (Game_Helper4a011a(a, 2, b) != 0) {
-                if (g_game8c7468 == a && g_game8c83ec != 1) {
-                    if (g_gameSlots[a][b].field74 == g_game8c7468) {
-                        g_game94d63c -= 0x90;
-                    } else {
-                        if ((g_gameCards[g_gameSlots[g_gameSlots[a][b].field74][g_gameSlots[a][b].field78].field6c].flags & 0x2) != 0 || (g_gameCards[g_gameSlots[g_gameSlots[a][b].field74][g_gameSlots[a][b].field78].field6c].flags3c & 0x1001) != 0) {
-                            g_game94d63c += 0x30;
-                        }
+    }
+    if (kind == 0x6c && g_game951bdc == b && g_game8e1aa8 == a) {
+        Game_Helper56ca10(0x58b2cc, 0x58b2b8);
+        if (Game_Helper4a011a(a, 2, b) != 0) {
+            if (g_game8c7468 == a && g_game8c83ec != 1) {
+                if (g_gameSlots[a][b].field74 == g_game8c7468) {
+                    g_game94d63c -= 0x90;
+                } else {
+                    if ((g_gameCards[g_gameSlots[g_gameSlots[a][b].field74][g_gameSlots[a][b].field78].field6c].flags & 0x2) != 0 || (g_gameCards[g_gameSlots[g_gameSlots[a][b].field74][g_gameSlots[a][b].field78].field6c].flags3c & 0x1001) != 0) {
+                        g_game94d63c += 0x30;
                     }
                 }
-            } else {
-                g_game8c83ec = 1;
             }
+        } else {
+            g_game8c83ec = 1;
         }
-        if (kind == 0x71) {
-            if (Game_Helper4bea85(g_gameSlots[a][b].field74, g_gameSlots[a][b].field78, 0, a, 2, 2, 0x200, 0x40, 0, 0, Game_Helper488cc4(a, b), 0, 0, -1, -1, -1, -1, 0, 0, 0) != 0) {
-                g_gameSlots[a][b].field50 = g_gameSlots[a][b].field74;
-                g_gameSlots[a][b].field04 = g_gameSlots[a][b].field78;
-            } else {
-                Game_Helper46d8c1(a, b, 1);
-                g_game8c83ec = 1;
-            }
-            g_gameSlots[a][b].field36 = 0;
-        }
-        if ((kind == 0x81 || kind == 0x91) && g_gameSlots[a][b].field04 == g_game951bdc && (signed char)g_gameSlots[a][b].field50 == g_game8e1aa8 && g_game951bdc != -1 && (g_gameSlots[a][b].flags08 & 0x20) == 0) {
-            Game_Helper4bab38((signed char)g_gameSlots[a][b].field50, 2, a, b);
-        }
-        return 0;
     }
+    if (kind == 0x71) {
+        if (Game_Helper4bea85(g_gameSlots[a][b].field74, g_gameSlots[a][b].field78, 0, a, 2, 2, 0x200, 0x40, 0, 0, Game_Helper488cc4(a, b), 0, 0, -1, -1, -1, -1, 0, 0, 0) != 0) {
+            g_gameSlots[a][b].field50 = g_gameSlots[a][b].field74;
+            g_gameSlots[a][b].field04 = g_gameSlots[a][b].field78;
+        } else {
+            Game_Helper46d8c1(a, b, 1);
+            g_game8c83ec = 1;
+        }
+        g_gameSlots[a][b].field36 = 0;
+    }
+    if ((kind == 0x81 || kind == 0x91) && g_gameSlots[a][b].field04 == g_game951bdc && (signed char)g_gameSlots[a][b].field50 == g_game8e1aa8 && g_game951bdc != -1 && (g_gameSlots[a][b].flags08 & 0x20) == 0) {
+        Game_Helper4bab38((signed char)g_gameSlots[a][b].field50, 2, a, b);
+    }
+    return 0;
 }
 
 // FUNCTION: SHANDALAR 0x004f92f9

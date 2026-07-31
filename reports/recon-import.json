@@ -8,28 +8,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards43.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "0040a8d0",
-  "status": "matching",
-  "name": "Game_CardScript401000",
-  "tu": "src/game/cards43.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00401000 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards43.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "00401611",
   "status": "matching",
   "name": "Game_CardScript401611",
   "tu": "src/game/cards43.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards43.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "0040aee0",
-  "status": "matching",
-  "name": "Game_CardScript401611",
-  "tu": "src/game/cards43.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00401611 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards43.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -40,28 +24,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards43.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "0040c399",
-  "status": "matching",
-  "name": "Game_CardScript402ad0",
-  "tu": "src/game/cards43.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00402ad0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards43.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "00403eeb",
   "status": "matching",
   "name": "Game_Helper403eeb",
   "tu": "src/game/helpers40.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/helpers40.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "0044b56a",
-  "status": "matching",
-  "name": "Game_Helper403eeb",
-  "tu": "src/game/helpers40.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00403eeb (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers40.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -72,28 +40,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game40.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "0044bcf7",
-  "status": "matching",
-  "name": "Game_Fn404677",
-  "tu": "src/game/game40.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00404677 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game40.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "00409680",
   "status": "matching",
   "name": "Game_ResetState",
   "tu": "src/game/reset.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/reset.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "0043de00",
-  "status": "matching",
-  "name": "Game_ResetState",
-  "tu": "src/game/reset.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00409680 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/reset.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -104,28 +56,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/helpers40.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "0043ec38",
-  "status": "matching",
-  "name": "Game_Helper40a4b8",
-  "tu": "src/game/helpers40.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:0040a4b8 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers40.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "0040a561",
   "status": "matching",
   "name": "Game_Fn40a561",
   "tu": "src/game/game40.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game40.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "0043ece1",
-  "status": "matching",
-  "name": "Game_Fn40a561",
-  "tu": "src/game/game40.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:0040a561 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game40.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -136,28 +72,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/helpers40.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "00441514",
-  "status": "matching",
-  "name": "Game_Helper40cd94",
-  "tu": "src/game/helpers40.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:0040cd94 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers40.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "0040dffd",
   "status": "matching",
   "name": "Game_Helper40dffd",
   "tu": "src/game/helpers40.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/helpers40.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "00442763",
-  "status": "matching",
-  "name": "Game_Helper40dffd",
-  "tu": "src/game/helpers40.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:0040dffd (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers40.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -168,14 +88,6 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game40.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "00443898",
-  "status": "matching",
-  "name": "Game_Fn40f132",
-  "tu": "src/game/game40.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:0040f132 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game40.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "00410efc",
   "status": "matching",
@@ -184,28 +96,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/helpers41.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "00445663",
-  "status": "matching",
-  "name": "Game_Helper410efc",
-  "tu": "src/game/helpers41.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00410efc (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers41.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "0041116d",
   "status": "matching",
   "name": "Game_Fn41116d",
   "tu": "src/game/game41.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game41.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "004458d4",
-  "status": "matching",
-  "name": "Game_Fn41116d",
-  "tu": "src/game/game41.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:0041116d (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game41.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -240,28 +136,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game41.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "004d9fda",
-  "status": "matching",
-  "name": "Game_Fn418a2d",
-  "tu": "src/game/game41.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00418a2d (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game41.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "0041a76b",
   "status": "matching",
   "name": "Game_CardScript41a76b",
   "tu": "src/game/cards43.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards43.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "004a916a",
-  "status": "matching",
-  "name": "Game_CardScript41a76b",
-  "tu": "src/game/cards43.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:0041a76b (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards43.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -288,14 +168,6 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game42.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "004bbac0",
-  "status": "matching",
-  "name": "Game_Fn42fde0",
-  "tu": "src/game/game42.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:0042fde0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game42.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "004318c7",
   "status": "matching",
@@ -318,14 +190,6 @@
   "name": "Game_CardScript434189",
   "tu": "src/game/cards43.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards43.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "004254a9",
-  "status": "matching",
-  "name": "Game_CardScript434189",
-  "tu": "src/game/cards43.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00434189 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards43.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -352,14 +216,6 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards43.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "0042e7ea",
-  "status": "matching",
-  "name": "Game_CardScript43d4e3",
-  "tu": "src/game/cards43.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:0043d4e3 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards43.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "0043f348",
   "status": "matching",
@@ -374,14 +230,6 @@
   "name": "Game_CardScript440704",
   "tu": "src/game/cards43.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards43.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "004319ff",
-  "status": "matching",
-  "name": "Game_CardScript440704",
-  "tu": "src/game/cards43.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00440704 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards43.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -416,14 +264,6 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/helpers44.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "004eaec1",
-  "status": "matching",
-  "name": "Game_Helper441651",
-  "tu": "src/game/helpers44.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00441651 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers44.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "004432e0",
   "status": "matching",
@@ -432,28 +272,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game44.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "00453b1d",
-  "status": "matching",
-  "name": "Game_Fn4432e0",
-  "tu": "src/game/game44.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:004432e0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game44.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "004476d4",
   "status": "matching",
   "name": "Game_CardScript4476d4",
   "tu": "src/game/cards43.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards43.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "004019b4",
-  "status": "matching",
-  "name": "Game_CardScript4476d4",
-  "tu": "src/game/cards43.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:004476d4 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards43.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -472,28 +296,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards43.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "00403a6b",
-  "status": "matching",
-  "name": "Game_CardScript449791",
-  "tu": "src/game/cards43.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00449791 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards43.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "0044e84e",
   "status": "matching",
   "name": "Game_CardScript44e84e",
   "tu": "src/game/cards43.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards43.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "00408b2d",
-  "status": "matching",
-  "name": "Game_CardScript44e84e",
-  "tu": "src/game/cards43.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:0044e84e (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards43.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -512,14 +320,6 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game45.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "004483be",
-  "status": "matching",
-  "name": "Game_Fn451f3b",
-  "tu": "src/game/game45.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00451f3b (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game45.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "00452e85",
   "status": "matching",
@@ -536,28 +336,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game45.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "0044937e",
-  "status": "matching",
-  "name": "Game_Fn452efb",
-  "tu": "src/game/game45.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00452efb (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game45.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "00453740",
   "status": "matching",
   "name": "Game_Fn453740",
   "tu": "src/game/game45.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game45.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "00449bbf",
-  "status": "matching",
-  "name": "Game_Fn453740",
-  "tu": "src/game/game45.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00453740 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game45.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -576,28 +360,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game46.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "004d7953",
-  "status": "matching",
-  "name": "Game_Fn4615b1",
-  "tu": "src/game/game46.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:004615b1 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game46.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "00466fe6",
   "status": "matching",
   "name": "Game_Predicate466fe6",
   "tu": "src/game/pred466fe6.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/pred466fe6.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "00496553",
-  "status": "matching",
-  "name": "Game_Predicate466fe6",
-  "tu": "src/game/pred466fe6.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00466fe6 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/pred466fe6.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -608,14 +376,6 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game46.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "004974a2",
-  "status": "matching",
-  "name": "Game_Fn467f35",
-  "tu": "src/game/game46.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00467f35 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game46.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "004683e4",
   "status": "matching",
@@ -624,28 +384,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game46.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "00497955",
-  "status": "matching",
-  "name": "Game_Fn4683e4",
-  "tu": "src/game/game46.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:004683e4 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game46.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "0046db2e",
   "status": "matching",
   "name": "Game_Helper46db2e",
   "tu": "src/game/helpers46.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/helpers46.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "004b0b53",
-  "status": "matching",
-  "name": "Game_Helper46db2e",
-  "tu": "src/game/helpers46.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:0046db2e (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers46.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -672,14 +416,6 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards48.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "0046f305",
-  "status": "matching",
-  "name": "Game_CardScript472df4",
-  "tu": "src/game/cards48.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00472df4 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards48.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "00474f5d",
   "status": "matching",
@@ -694,14 +430,6 @@
   "name": "Game_Fn4789d3",
   "tu": "src/game/game47.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game47.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "00474eed",
-  "status": "matching",
-  "name": "Game_Fn4789d3",
-  "tu": "src/game/game47.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:004789d3 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game47.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -728,14 +456,6 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards48.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "00480533",
-  "status": "matching",
-  "name": "Game_CardScript484044",
-  "tu": "src/game/cards48.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00484044 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards48.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "00484b5d",
   "status": "matching",
@@ -760,28 +480,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game48.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "0048178c",
-  "status": "matching",
-  "name": "Game_Fn485297",
-  "tu": "src/game/game48.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00485297 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game48.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "004869b0",
   "status": "matching",
   "name": "Game_Helper4869b0",
   "tu": "src/game/helpers48.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/helpers48.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "00482e9f",
-  "status": "matching",
-  "name": "Game_Helper4869b0",
-  "tu": "src/game/helpers48.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:004869b0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers48.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -800,28 +504,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/helpers48.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "0048496a",
-  "status": "matching",
-  "name": "Game_Helper488474",
-  "tu": "src/game/helpers48.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00488474 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers48.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "004885e4",
   "status": "matching",
   "name": "Game_Helper4885e4",
   "tu": "src/game/helpers48.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/helpers48.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "00484ada",
-  "status": "matching",
-  "name": "Game_Helper4885e4",
-  "tu": "src/game/helpers48.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:004885e4 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers48.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -848,28 +536,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards48.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "0053d06d",
-  "status": "matching",
-  "name": "Game_CardScript48b2c1",
-  "tu": "src/game/cards48.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:0048b2c1 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards48.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "0048b5a9",
   "status": "matching",
   "name": "Game_CardScript48b5a9",
   "tu": "src/game/cards48.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards48.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "0053d355",
-  "status": "matching",
-  "name": "Game_CardScript48b5a9",
-  "tu": "src/game/cards48.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:0048b5a9 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards48.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -888,28 +560,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards48.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "00541740",
-  "status": "matching",
-  "name": "Game_CardScript48f983",
-  "tu": "src/game/cards48.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:0048f983 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards48.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "00490853",
   "status": "matching",
   "name": "Game_CardScript490853",
   "tu": "src/game/cards49.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards49.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "00542610",
-  "status": "matching",
-  "name": "Game_CardScript490853",
-  "tu": "src/game/cards49.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00490853 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards49.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -920,14 +576,6 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/helpers49.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "00542a2a",
-  "status": "matching",
-  "name": "Game_Helper490c6d",
-  "tu": "src/game/helpers49.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00490c6d (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers49.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "00494f82",
   "status": "matching",
@@ -936,28 +584,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards49.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "00546d3b",
-  "status": "matching",
-  "name": "Game_CardScript494f82",
-  "tu": "src/game/cards49.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00494f82 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards49.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "004974ab",
   "status": "matching",
   "name": "Game_CardScript4974ab",
   "tu": "src/game/cards49.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards49.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "0054926e",
-  "status": "matching",
-  "name": "Game_CardScript4974ab",
-  "tu": "src/game/cards49.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:004974ab (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards49.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -976,14 +608,6 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards49.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "00549451",
-  "status": "matching",
-  "name": "Game_CardScript49768d",
-  "tu": "src/game/cards49.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:0049768d (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards49.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "0049959d",
   "status": "matching",
@@ -992,28 +616,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards49.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "0054b360",
-  "status": "matching",
-  "name": "Game_CardScript49959d",
-  "tu": "src/game/cards49.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:0049959d (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards49.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "00499ae9",
   "status": "matching",
   "name": "Game_CardScript499ae9",
   "tu": "src/game/cards49.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards49.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "0054b8ad",
-  "status": "matching",
-  "name": "Game_CardScript499ae9",
-  "tu": "src/game/cards49.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00499ae9 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards49.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -1040,28 +648,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/helpers49.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "0054dccd",
-  "status": "matching",
-  "name": "Game_Helper49bf0e",
-  "tu": "src/game/helpers49.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:0049bf0e (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers49.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "0049c127",
   "status": "matching",
   "name": "Game_CardScript49c127",
   "tu": "src/game/cards49.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards49.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "0054dee6",
-  "status": "matching",
-  "name": "Game_CardScript49c127",
-  "tu": "src/game/cards49.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:0049c127 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards49.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -1072,14 +664,6 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards49.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "0054e3ef",
-  "status": "matching",
-  "name": "Game_CardScript49c630",
-  "tu": "src/game/cards49.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:0049c630 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards49.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "0049f838",
   "status": "matching",
@@ -1088,28 +672,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/helpers49.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "005515f5",
-  "status": "matching",
-  "name": "Game_Helper49f838",
-  "tu": "src/game/helpers49.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:0049f838 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers49.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "004a008c",
   "status": "matching",
   "name": "Game_Helper4a008c",
   "tu": "src/game/helpers4a.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/helpers4a.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "00551e49",
-  "status": "matching",
-  "name": "Game_Helper4a008c",
-  "tu": "src/game/helpers4a.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:004a008c (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers4a.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -1126,14 +694,6 @@
   "name": "Game_CardScript4a3190",
   "tu": "src/game/cards4a.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards4a.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "004ab920",
-  "status": "matching",
-  "name": "Game_CardScript4a3190",
-  "tu": "src/game/cards4a.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:004a3190 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards4a.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -1168,28 +728,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards4a.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "004f272d",
-  "status": "matching",
-  "name": "Game_CardScript4ac7ed",
-  "tu": "src/game/cards4a.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:004ac7ed (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards4a.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "004ae290",
   "status": "matching",
   "name": "Game_CardScript4ae290",
   "tu": "src/game/cards4a.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards4a.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "004f41d5",
-  "status": "matching",
-  "name": "Game_CardScript4ae290",
-  "tu": "src/game/cards4a.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:004ae290 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards4a.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -1216,14 +760,6 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards4b.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "004f8901",
-  "status": "matching",
-  "name": "Game_CardScript4b29c6",
-  "tu": "src/game/cards4b.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:004b29c6 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards4b.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "004b3902",
   "status": "matching",
@@ -1232,28 +768,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards4b.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "004f9834",
-  "status": "matching",
-  "name": "Game_CardScript4b3902",
-  "tu": "src/game/cards4b.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:004b3902 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards4b.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "004b3a96",
   "status": "matching",
   "name": "Game_CardScript4b3a96",
   "tu": "src/game/cards4b.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards4b.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "004f99c8",
-  "status": "matching",
-  "name": "Game_CardScript4b3a96",
-  "tu": "src/game/cards4b.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:004b3a96 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards4b.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -1272,28 +792,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game4c.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "004c0880",
-  "status": "matching",
-  "name": "Game_Fn4c16fb",
-  "tu": "src/game/game4c.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:004c16fb (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game4c.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "004c2501",
   "status": "matching",
   "name": "Game_Fn4c2501",
   "tu": "src/game/game4c.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game4c.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "00498ca9",
-  "status": "matching",
-  "name": "Game_Fn4c2501",
-  "tu": "src/game/game4c.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:004c2501 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game4c.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -1352,28 +856,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/helpers4d.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "0051ec86",
-  "status": "matching",
-  "name": "Game_Helper4d646a",
-  "tu": "src/game/helpers4d.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:004d646a (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers4d.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "004e4f5c",
   "status": "matching",
   "name": "Game_Fn4e4f5c",
   "tu": "src/game/game4e.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game4e.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "0052d761",
-  "status": "matching",
-  "name": "Game_Fn4e4f5c",
-  "tu": "src/game/game4e.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:004e4f5c (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game4e.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -1390,14 +878,6 @@
   "name": "Game_Fn4ed0bd",
   "tu": "src/game/game4e.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game4e.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "004c0b8a",
-  "status": "matching",
-  "name": "Game_Fn4ed0bd",
-  "tu": "src/game/game4e.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:004ed0bd (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game4e.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -1422,14 +902,6 @@
   "name": "Game_CardScript4fc825",
   "tu": "src/game/cards4f.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards4f.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "00439e81",
-  "status": "matching",
-  "name": "Game_CardScript4fc825",
-  "tu": "src/game/cards4f.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:004fc825 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards4f.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -1472,14 +944,6 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game50.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "004ed0f5",
-  "status": "matching",
-  "name": "Game_Fn501aec",
-  "tu": "src/game/game50.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00501aec (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game50.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "00501e32",
   "status": "matching",
@@ -1520,28 +984,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/helpers51.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "004102ee",
-  "status": "matching",
-  "name": "Game_Helper512b06",
-  "tu": "src/game/helpers51.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00512b06 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers51.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "00517888",
   "status": "matching",
   "name": "Game_CardScript517888",
   "tu": "src/game/cards51.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/cards51.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "00415072",
-  "status": "matching",
-  "name": "Game_CardScript517888",
-  "tu": "src/game/cards51.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00517888 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards51.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -1552,28 +1000,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game51.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "0041b4d8",
-  "status": "matching",
-  "name": "Game_Fn51dcf2",
-  "tu": "src/game/game51.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:0051dcf2 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game51.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "0052fac0",
   "status": "matching",
   "name": "Game_Fn52fac0",
   "tu": "src/game/game52.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game52.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "004cd920",
-  "status": "matching",
-  "name": "Game_Fn52fac0",
-  "tu": "src/game/game52.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:0052fac0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game52.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -1616,28 +1048,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/exports.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "004a5929",
-  "status": "matching",
-  "name": "CardTypeFromID",
-  "tu": "src/game/exports.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00557aa9 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/exports.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "00557b2d",
   "status": "matching",
   "name": "CardIDFromType",
   "tu": "src/game/exports.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/exports.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "004a59ad",
-  "status": "matching",
-  "name": "CardIDFromType",
-  "tu": "src/game/exports.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00557b2d (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/exports.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -1648,28 +1064,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/exports.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "004a59ea",
-  "status": "matching",
-  "name": "CardInDeck",
-  "tu": "src/game/exports.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00557b6a (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/exports.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "00557b9b",
   "status": "matching",
   "name": "SetCardInDeck",
   "tu": "src/game/exports.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/exports.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "004a5a1b",
-  "status": "matching",
-  "name": "SetCardInDeck",
-  "tu": "src/game/exports.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00557b9b (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/exports.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -1680,28 +1080,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game55.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "004a616d",
-  "status": "matching",
-  "name": "Game_Fn5582ed",
-  "tu": "src/game/game55.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:005582ed (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game55.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "0055837e",
   "status": "matching",
   "name": "Game_Fn55837e",
   "tu": "src/game/game55.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game55.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "004a61fe",
-  "status": "matching",
-  "name": "Game_Fn55837e",
-  "tu": "src/game/game55.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:0055837e (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game55.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -1712,28 +1096,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game55.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "004a62d7",
-  "status": "matching",
-  "name": "Game_Fn558457",
-  "tu": "src/game/game55.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00558457 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game55.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "005588c3",
   "status": "matching",
   "name": "Game_Fn5588c3",
   "tu": "src/game/game55.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game55.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "004a673f",
-  "status": "matching",
-  "name": "Game_Fn5588c3",
-  "tu": "src/game/game55.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:005588c3 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game55.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -1744,28 +1112,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game55.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "004a6784",
-  "status": "matching",
-  "name": "Game_Fn558908",
-  "tu": "src/game/game55.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00558908 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game55.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "00559e52",
   "status": "matching",
   "name": "Game_Fn559e52",
   "tu": "src/game/game55.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game55.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "004a7ccf",
-  "status": "matching",
-  "name": "Game_Fn559e52",
-  "tu": "src/game/game55.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00559e52 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game55.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -1808,14 +1160,6 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/game/game57.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "0055d54e",
-  "status": "matching",
-  "name": "Game_Fn573868",
-  "tu": "src/game/game57.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00573868 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game57.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "00578319",
   "status": "matching",
@@ -1832,28 +1176,12 @@
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/window.c)"
  },
  {
-  "binary": "Magic.exe",
-  "addr": "004d2495",
-  "status": "matching",
-  "name": "Sid_WindowMatchesKey",
-  "tu": "src/window.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00578a71 (normalised bytes equal, funcbytes; one-to-one in both images); source src/window.c at reccmp 100.00%"
- },
- {
   "binary": "Shandalar.exe",
   "addr": "00578bda",
   "status": "matching",
   "name": "Sid_GetWindowExtra8",
   "tu": "src/window.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/window.c)"
- },
- {
-  "binary": "Magic.exe",
-  "addr": "004d25fe",
-  "status": "matching",
-  "name": "Sid_GetWindowExtra8",
-  "tu": "src/window.c",
-  "notes": "unique L1-identical twin of Shandalar.exe:00578bda (normalised bytes equal, funcbytes; one-to-one in both images); source src/window.c at reccmp 100.00%"
  },
  {
   "binary": "Shandalar.exe",
@@ -2214,5 +1542,1205 @@
   "name": "Pcx_ReadHeader",
   "tu": "src/sidlib/pcxw.c",
   "notes": "reccmp 100.00% vs orig/Shandalar.exe (src/sidlib/pcxw.c)"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "0040a8d0",
+  "status": "matching",
+  "name": "Game_CardScript401000",
+  "tu": "src/game/cards43.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00401000 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards43.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "0040aee0",
+  "status": "matching",
+  "name": "Game_CardScript401611",
+  "tu": "src/game/cards43.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00401611 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards43.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "0040c399",
+  "status": "matching",
+  "name": "Game_CardScript402ad0",
+  "tu": "src/game/cards43.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00402ad0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards43.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "0044b56a",
+  "status": "matching",
+  "name": "Game_Helper403eeb",
+  "tu": "src/game/helpers40.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00403eeb (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers40.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "0044bcf7",
+  "status": "matching",
+  "name": "Game_Fn404677",
+  "tu": "src/game/game40.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00404677 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game40.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "0043de00",
+  "status": "matching",
+  "name": "Game_ResetState",
+  "tu": "src/game/reset.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00409680 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/reset.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "0043ec38",
+  "status": "matching",
+  "name": "Game_Helper40a4b8",
+  "tu": "src/game/helpers40.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0040a4b8 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers40.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "0043ece1",
+  "status": "matching",
+  "name": "Game_Fn40a561",
+  "tu": "src/game/game40.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0040a561 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game40.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "00441514",
+  "status": "matching",
+  "name": "Game_Helper40cd94",
+  "tu": "src/game/helpers40.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0040cd94 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers40.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "00442763",
+  "status": "matching",
+  "name": "Game_Helper40dffd",
+  "tu": "src/game/helpers40.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0040dffd (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers40.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "00443898",
+  "status": "matching",
+  "name": "Game_Fn40f132",
+  "tu": "src/game/game40.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0040f132 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game40.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "00445663",
+  "status": "matching",
+  "name": "Game_Helper410efc",
+  "tu": "src/game/helpers41.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00410efc (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers41.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004458d4",
+  "status": "matching",
+  "name": "Game_Fn41116d",
+  "tu": "src/game/game41.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0041116d (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game41.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004d9fda",
+  "status": "matching",
+  "name": "Game_Fn418a2d",
+  "tu": "src/game/game41.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00418a2d (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game41.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004a916a",
+  "status": "matching",
+  "name": "Game_CardScript41a76b",
+  "tu": "src/game/cards43.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0041a76b (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards43.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004bbac0",
+  "status": "matching",
+  "name": "Game_Fn42fde0",
+  "tu": "src/game/game42.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0042fde0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game42.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004254a9",
+  "status": "matching",
+  "name": "Game_CardScript434189",
+  "tu": "src/game/cards43.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00434189 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards43.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "0042e7ea",
+  "status": "matching",
+  "name": "Game_CardScript43d4e3",
+  "tu": "src/game/cards43.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0043d4e3 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards43.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004319ff",
+  "status": "matching",
+  "name": "Game_CardScript440704",
+  "tu": "src/game/cards43.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00440704 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards43.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004eaec1",
+  "status": "matching",
+  "name": "Game_Helper441651",
+  "tu": "src/game/helpers44.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00441651 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers44.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "00453b1d",
+  "status": "matching",
+  "name": "Game_Fn4432e0",
+  "tu": "src/game/game44.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:004432e0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game44.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004019b4",
+  "status": "matching",
+  "name": "Game_CardScript4476d4",
+  "tu": "src/game/cards43.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:004476d4 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards43.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "00403a6b",
+  "status": "matching",
+  "name": "Game_CardScript449791",
+  "tu": "src/game/cards43.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00449791 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards43.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "00408b2d",
+  "status": "matching",
+  "name": "Game_CardScript44e84e",
+  "tu": "src/game/cards43.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0044e84e (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards43.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004483be",
+  "status": "matching",
+  "name": "Game_Fn451f3b",
+  "tu": "src/game/game45.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00451f3b (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game45.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "0044937e",
+  "status": "matching",
+  "name": "Game_Fn452efb",
+  "tu": "src/game/game45.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00452efb (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game45.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "00449bbf",
+  "status": "matching",
+  "name": "Game_Fn453740",
+  "tu": "src/game/game45.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00453740 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game45.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004d7953",
+  "status": "matching",
+  "name": "Game_Fn4615b1",
+  "tu": "src/game/game46.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:004615b1 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game46.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "00496553",
+  "status": "matching",
+  "name": "Game_Predicate466fe6",
+  "tu": "src/game/pred466fe6.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00466fe6 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/pred466fe6.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004974a2",
+  "status": "matching",
+  "name": "Game_Fn467f35",
+  "tu": "src/game/game46.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00467f35 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game46.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "00497955",
+  "status": "matching",
+  "name": "Game_Fn4683e4",
+  "tu": "src/game/game46.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:004683e4 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game46.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004b0b53",
+  "status": "matching",
+  "name": "Game_Helper46db2e",
+  "tu": "src/game/helpers46.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0046db2e (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers46.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "0046f305",
+  "status": "matching",
+  "name": "Game_CardScript472df4",
+  "tu": "src/game/cards48.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00472df4 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards48.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "00474eed",
+  "status": "matching",
+  "name": "Game_Fn4789d3",
+  "tu": "src/game/game47.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:004789d3 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game47.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "00480533",
+  "status": "matching",
+  "name": "Game_CardScript484044",
+  "tu": "src/game/cards48.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00484044 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards48.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "0048178c",
+  "status": "matching",
+  "name": "Game_Fn485297",
+  "tu": "src/game/game48.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00485297 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game48.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "00482e9f",
+  "status": "matching",
+  "name": "Game_Helper4869b0",
+  "tu": "src/game/helpers48.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:004869b0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers48.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "0048496a",
+  "status": "matching",
+  "name": "Game_Helper488474",
+  "tu": "src/game/helpers48.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00488474 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers48.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "00484ada",
+  "status": "matching",
+  "name": "Game_Helper4885e4",
+  "tu": "src/game/helpers48.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:004885e4 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers48.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "0053d06d",
+  "status": "matching",
+  "name": "Game_CardScript48b2c1",
+  "tu": "src/game/cards48.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0048b2c1 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards48.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "0053d355",
+  "status": "matching",
+  "name": "Game_CardScript48b5a9",
+  "tu": "src/game/cards48.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0048b5a9 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards48.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "00541740",
+  "status": "matching",
+  "name": "Game_CardScript48f983",
+  "tu": "src/game/cards48.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0048f983 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards48.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "00542610",
+  "status": "matching",
+  "name": "Game_CardScript490853",
+  "tu": "src/game/cards49.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00490853 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards49.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "00542a2a",
+  "status": "matching",
+  "name": "Game_Helper490c6d",
+  "tu": "src/game/helpers49.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00490c6d (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers49.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "00546d3b",
+  "status": "matching",
+  "name": "Game_CardScript494f82",
+  "tu": "src/game/cards49.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00494f82 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards49.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "0054926e",
+  "status": "matching",
+  "name": "Game_CardScript4974ab",
+  "tu": "src/game/cards49.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:004974ab (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards49.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "00549451",
+  "status": "matching",
+  "name": "Game_CardScript49768d",
+  "tu": "src/game/cards49.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0049768d (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards49.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "0054b360",
+  "status": "matching",
+  "name": "Game_CardScript49959d",
+  "tu": "src/game/cards49.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0049959d (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards49.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "0054b8ad",
+  "status": "matching",
+  "name": "Game_CardScript499ae9",
+  "tu": "src/game/cards49.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00499ae9 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards49.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "0054dccd",
+  "status": "matching",
+  "name": "Game_Helper49bf0e",
+  "tu": "src/game/helpers49.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0049bf0e (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers49.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "0054dee6",
+  "status": "matching",
+  "name": "Game_CardScript49c127",
+  "tu": "src/game/cards49.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0049c127 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards49.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "0054e3ef",
+  "status": "matching",
+  "name": "Game_CardScript49c630",
+  "tu": "src/game/cards49.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0049c630 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards49.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "005515f5",
+  "status": "matching",
+  "name": "Game_Helper49f838",
+  "tu": "src/game/helpers49.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0049f838 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers49.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "00551e49",
+  "status": "matching",
+  "name": "Game_Helper4a008c",
+  "tu": "src/game/helpers4a.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:004a008c (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers4a.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004ab920",
+  "status": "matching",
+  "name": "Game_CardScript4a3190",
+  "tu": "src/game/cards4a.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:004a3190 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards4a.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004f272d",
+  "status": "matching",
+  "name": "Game_CardScript4ac7ed",
+  "tu": "src/game/cards4a.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:004ac7ed (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards4a.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004f41d5",
+  "status": "matching",
+  "name": "Game_CardScript4ae290",
+  "tu": "src/game/cards4a.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:004ae290 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards4a.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004f8901",
+  "status": "matching",
+  "name": "Game_CardScript4b29c6",
+  "tu": "src/game/cards4b.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:004b29c6 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards4b.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004f9834",
+  "status": "matching",
+  "name": "Game_CardScript4b3902",
+  "tu": "src/game/cards4b.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:004b3902 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards4b.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004f99c8",
+  "status": "matching",
+  "name": "Game_CardScript4b3a96",
+  "tu": "src/game/cards4b.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:004b3a96 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards4b.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004c0880",
+  "status": "matching",
+  "name": "Game_Fn4c16fb",
+  "tu": "src/game/game4c.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:004c16fb (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game4c.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "00498ca9",
+  "status": "matching",
+  "name": "Game_Fn4c2501",
+  "tu": "src/game/game4c.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:004c2501 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game4c.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "0051ec86",
+  "status": "matching",
+  "name": "Game_Helper4d646a",
+  "tu": "src/game/helpers4d.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:004d646a (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers4d.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "0052d761",
+  "status": "matching",
+  "name": "Game_Fn4e4f5c",
+  "tu": "src/game/game4e.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:004e4f5c (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game4e.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004c0b8a",
+  "status": "matching",
+  "name": "Game_Fn4ed0bd",
+  "tu": "src/game/game4e.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:004ed0bd (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game4e.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "00439e81",
+  "status": "matching",
+  "name": "Game_CardScript4fc825",
+  "tu": "src/game/cards4f.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:004fc825 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards4f.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004ed0f5",
+  "status": "matching",
+  "name": "Game_Fn501aec",
+  "tu": "src/game/game50.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00501aec (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game50.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004102ee",
+  "status": "matching",
+  "name": "Game_Helper512b06",
+  "tu": "src/game/helpers51.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00512b06 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers51.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "00415072",
+  "status": "matching",
+  "name": "Game_CardScript517888",
+  "tu": "src/game/cards51.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00517888 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/cards51.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "0041b4d8",
+  "status": "matching",
+  "name": "Game_Fn51dcf2",
+  "tu": "src/game/game51.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0051dcf2 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game51.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004cd920",
+  "status": "matching",
+  "name": "Game_Fn52fac0",
+  "tu": "src/game/game52.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0052fac0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game52.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004a5929",
+  "status": "matching",
+  "name": "CardTypeFromID",
+  "tu": "src/game/exports.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00557aa9 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/exports.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004a59ad",
+  "status": "matching",
+  "name": "CardIDFromType",
+  "tu": "src/game/exports.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00557b2d (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/exports.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004a59ea",
+  "status": "matching",
+  "name": "CardInDeck",
+  "tu": "src/game/exports.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00557b6a (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/exports.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004a5a1b",
+  "status": "matching",
+  "name": "SetCardInDeck",
+  "tu": "src/game/exports.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00557b9b (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/exports.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004a616d",
+  "status": "matching",
+  "name": "Game_Fn5582ed",
+  "tu": "src/game/game55.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:005582ed (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game55.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004a61fe",
+  "status": "matching",
+  "name": "Game_Fn55837e",
+  "tu": "src/game/game55.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0055837e (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game55.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004a62d7",
+  "status": "matching",
+  "name": "Game_Fn558457",
+  "tu": "src/game/game55.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00558457 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game55.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004a673f",
+  "status": "matching",
+  "name": "Game_Fn5588c3",
+  "tu": "src/game/game55.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:005588c3 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game55.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004a6784",
+  "status": "matching",
+  "name": "Game_Fn558908",
+  "tu": "src/game/game55.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00558908 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game55.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004a7ccf",
+  "status": "matching",
+  "name": "Game_Fn559e52",
+  "tu": "src/game/game55.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00559e52 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game55.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "0055d54e",
+  "status": "matching",
+  "name": "Game_Fn573868",
+  "tu": "src/game/game57.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00573868 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game57.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004d2495",
+  "status": "matching",
+  "name": "Sid_WindowMatchesKey",
+  "tu": "src/window.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00578a71 (normalised bytes equal, funcbytes; one-to-one in both images); source src/window.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Magic.exe",
+  "addr": "004d25fe",
+  "status": "matching",
+  "name": "Sid_GetWindowExtra8",
+  "tu": "src/window.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00578bda (normalised bytes equal, funcbytes; one-to-one in both images); source src/window.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Deckdll.dll",
+  "addr": "1000b840",
+  "status": "matching",
+  "name": "Game_Fn42fde0",
+  "tu": "src/game/game42.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0042fde0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game42.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Deckdll.dll",
+  "addr": "1001b5e7",
+  "status": "matching",
+  "name": "Game_Fn4432e0",
+  "tu": "src/game/game44.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:004432e0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game44.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Deckdll.dll",
+  "addr": "10025de5",
+  "status": "matching",
+  "name": "Game_Predicate466fe6",
+  "tu": "src/game/pred466fe6.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00466fe6 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/pred466fe6.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Deckdll.dll",
+  "addr": "10026d34",
+  "status": "matching",
+  "name": "Game_Fn467f35",
+  "tu": "src/game/game46.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00467f35 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game46.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Deckdll.dll",
+  "addr": "10015b41",
+  "status": "matching",
+  "name": "Game_Fn573868",
+  "tu": "src/game/game57.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00573868 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game57.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Deckdll.dll",
+  "addr": "100010a0",
+  "status": "matching",
+  "name": "Sid_BuildBitmapInfo",
+  "tu": "src/sidlib/lib.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057a440 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/lib.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Deckdll.dll",
+  "addr": "10001120",
+  "status": "matching",
+  "name": "Sid_FreeBitmapInfo",
+  "tu": "src/sidlib/lib.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057a4c0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/lib.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Drawcardlib.dll",
+  "addr": "10002e80",
+  "status": "matching",
+  "name": "Game_Fn42fde0",
+  "tu": "src/game/game42.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0042fde0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game42.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Drawcardlib.dll",
+  "addr": "10013150",
+  "status": "matching",
+  "name": "Game_Fn50318e",
+  "tu": "src/game/game50.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0050318e (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game50.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Cardartlib.dll",
+  "addr": "100068d0",
+  "status": "matching",
+  "name": "Game_Fn42fde0",
+  "tu": "src/game/game42.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0042fde0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game42.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Cardartlib.dll",
+  "addr": "1000cf00",
+  "status": "matching",
+  "name": "Game_Fn50318e",
+  "tu": "src/game/game50.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0050318e (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game50.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Cdtools.dll",
+  "addr": "10005630",
+  "status": "matching",
+  "name": "Game_Fn50318e",
+  "tu": "src/game/game50.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0050318e (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game50.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker.exe",
+  "addr": "00401620",
+  "status": "matching",
+  "name": "Game_Fn412b80",
+  "tu": "src/game/game41.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00412b80 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game41.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker.exe",
+  "addr": "00405f38",
+  "status": "matching",
+  "name": "Game_Fn4ce955",
+  "tu": "src/game/game4c.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:004ce955 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game4c.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker.exe",
+  "addr": "00401054",
+  "status": "matching",
+  "name": "Game_Helper4ecec6",
+  "tu": "src/game/helpers4e.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:004ecec6 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers4e.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker.exe",
+  "addr": "004093f0",
+  "status": "matching",
+  "name": "Sid_ShowCursor",
+  "tu": "src/sidlib/lib.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00578c40 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/lib.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker.exe",
+  "addr": "00409400",
+  "status": "matching",
+  "name": "Sid_HideCursor",
+  "tu": "src/sidlib/lib.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00578c50 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/lib.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker.exe",
+  "addr": "00409410",
+  "status": "matching",
+  "name": "Sid_TakeEventFlags",
+  "tu": "src/sidlib/lib.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00578c60 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/lib.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker.exe",
+  "addr": "004065e0",
+  "status": "matching",
+  "name": "Sid_CloseArchive",
+  "tu": "src/sidlib/lib.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00578c80 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/lib.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker.exe",
+  "addr": "004065f0",
+  "status": "matching",
+  "name": "Sid_OpenArchive",
+  "tu": "src/sidlib/lib.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00578c90 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/lib.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker.exe",
+  "addr": "00406cc0",
+  "status": "matching",
+  "name": "Sid_BlitPageToScreen",
+  "tu": "src/sidlib/lib.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00579400 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/lib.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker.exe",
+  "addr": "00406da0",
+  "status": "matching",
+  "name": "Sid_GetPixelPage",
+  "tu": "src/sidlib/lib.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00579520 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/lib.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker.exe",
+  "addr": "004070f0",
+  "status": "matching",
+  "name": "Sid_DrawLine",
+  "tu": "src/sidlib/lib.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:005796c0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/lib.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker.exe",
+  "addr": "00407190",
+  "status": "matching",
+  "name": "Sid_SetPixel",
+  "tu": "src/sidlib/lib.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00579760 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/lib.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker.exe",
+  "addr": "00407570",
+  "status": "matching",
+  "name": "Sid_StretchBlitPage",
+  "tu": "src/sidlib/lib.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00579e40 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/lib.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker.exe",
+  "addr": "004076c0",
+  "status": "matching",
+  "name": "Sid_GetLine",
+  "tu": "src/sidlib/lib.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057a000 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/lib.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker.exe",
+  "addr": "00407a90",
+  "status": "matching",
+  "name": "Sid_BuildBitmapInfo",
+  "tu": "src/sidlib/lib.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057a440 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/lib.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker.exe",
+  "addr": "00407b10",
+  "status": "matching",
+  "name": "Sid_LoadFontFile",
+  "tu": "src/sidlib/text.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057a4e0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/text.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker.exe",
+  "addr": "004082a0",
+  "status": "matching",
+  "name": "Sid_GetFontLineSpacing",
+  "tu": "src/sidlib/text.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057adf0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/text.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker.exe",
+  "addr": "004088d0",
+  "status": "matching",
+  "name": "Sid_DrawTextHV",
+  "tu": "src/sidlib/text.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057b4a0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/text.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker.exe",
+  "addr": "00408900",
+  "status": "matching",
+  "name": "Spr_ArenaBegin",
+  "tu": "src/sidlib/sprite.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057b650 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/sprite.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker.exe",
+  "addr": "00408920",
+  "status": "matching",
+  "name": "Spr_ArenaEnd",
+  "tu": "src/sidlib/sprite.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057b670 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/sprite.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker.exe",
+  "addr": "00408950",
+  "status": "matching",
+  "name": "Sid_Free",
+  "tu": "src/sidlib/sprite.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057b6a0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/sprite.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker.exe",
+  "addr": "00408970",
+  "status": "matching",
+  "name": "Spr_DumpToFile",
+  "tu": "src/sidlib/sprite.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057b6c0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/sprite.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker.exe",
+  "addr": "004089c0",
+  "status": "matching",
+  "name": "Spr_LoadFile",
+  "tu": "src/sidlib/sprite.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057b710 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/sprite.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker.exe",
+  "addr": "0040a110",
+  "status": "matching",
+  "name": "Sid_OpenFileInGroup",
+  "tu": "src/sidlib/fileio.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057c7e0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/fileio.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker.exe",
+  "addr": "0040a130",
+  "status": "matching",
+  "name": "Sid_OpenFileInGroupAlt",
+  "tu": "src/sidlib/fileio.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057c800 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/fileio.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker.exe",
+  "addr": "0040a150",
+  "status": "matching",
+  "name": "Sid_OpenFileByNameFlag",
+  "tu": "src/sidlib/fileio.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057c840 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/fileio.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker.exe",
+  "addr": "0040aa50",
+  "status": "matching",
+  "name": "Pcx_ReadHeader",
+  "tu": "src/sidlib/pcxw.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057d850 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/pcxw.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker_sub.exe",
+  "addr": "00401000",
+  "status": "matching",
+  "name": "Game_Fn412b80",
+  "tu": "src/game/game41.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00412b80 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game41.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker_sub.exe",
+  "addr": "00405831",
+  "status": "matching",
+  "name": "Game_Fn4ce955",
+  "tu": "src/game/game4c.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:004ce955 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/game4c.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker_sub.exe",
+  "addr": "00405ce4",
+  "status": "matching",
+  "name": "Game_Helper4ecec6",
+  "tu": "src/game/helpers4e.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:004ecec6 (normalised bytes equal, funcbytes; one-to-one in both images); source src/game/helpers4e.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker_sub.exe",
+  "addr": "0040b320",
+  "status": "matching",
+  "name": "Sid_ShowCursor",
+  "tu": "src/sidlib/lib.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00578c40 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/lib.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker_sub.exe",
+  "addr": "0040b330",
+  "status": "matching",
+  "name": "Sid_HideCursor",
+  "tu": "src/sidlib/lib.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00578c50 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/lib.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker_sub.exe",
+  "addr": "0040b340",
+  "status": "matching",
+  "name": "Sid_TakeEventFlags",
+  "tu": "src/sidlib/lib.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00578c60 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/lib.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker_sub.exe",
+  "addr": "00406380",
+  "status": "matching",
+  "name": "Sid_CloseArchive",
+  "tu": "src/sidlib/lib.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00578c80 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/lib.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker_sub.exe",
+  "addr": "00406390",
+  "status": "matching",
+  "name": "Sid_OpenArchive",
+  "tu": "src/sidlib/lib.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00578c90 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/lib.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker_sub.exe",
+  "addr": "00406bb0",
+  "status": "matching",
+  "name": "Sid_BlitPageToScreen",
+  "tu": "src/sidlib/lib.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00579400 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/lib.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker_sub.exe",
+  "addr": "00406dc0",
+  "status": "matching",
+  "name": "Sid_GetPixelPage",
+  "tu": "src/sidlib/lib.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00579520 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/lib.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker_sub.exe",
+  "addr": "004071e0",
+  "status": "matching",
+  "name": "Sid_DrawLine",
+  "tu": "src/sidlib/lib.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:005796c0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/lib.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker_sub.exe",
+  "addr": "00407280",
+  "status": "matching",
+  "name": "Sid_SetPixel",
+  "tu": "src/sidlib/lib.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00579760 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/lib.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker_sub.exe",
+  "addr": "00407960",
+  "status": "matching",
+  "name": "Sid_StretchBlitPage",
+  "tu": "src/sidlib/lib.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:00579e40 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/lib.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker_sub.exe",
+  "addr": "00407f20",
+  "status": "matching",
+  "name": "Sid_GetLine",
+  "tu": "src/sidlib/lib.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057a000 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/lib.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker_sub.exe",
+  "addr": "00408360",
+  "status": "matching",
+  "name": "Sid_BuildBitmapInfo",
+  "tu": "src/sidlib/lib.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057a440 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/lib.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker_sub.exe",
+  "addr": "00408710",
+  "status": "matching",
+  "name": "Sid_LoadFontFile",
+  "tu": "src/sidlib/text.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057a4e0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/text.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker_sub.exe",
+  "addr": "00409140",
+  "status": "matching",
+  "name": "Sid_GetFontLineSpacing",
+  "tu": "src/sidlib/text.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057adf0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/text.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker_sub.exe",
+  "addr": "004099c0",
+  "status": "matching",
+  "name": "Sid_DrawTextHV",
+  "tu": "src/sidlib/text.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057b4a0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/text.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker_sub.exe",
+  "addr": "00409e70",
+  "status": "matching",
+  "name": "Spr_ArenaBegin",
+  "tu": "src/sidlib/sprite.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057b650 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/sprite.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker_sub.exe",
+  "addr": "00409e90",
+  "status": "matching",
+  "name": "Spr_ArenaEnd",
+  "tu": "src/sidlib/sprite.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057b670 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/sprite.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker_sub.exe",
+  "addr": "00409ec0",
+  "status": "matching",
+  "name": "Sid_Free",
+  "tu": "src/sidlib/sprite.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057b6a0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/sprite.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker_sub.exe",
+  "addr": "00409ee0",
+  "status": "matching",
+  "name": "Spr_DumpToFile",
+  "tu": "src/sidlib/sprite.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057b6c0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/sprite.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker_sub.exe",
+  "addr": "00409f30",
+  "status": "matching",
+  "name": "Spr_LoadFile",
+  "tu": "src/sidlib/sprite.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057b710 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/sprite.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker_sub.exe",
+  "addr": "0040b120",
+  "status": "matching",
+  "name": "Sid_OpenFileInGroup",
+  "tu": "src/sidlib/fileio.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057c7e0 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/fileio.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker_sub.exe",
+  "addr": "0040b160",
+  "status": "matching",
+  "name": "Sid_OpenFileInGroupAlt",
+  "tu": "src/sidlib/fileio.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057c800 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/fileio.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker_sub.exe",
+  "addr": "0040b1a0",
+  "status": "matching",
+  "name": "Sid_OpenFileByNameFlag",
+  "tu": "src/sidlib/fileio.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057c840 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/fileio.c at reccmp 100.00%"
+ },
+ {
+  "binary": "Facemaker_sub.exe",
+  "addr": "0040c680",
+  "status": "matching",
+  "name": "Pcx_ReadHeader",
+  "tu": "src/sidlib/pcxw.c",
+  "notes": "unique L1-identical twin of Shandalar.exe:0057d850 (normalised bytes equal, funcbytes; one-to-one in both images); source src/sidlib/pcxw.c at reccmp 100.00%"
  }
 ]

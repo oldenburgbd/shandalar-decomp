@@ -39,10 +39,7 @@ int Game_Helper411d90(int a1, int a2)
     if (g_gameSlots[a1][a2].field6c == -1) {
         return 0;
     }
-    if ((g_gameSlots[a1][a2].flags08 & 0x800022) == 2) {
-        return 1;
-    }
-    return 0;
+    return (g_gameSlots[a1][a2].flags08 & 0x800022) == 2;
 }
 
 // FUNCTION: SHANDALAR 0x00417301

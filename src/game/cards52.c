@@ -59,13 +59,9 @@ int Game_CardScript521be8(int a, int b, int kind)
 int Game_CardScript521791(int a, int b, int kind)
 {
     if (kind == 0x73) {
-        if (Game_Helper441699(a, 7, 3) != 0) {
-            if (((g_gameSlots[a][b].flags08 & 0x30000) == 0 || (g_gameCards[g_gameSlots[a][b].field6c].flags & 0x2) == 0)
-                && (g_gameSlots[a][b].flags08 & 0x10) == 0) {
-                return 1;
-            }
-        }
-        return 0;
+        return Game_Helper441699(a, 7, 3) != 0
+            && ((g_gameSlots[a][b].flags08 & 0x30000) == 0 || (g_gameCards[g_gameSlots[a][b].field6c].flags & 0x2) == 0)
+            && (g_gameSlots[a][b].flags08 & 0x10) == 0;
     }
     if (kind == 0x6d) {
         Game_Helper4143e0(a, 0, 3);

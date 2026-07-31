@@ -26,7 +26,7 @@ int Game_Helper512898(int a1, int a2)
             }
         }
     }
-    return 0;
+    return ig;
 }
 
 /* called by 1 of the 608 card scripts */

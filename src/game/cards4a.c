@@ -164,13 +164,11 @@ int Game_CardScript4ae6a4(int a, int b, int kind)
     if ((g_gameSlots[(signed char)g_gameSlots[a][b].field50][g_gameSlots[a][b].field04].flags18 & 0x80) != 0) {
         g_gameSlots[(signed char)g_gameSlots[a][b].field50][g_gameSlots[a][b].field04].field68 = 4;
     }
-    if (kind != 0x22) {
-        if (kind == 0xc7) {
-            if ((signed char)g_gameSlots[a][b].field50 != -1) {
-                g_gameSlots[(signed char)g_gameSlots[a][b].field50][g_gameSlots[a][b].field04].field28 = 0x8000000;
-            }
-            Game_Helper46d8c1(a, b, 1);
+    if (kind == 0x22 || kind == 0xc7) {
+        if ((signed char)g_gameSlots[a][b].field50 != -1) {
+            g_gameSlots[(signed char)g_gameSlots[a][b].field50][g_gameSlots[a][b].field04].field28 = 0x8000000;
         }
+        Game_Helper46d8c1(a, b, 1);
     }
     return 0;
 }

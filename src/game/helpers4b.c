@@ -50,7 +50,10 @@ int Game_Helper4ba41b(int a1, int a2)
         }
         g_game8e3ec8[v8]++;
     }
-    return 0;
+    /* The original returns no value here: it falls off the end and its
+     * epilogue leaves eax holding whatever the last expression produced.
+     * Ghidra types FUN_004ba41b as void; a `return 0;` would add the
+     * `xor eax,eax` + `jmp` pair that the original does not have. */
 }
 
 // FUNCTION: SHANDALAR 0x004bab38

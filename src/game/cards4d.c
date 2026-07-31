@@ -133,7 +133,7 @@ int Game_CardScript4db6e2(int a, int b, int kind)
     int v4;
 
     if (kind == 0x74) {
-        Game_Helper4be650(0, 0, a, 2, 2, 0x200, 2, 0, 0, Game_Helper488cc4(a, b), 0, 0, -1, -1, -1, -1, 0, 0, 0);
+        return Game_Helper4be650(0, 0, a, 2, 2, 0x200, 2, 0, 0, Game_Helper488cc4(a, b), 0, 0, -1, -1, -1, -1, 0, 0, 0);
     } else {
         if (kind == 0x6c
             && g_game951bdc == b
@@ -143,9 +143,9 @@ int Game_CardScript4db6e2(int a, int b, int kind)
             }
             if (Game_Helper49f87b(a, a, b) == 0) {
                 g_game8c83ec = 1;
-                return 0;
+            } else {
+                g_game8c83ec = 0;
             }
-            g_game8c83ec = 0;
             return 0;
         }
         if (kind == 0x71) {
@@ -196,7 +196,7 @@ int Game_CardScript4dc5a1(int a, int b, int kind)
     int v4;
 
     if (kind == 0x74) {
-        Game_Helper4be650(0, 0, a, 2, 2, 0x200, 2, 0, 0, Game_Helper488cc4(a, b), 0, 0, -1, -1, -1, -1, 0, 0, 0);
+        return Game_Helper4be650(0, 0, a, 2, 2, 0x200, 2, 0, 0, Game_Helper488cc4(a, b), 0, 0, -1, -1, -1, -1, 0, 0, 0);
     } else {
         if (kind == 0x6c
             && g_game951bdc == b
@@ -252,7 +252,7 @@ int Game_CardScript4dc5a1(int a, int b, int kind)
 int Game_CardScript4dcace(int a, int b, int kind)
 {
     if (kind == 0x74) {
-        Game_Helper4be650(0, 0, a, 2, 2, 0x200, 2, 0, 0, Game_Helper488cc4(a, b), 0, 0, -1, -1, -1, -1, 0, 0, 0);
+        return Game_Helper4be650(0, 0, a, 2, 2, 0x200, 2, 0, 0, Game_Helper488cc4(a, b), 0, 0, -1, -1, -1, -1, 0, 0, 0);
     } else {
         if (kind == 0x6c
             && g_game951bdc == b
@@ -262,9 +262,9 @@ int Game_CardScript4dcace(int a, int b, int kind)
             }
             if (Game_Helper49f87b(a, 2, b) == 0) {
                 g_game8c83ec = 1;
-                return 0;
+            } else {
+                g_game8c83ec = 0;
             }
-            g_game8c83ec = 0;
             return 0;
         }
         if (kind == 0x71) {
@@ -685,7 +685,7 @@ int Game_CardScript4d2d45(int a, int b, int kind)
     int v8;
 
     if (kind == 0x74) {
-        Game_Helper4be650(0, 0, a, 2, 2, 0x200, 2, 0, 0, Game_Helper488cc4(a, b), 0, 0, -1, -1, -1, -1, 1, 0, 0);
+        return Game_Helper4be650(0, 0, a, 2, 2, 0x200, 2, 0, 0, Game_Helper488cc4(a, b), 0, 0, -1, -1, -1, -1, 1, 0, 0);
     } else {
         if (kind == 0x6c
             && g_game951bdc == b
@@ -697,9 +697,9 @@ int Game_CardScript4d2d45(int a, int b, int kind)
                 g_gameSlots[a][b].field74 = v8;
                 g_gameSlots[a][b].field78 = v4;
                 g_gameSlots[a][b].field36 = 1;
-                return 0;
+            } else {
+                g_game8c83ec = 1;
             }
-            g_game8c83ec = 1;
             return 0;
         }
         if (kind == 0x71) {
@@ -739,8 +739,7 @@ int Game_CardScript4d32db(int a, int b, int kind)
         && g_game8bd200 != 1) {
         Game_Helper56ca10(0x58a2c8, 0x58a2b8);
     }
-    Game_Helper4d34d6(a, b, kind, 2);
-    return 0;
+    return Game_Helper4d34d6(a, b, kind, 2);
 }
 
 // FUNCTION: SHANDALAR 0x004d3348

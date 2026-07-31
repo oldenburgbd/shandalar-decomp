@@ -24,7 +24,10 @@ int Game_Fn430994(void)
     Game_Helper4c6c10(0x583204);
     Game_Fn4c69f3(0x583224);
     Game_Helper4cc0c1(0x583240);
-    return Game_Helper46933c(0x583254);
+    /* No return statement: the original falls straight into the epilogue with
+     * the helper's result still in eax (Ghidra types FUN_00430994 as void).
+     * An explicit `return` here would emit a redundant jmp to the epilogue. */
+    Game_Helper46933c(0x583254);
 }
 
 // FUNCTION: SHANDALAR 0x00430a96
@@ -72,7 +75,8 @@ int Game_Fn4310a4(int a1, int a2, int a3, int a4)
     if (a4 != 0) {
         Game_Helper43104f(a1, a2, a3 + 1, 0);
     }
-    return Game_Helper43104f(a1, a2, a3, a4);
+    /* Bare call, no return: the original falls through to the epilogue. */
+    Game_Helper43104f(a1, a2, a3, a4);
 }
 
 // FUNCTION: SHANDALAR 0x004311d2
@@ -209,7 +213,8 @@ int Game_Fn436ad2(void)
 int Game_Fn430f2f(int a1, int a2, int a3, int a4)
 {
     Game_Helper430ef4(a1, a2, a3 + 1, 0);
-    return Game_Helper430ef4(a1, a2, a3, a4);
+    /* Bare call, no return: the original falls through to the epilogue. */
+    Game_Helper430ef4(a1, a2, a3, a4);
 }
 
 // FUNCTION: SHANDALAR 0x00431148

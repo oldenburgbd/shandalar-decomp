@@ -130,13 +130,9 @@ int Game_CardScript51dd8d(int a, int b, int kind)
         g_game94d63c += 0x60;
     }
     if (kind == 0x73) {
-        if (Game_Helper441699(a, 7, 8) != 0) {
-            if (((g_gameSlots[a][b].flags08 & 0x30000) == 0 || (g_gameCards[g_gameSlots[a][b].field6c].flags & 0x2) == 0)
-                && (g_gameSlots[a][b].flags08 & 0x10) == 0) {
-                return 1;
-            }
-        }
-        return 0;
+        return Game_Helper441699(a, 7, 8) != 0
+            && ((g_gameSlots[a][b].flags08 & 0x30000) == 0 || (g_gameCards[g_gameSlots[a][b].field6c].flags & 0x2) == 0)
+            && (g_gameSlots[a][b].flags08 & 0x10) == 0;
     }
     if (kind == 0x90) {
         Game_Helper4c4263(1);
@@ -218,11 +214,8 @@ int Game_CardScript511395(int a, int b, int kind)
     int v4;
 
     if (kind == 0x73) {
-        if (((g_gameSlots[a][b].flags08 & 0x30000) == 0 || (g_gameCards[g_gameSlots[a][b].field6c].flags & 0x2) == 0)
-            && (g_gameSlots[a][b].flags08 & 0x10) == 0) {
-            return 1;
-        }
-        return 0;
+        return ((g_gameSlots[a][b].flags08 & 0x30000) == 0 || (g_gameCards[g_gameSlots[a][b].field6c].flags & 0x2) == 0)
+            && (g_gameSlots[a][b].flags08 & 0x10) == 0;
     }
     if (kind == 0x6d
         && (g_gameSlots[a][b].flags08 & 0x10) == 0) {

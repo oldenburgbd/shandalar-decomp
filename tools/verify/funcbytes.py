@@ -21,12 +21,32 @@ What is deliberately NOT masked: register allocation, instruction selection,
 immediate constants, and stack layout. Those are exactly the things that must
 match for a decompilation to be considered matching.
 
+THE ASYMMETRY TRAP (measured 2026-07-31 -- read this before comparing two
+different images). "In-image" is evaluated against *each PE's own* base and
+size, so the same instruction can be masked in one image and not the other:
+
+  Our reconstruction passes original data addresses as plain int literals --
+  `Game_Helper56ca10(0x583c68, 0x583c5c)` compiles to `push 0x00583c68`, the
+  identical bytes the original has. But 0x00583c68 is inside Shandalar's image
+  (so masked there) and outside our DLL's image at 0x10000000 (so not masked
+  here). Comparing normalised-vs-normalised then reports a difference between
+  two byte-identical instructions. 16 of 194 verified-matching functions
+  tripped this.
+
+So when comparing across images, mask the UNION of both sides' masked fields
+-- that is what `crosscheck` does. Comparing normhashes is only valid between
+functions in the SAME image (which is what `compare` does).
+
 Usage
 -----
   funcbytes.py info    <pe>
   funcbytes.py dump    <pe> <rva-hex> <size>           raw + normalised hexdump
   funcbytes.py hash    <pe> <functions.csv>            emit addr,size,rawhash,normhash
   funcbytes.py compare <peA> <csvA> <peB> <csvB>       shared-code report
+  funcbytes.py crosscheck <origpe> <csv> <recompiled-pe> <reccmp.json>
+        Re-verify every function reccmp scored 1.0, from the raw bytes, using
+        the union mask. This is the independent check on the headline metric:
+        it does not trust reccmp's own scoring. Exits nonzero on any mismatch.
 """
 
 import csv
@@ -380,12 +400,59 @@ def cmd_compare(a):
         print(f"  {f['size']:>6}  {f['addr']}  {f['section']}")
 
 
+def union_equal(raw_a, norm_a, raw_b, norm_b):
+    """L1 equality across two different images.
+
+    A byte position is allowed to differ only if it sits in a field that was
+    masked on EITHER side (a relocated address or a relative branch). See the
+    asymmetry note at the top of this file for why the union is required.
+    """
+    if norm_a is None or norm_b is None or len(norm_a) != len(norm_b):
+        return False
+    for i in range(len(norm_a)):
+        if norm_a[i] != raw_a[i] or norm_b[i] != raw_b[i]:
+            continue                      # masked on at least one side
+        if norm_a[i] != norm_b[i]:
+            return False
+    return True
+
+
+def cmd_crosscheck(a):
+    import json
+    peO, csvp, peR, jpath = PE(a[0]), a[1], PE(a[2]), a[3]
+    sizes = {f["va"]: f["size"] for f in load_csv(csvp)}
+    rep = json.load(open(jpath, encoding="utf-8"))
+
+    ok = bad = skipped = 0
+    for e in rep.get("data", []):
+        if e.get("type") != 1 or e.get("matching") != 1.0:
+            continue
+        rv = e.get("recomp")
+        va = int(e["address"], 16)
+        if not rv or va not in sizes:
+            skipped += 1
+            continue
+        size = sizes[va]
+        ro, no = normalise(peO, va, size)
+        rr, nr = normalise(peR, int(rv, 16), size)
+        if union_equal(ro, no, rr, nr):
+            ok += 1
+        else:
+            bad += 1
+            print(f"  MISMATCH 0x{va:08x} (recomp {rv}, {size} B) "
+                  f"-- reccmp claims 100% but the bytes differ")
+    print(f"crosscheck: {ok} verified byte-identical modulo relocated fields, "
+          f"{bad} mismatch, {skipped} skipped (no size/recomp)")
+    if bad:
+        sys.exit(1)
+
+
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         sys.exit(__doc__)
     cmd, rest = sys.argv[1], sys.argv[2:]
     fn = {"info": cmd_info, "dump": cmd_dump, "hash": cmd_hash,
-          "compare": cmd_compare}.get(cmd)
+          "compare": cmd_compare, "crosscheck": cmd_crosscheck}.get(cmd)
     if not fn:
         sys.exit(__doc__)
     fn(rest)

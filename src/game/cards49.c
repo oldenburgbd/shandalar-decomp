@@ -206,11 +206,8 @@ int Game_CardScript497760(int a, int b, int kind)
 int Game_CardScript4985d4(int a, int b, int kind)
 {
     if (kind == 0x73) {
-        if (Game_Helper441699(a, 4, 2) != 0
-            && Game_Helper441699(a, 7, 3) != 0) {
-            return 1;
-        }
-        return 0;
+        return Game_Helper441699(a, 4, 2) != 0
+            && Game_Helper441699(a, 7, 3) != 0;
     }
     if (kind == 0x90) {
         Game_Helper4c4263(1);
@@ -241,10 +238,7 @@ int Game_CardScript4985d4(int a, int b, int kind)
 int Game_CardScript4993ea(int a, int b, int kind)
 {
     if (kind == 0x73) {
-        if ((g_gameSlots[a][b].flags08 & 0x20010) == 0) {
-            return 1;
-        }
-        return 0;
+        return (g_gameSlots[a][b].flags08 & 0x20010) == 0;
     }
     if (kind == 0x90) {
         Game_Helper4c4263(1);

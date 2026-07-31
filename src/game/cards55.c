@@ -154,8 +154,7 @@ int Game_CardScript555e68(int a, int b, int kind)
     if (kind == 0x6d) {
         Game_Helper56ca10(0x590e2c, 0x590e20);
     }
-    Game_Helper555944(a, b, kind, (signed char)g_gameSlots[a][b].field58);
-    return 0;
+    return Game_Helper555944(a, b, kind, (signed char)g_gameSlots[a][b].field58);
 }
 
 // FUNCTION: SHANDALAR 0x00555ed8
@@ -164,8 +163,7 @@ int Game_CardScript555ed8(int a, int b, int kind)
     if (kind == 0x6d) {
         Game_Helper56ca10(0x590e44, 0x590e3c);
     }
-    Game_Helper555944(a, b, kind, (signed char)g_gameSlots[a][b].field58);
-    return 0;
+    return Game_Helper555944(a, b, kind, (signed char)g_gameSlots[a][b].field58);
 }
 
 // FUNCTION: SHANDALAR 0x00555f48
@@ -184,8 +182,7 @@ int Game_CardScript555fb8(int a, int b, int kind)
     if (kind == 0x6d) {
         Game_Helper56ca10(0x590e78, 0x590e6c);
     }
-    Game_Helper555944(a, b, kind, (signed char)g_gameSlots[a][b].field58);
-    return 0;
+    return Game_Helper555944(a, b, kind, (signed char)g_gameSlots[a][b].field58);
 }
 
 // FUNCTION: SHANDALAR 0x00556028
@@ -214,8 +211,7 @@ int Game_CardScript556108(int a, int b, int kind)
     if (kind == 0x6d) {
         Game_Helper56ca10(0x590ecc, 0x590ebc);
     }
-    Game_Helper555944(a, b, kind, (signed char)g_gameSlots[a][b].field58);
-    return 0;
+    return Game_Helper555944(a, b, kind, (signed char)g_gameSlots[a][b].field58);
 }
 
 // FUNCTION: SHANDALAR 0x00556178
@@ -224,8 +220,7 @@ int Game_CardScript556178(int a, int b, int kind)
     if (kind == 0x6d) {
         Game_Helper56ca10(0x590ee4, 0x590edc);
     }
-    Game_Helper555944(a, b, kind, (signed char)g_gameSlots[a][b].field58);
-    return 0;
+    return Game_Helper555944(a, b, kind, (signed char)g_gameSlots[a][b].field58);
 }
 
 // FUNCTION: SHANDALAR 0x005561e8
